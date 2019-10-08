@@ -12,8 +12,8 @@ Likelihood of purchase of insurance plan
 * What is output?
 
 ## Data
-* AMLK - Amerilink - Third party demographic data. It is unethical to use race to model the data.
-* Campaign data - promotion
+* AMLK : Amerilink - Third party demographic data. It is unethical to use race to model the data.
+* Campaign data : promotion
 	3 variables
 	Marketing campaign sent to prospects - direct mail
 	Mailed to addresses and individuals (65-85)
@@ -21,9 +21,9 @@ Likelihood of purchase of insurance plan
 	2 levels of response
 	Prospect picked up phone
 	Conversion
-*	Credit data - aggregated to zip4 - zip4 level
+* Credit data : aggregated to zip4 - zip4 level
 	Data is at the individual/consumer level
-* MACVAT
+* MACVAT :
 	Company called millimin
 	Actuarial calculation for every medicare advantage plan
 	Richness - actuarial value
