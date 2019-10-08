@@ -3,7 +3,7 @@
 ## Business background
 
 * The client is Humana, a health insurance company based in Louisville, KY.
-* Business Problem - We are trying to predict the likelihood of someone purchasing a MAPD (Medicare Advantage Plan that offers prescription drug coverage) or Med Supplement Insurance Plan during the Special Election Period from Dec 8 - Spe 30.
+* Business Problem - We are trying to predict the likelihood of someone purchasing a MAPD (Medicare Advantage Plan that offers prescription drug coverage) or Med Supplement Insurance Plan during the Special Election Period from Dec 8 - Sep 30.
 
 ## Scope
 * What data science solutions are we trying to build?
