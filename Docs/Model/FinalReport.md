@@ -3,9 +3,9 @@ This is the final report describing the final model to be delivered - typically 
 
 ## Analytic Approach
 * What is target definition
-The t
-* What are inputs (description)
-* What kind of model was built?
+Likelihood of purchase of insurance plan
+* What are inputs? All inputs are included in the data dictionary
+* What kind of model was built? Prospect Model using XGBoost
 
 ## Solution Description
 * Simple solution architecture (Data sources, solution components, data flow)
