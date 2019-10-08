@@ -2,31 +2,34 @@
 
 ## Business background
 
-* The client is Humana, a health insurance company based in Louisville, KY.
+* The client is the Humana Marketing team.
 * Business Problem - We are trying to predict the likelihood of someone purchasing a MAPD (Medicare Advantage Plan that offers prescription drug coverage) or Med Supplement Insurance Plan during the Special Election Period from Dec 8 - Sep 30.
 
 ## Scope
 * What data science solutions are we trying to build?
+We are trying to build a Prospect ML mode to predict the likelihood of someone purchasing a MAPD or Med Supplement Insurance Plan 
 * What will we do?
-* How is it going to be consumed by the customer?
+We will make use of four data sources and test multiple algorithms to build an effective prospect model.
+* How is it going to be consumed by the customer? 
+It will be uploaded to the marketing database and assessed to increase the effectiveness of their marketing campaigns.
 
 ## Personnel
 * Who are on this project:
-	* Microsoft:
+	* Humana DS Team:
 		* Project lead
 		* PM
 		* Data scientist(s)
 		* Account manager
-	* Client:
+	* Humana Marketing Team:
 		* Data administrator
 		* Business contact
 	
 ## Metrics
-* What are the qualitative objectives? (e.g. reduce user churn)
-* What is a quantifiable metric  (e.g. reduce the fraction of users with 4-week inactivity)
-* Quantify what improvement in the values of the metrics are useful for the customer scenario (e.g. reduce the  fraction of users with 4-week inactivity by 20%) 
-* What is the baseline (current) value of the metric? (e.g. current fraction of users with 4-week inactivity = 60%)
-* How will we measure the metric? (e.g. A/B test on a specified subset for a specified period; or comparison of performance after implementation to baseline)
+* What are the qualitative objectives? Estimate the likeihood of someone purchasing an insurance plan.
+* What is a quantifiable metric? Increase insurance plan sales in one year.
+* Quantify what improvement in the values of the metrics are useful for the customer scenario? Increase insurance plan sales in one year by 20%
+* What is the baseline (current) value of the metric? The current sales numbers are Y.
+* How will we measure the metric? We will A/B test on a subset data that has not been trained with the trained data. We could also compare sales value (metric) after a specified time.
 
 ## Plan
 * Phases (milestones), timeline, short description of what we'll do in each phase.
@@ -40,8 +43,7 @@
   * Sampled data enough for modeling 
 
 * What tools and data storage/analytics resources will be used in the solution e.g.,
-  * ASA for stream aggregation
-  * HDI/Hive/R/Python for feature construction, aggregation and sampling
+  * Databricks
   * AzureML for modeling and web service operationalization
 * How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
   * How will the customer use the model results to make decisions
