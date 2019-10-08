@@ -36,13 +36,13 @@ It will be uploaded to the marketing database and assessed to increase the effec
 
 ## Architecture
 * Data
-  * What data do we expect? Raw data in the customer data sources (e.g. on-prem files, SQL, on-prem Hadoop etc.)
+  * What data do we expect? CSV files in the blob. We have four data sources.
 * Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.) to move either
   * all the data, 
   * after some pre-aggregation on-prem,
   * Sampled data enough for modeling 
 
-* What tools and data storage/analytics resources will be used in the solution e.g.,
+* What tools and data storage/analytics resources will be used in the solution?
   * Databricks
   * AzureML for modeling and web service operationalization
 * How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
