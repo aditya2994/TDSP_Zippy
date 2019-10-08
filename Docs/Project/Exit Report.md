@@ -2,7 +2,7 @@
 
 Instructions: Template for exit criteria for data science projects. This is concise document that includes an overview of the entire project, including details of each stage and learning. If a section isn't applicable (e.g. project didn't include a ML model), simply mark that section as "Not applicable". Suggested length between 5-20 pages. Code should mostly be within code repository (not in this document).
 
-Customer: <Enter Customer Name\>
+Customer: Humana
 
 Team Members: <Enter team member' names. Please also enter relevant parties names, such as team lead, Account team, Business stakeholders, etc.\>
 
@@ -11,10 +11,10 @@ Team Members: <Enter team member' names. Please also enter relevant parties name
 <Executive summary of entire solution, brief non-technical overview\>
 
 ##	Business Domain
-<Industry, business domain of customer\>
+Health Insurance Company
 
 ##	Business Problem
-<Business problem and exact use case(s), why it matters\>
+
 
 ##	Data Processing
 <Schema of original datasets, how data was processed, final input data schema for model\>
