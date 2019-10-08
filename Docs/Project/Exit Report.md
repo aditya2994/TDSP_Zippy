@@ -2,25 +2,31 @@
 
 Instructions: Template for exit criteria for data science projects. This is concise document that includes an overview of the entire project, including details of each stage and learning. If a section isn't applicable (e.g. project didn't include a ML model), simply mark that section as "Not applicable". Suggested length between 5-20 pages. Code should mostly be within code repository (not in this document).
 
-Customer: Humana
+Customer: Humana Marketing Team
 
-Team Members: <Enter team member' names. Please also enter relevant parties names, such as team lead, Account team, Business stakeholders, etc.\>
+Team Members: Humana Data Science Team
 
 ##	Overview
 
-<Executive summary of entire solution, brief non-technical overview\>
+We are trying to predict the likelihood of someone purchasing a MAPD (Medicare Advantage Plan that offers prescription drug coverage) or Med Supplement Insurance Plan during the Special Election Period from Dec 8 - Sep 30 by bulding a prospect machine learning model. The team will then upload this to the marketing database and use the solution to increase effectiveness of their marketing campaigns.
 
 ##	Business Domain
-Health Insurance Company
+Marketing
 
 ##	Business Problem
 
+Estimate the likelihood of someone purchasing a MAPD (Medicare Advantage Plan that offers prescription drug coverage) or Med Supplement Insurance Plan during the Special Election Period from Dec 8 - Sep 30.
 
 ##	Data Processing
-<Schema of original datasets, how data was processed, final input data schema for model\>
+4 data sources -
+AMLK (2017, 2018) 
+Campaign Data (Who were targeted, who responded etc.)
+Credit data
+MACVAT
+There is a lot of pre processing to remove dirty data.
 
 ##	Modeling, Validation
-<Modeling techniques used, validation results, details of how validation conducted\>
+Tried XGBoost, Logistic Regression. XGBoost outperfromed other algorithms.
 
 ##	Solution Architecture
 <Architecture of the solution, describe clearly whether this was actually implemented or a proposed architecture. Include diagram and relevant details for reproducing similar architecture. Include details of why this architecture was chosen versus other architectures that were considered, if relevant\>
