@@ -29,7 +29,7 @@ It will be uploaded to the marketing database and assessed to increase the effec
 * What is a quantifiable metric? Increase insurance plan sales in one year.
 * Quantify what improvement in the values of the metrics are useful for the customer scenario? Increase insurance plan sales in one year by 20%
 * What is the baseline (current) value of the metric? The current sales numbers are Y.
-* How will we measure the metric? We will A/B test on two different subsets of data trained usjng different alogirithms We could also compare sales value (metric) after a specified time.
+* How will we measure the metric? We will A/B test on two different subsets of data trained using different alogirithms We could also compare sales value (metric) after a specified time.
 
 ## Plan
 * Phases (milestones), timeline, short description of what we'll do in each phase.
