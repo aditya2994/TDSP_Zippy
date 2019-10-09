@@ -1,0 +1,2189 @@
+﻿Attribute,Description
+Factor_1,No New Mortgage Credit
+Factor_2,No Mortgage
+Factor_3,No Student Loans or Credit 60 DPD
+Factor_4,No Bank Auto Loans
+Factor_6,No Consumer Finance Credit
+Factor_7,No Mortgage 60-89 DPD
+Factor_8,No Credit Severely Derog
+Factor_9,No Auto Loans
+Factor_10,No Mortgage Severely Derog
+Factor_12,No Mortgage 90-119 DPD
+Factor_13,No Mortgage in Bankruptcy
+Factor_14,No HELOC 60DPD or Severely Derog
+Factor_15,No 1st Mortgage 30-59 DPD
+Min_macvat_rank,Acturial rank vs competitors
+Min_macvat_rank_change,Change in acturial rank
+PID,KBM-ID-Persistent ID (KLNK)
+MBR_PERS_GEN_KEY,HUM-ID-Member Person Gen Key
+REPID,HUM-ID-REPID
+N2CTY,KBM-HUM 1=Member Record
+state,KBM-ID-State Code
+ZIP,KBM-ZIP Code
+ZIP4,KBM-ID-ZIP+4 Code
+CALAGE_rc,KBM-Number-Age Calculated-Recoded
+GEND,KBM-Category-Gender Code
+FPST,KBM-ID-Geo-FIPS State Code
+N2CTY,KBM-ID Geo-FIPS County Code
+CircleW,OBSOLETE-DO NOT USE IN MODELS-HUM-KBM-Medicare Wedge
+Age_ge_65,HUM-Indicator - Age 65 plus
+CircleW60_64,OBSOLETE-DO NOT USE IN MODELS-HUM-KBM-Medicare Wedge for Age 60-64
+age60_64,HUM-Indicator - Age 60 - 64
+APT,KBM-Category-Image Dwelling Type
+APT_A,KBM-Dwelling Type-Apartment
+APT_B,KBM-Dwelling Type-Business Address
+APT_C,KBM-Dwelling Type-Condominium
+APT_M,KBM-Dwelling Type-Private Mail Box
+APT_N,KBM-Dwelling Type-Nursing Home
+APT_P,KBM-Dwelling Type-Post Office Box
+APT_S,KBM-Dwelling Type-Single Family Dwelling
+APT_T,KBM-Dwelling Type-Mobile Home Park
+APT_W,KBM-Dwelling Type-Ship or Marina
+BAVGDOLL,KBM-Number-Buyer-Catalog-Average Order Dollars
+BAVGOFDL,KBM-Number-Buyer-Catalog-Average Offline Dollars
+BAVGONDL,KBM-Number-Buyer-Catalog-Average Online Dollars
+BOFDOLLR,KBM-Number-Buyer-Catalog-Offline Dollars
+BOFORDER,KBM-Number-Buyer-Catalog-Offline Orders
+BONDOLLR,KBM-Number-Buyer-Catalog-Online Dollars
+BONORDER,KBM-Number-Buyer-Catalog-Online Orders
+BTOTLDOL,KBM-Number-Buyer-Catalog-Total Dollars
+BTOTLORD,KBM-Number-Buyer-Catalog-Total Orders
+CAT_BUYER,KBM-BLOFORDR_D or BLONORDR_D
+CBLU,KBM-Census % Blue Collar Employed
+CCIP,KBM-Census Income percentile
+CGQS,KBM-Census Geounit Quality Score
+CHMI,KBM-Census Median Household Income
+CHVA,KBM-Census Median Home Value
+CMYS,KBM-Category-Census Education Level
+CMYS_1,KBM-Category-Census Education Level-Less than 9th Grade
+CMYS_2,KBM-Category-Census Education Level-Less than 12th Grade
+CMYS_3,KBM-Category-Census Education Level-High School Diploma
+CMYS_4,KBM-Category-Census Education Level-Some College
+CMYS_5,KBM-Category-Census Education Level-Associate Degree
+CMYS_6,KBM-Category-Census Education Level-Bachelor Degree
+CMYS_7,KBM-Category-Census Education Level-Master Degree
+CP_F,KBM-HUM-Child Present-Female
+CP_M,KBM-HUM-Child Present-Male
+CWHT,KBM-Census % White Collar Employed
+DaysSinceLastOffLineOrder,KBM-HUM-DaysSinceLastOffLineOrder
+DaysSinceLastOnLineOrder,KBM-HUM-DaysSinceLastOnLineOrder
+DaysSinceLastRetailOrder,KBM-HUM-DaysSinceLastRetailOrder
+EMDM_Y,KBM-Flags-Has Email Access-Yes
+FAMP,KBM-Category-Family Position
+FAMP_B,KBM-Category-Family Position-Brother
+FAMP_C,KBM-Category-Family Position-Child
+FAMP_F,KBM-Category-Family Position-Female HOH
+FAMP_G,KBM-Category-Family Position-Grandmother
+FAMP_H,KBM-Category-Family Position-Husband
+FAMP_M,KBM-Category-Family Position-Male HOH
+FAMP_P,KBM-Category-Family Position-Grandfather
+FAMP_S,KBM-Category-Family Position-Sister
+FAMP_W,KBM-Category-Family Position-Wife
+GEND_F,KBM-Category-Gender Code-Female
+GEND_M,KBM-Category-Gender Code-Male
+GENERS,KBM-Category-Generations
+GENERS_01s_StrapS,KBM-Category-Generations-Strapped Seniors
+GENERS_02s_RR,KBM-Category-Generations-Rich Retirees
+GENERS_03s_BloomB,KBM-Category-Generations-Blooming in the Burbs
+GENERS_04s_RRent,KBM-Category-Generations-Retired Renters
+GENERS_05s_MinM,KBM-Category-Generations-Minorities in the Majority
+GENERS_06s_InIntel,KBM-Category-Generations-Indulgent Intellectuals
+GENERS_07s_FamF,KBM-Category-Generations-Family Friendly
+GENERS_08s_RetR,KBM-Category-Generations-Retirement Retreats
+GENERS_09s_UUC,KBM-Category-Generations-Urban Upper Crust
+GENERS_10s_BB,KBM-Category-Generations-Boomerang Bohemians
+GENERS_11l_STT,KBM-Category-Generations-Small Town Traditionalists
+GENERS_12l_GnG,'KBM-Category-Generations-Gold'nGray
+GENERS_13l_STS,KBM-Category-Generations-Small Town Singles
+GENERS_14l_MM,KBM-Category-Generations-Mainstream Matures
+GENERS_15l_AmB,KBM-Category-Generations-American Bedrock
+GENERS_16l_UMix,KBM-Category-Generations-Urban Mix
+GENERS_17l_UrbanB,KBM-Category-Generations-Urban Blues
+GENERS_18l_CreditC,KBM-Category-Generations-Credit Commandos
+GENERS_19l_BCS,KBM-Category-Generations-Blue Collar Strugglers
+GENERS_20l_SettS,KBM-Category-Generations-Settled Suburbanites
+GENERS_21l_ClassR,KBM-Category-Generations-Classic Rockers
+GENERS_22l_AllAmO,KBM-Category-Generations-All-American OnLine
+GENERS_23t_RuralO,KBM-Category-Generations-Rural Outsiders
+GENERS_24t_FamTran,KBM-Category-Generations-Family Transitionals
+GENERS_25t_UrOut,KBM-Category-Generations-Urban Outsiders
+GENERS_26t_SubM,KBM-Category-Generations-Suburban Mainstream
+GENERS_27t_MInf,KBM-Category-Generations-Metro Influentials
+GENERS_28t_WW,KBM-Category-Generations-Wired Wanderers
+GENERS_29t_USoph,KBM-Category-Generations-Urban Sophisticates
+GENERS_30t_SubStr,KBM-Category-Generations-Suburban Strivers
+GENERS_31t_ENC,KBM-Category-Generations-Empty Nest Caregivers
+GENERS_32t_AFUC,KBM-Category-Generations-American Family Up-and-Coming
+GENERS_33t_BCB,KBM-Category-Generations-Blue Collar Blend
+GENERS_34t_UStrug,KBM-Category-Generations-Urban Strugglers
+GENERS_35x_LExtFam,KBM-Category-Generations-Large Extended Families
+GENERS_36x_UrbSing,KBM-Category-Generations-Urban Singles
+GENERS_37x_EstSettIn,KBM-Category-Generations-Established & Settling In
+GENERS_38x_RuralBMIt,KBM-Category-Generations-Rural & Barely Making It
+GENERS_39x_MWChD,KBM-Category-Generations-Married with Children
+GENERS_40x_StrugSub,KBM-Category-Generations-Struggling in Suburbia
+GENERS_41x_EthDUrB,KBM-Category-Generations-Ethnically Diverse Urbanites
+GENERS_42x_MovStC,KBM-Category-Generations-Moving on a Steady Course
+GENERS_43x_BigBBC,KBM-Category-Generations-Big Bucks in the Big Cities
+GENERS_44y_ESecCSt,KBM-Category-Generations-Ethnic Second-City Strugglers
+GENERS_45y_YSMob,"KBM-Category-Generations-Young, Single & Mobile"
+GENERS_46y_SupHSD,KBM-Category-Generations-Set Up House & Settle Down
+GENERS_47y_StUpsC,KBM-Category-Generations-Start-Ups in the Country
+GENERS_48y_ParGo,KBM-Category-Generations-Parents on the Go
+GENERS_49y_LOffMD,KBM-Category-Generations-Living Off Mom & Dad
+GENERS_50y_ChrRes,KBM-Category-Generations-Chronic Responders
+GENERS_51y_YSinglCY,KBM-Category-Generations-Young Singles in the City
+GENERS_52y_FamFirst,KBM-Category-Generations-Family First
+HHCOMP,KBM-Category-Household Composition
+HHCOMP_A,KBM-Category-Household Comp-Married (husband and wife present) with children present
+HHCOMP_B,KBM-Category-Household Comp-Married (husband & wife present) with no children present
+HHCOMP_C,"KBM-Category-Household Comp-Two persons, one male and one female-marital status unknown-with children present"
+HHCOMP_D,"KBM-Category-Household Comp-Two persons, one male and one female - marital status unknown with no children present"
+HHCOMP_E,KBM-Category-Household Comp-Male householder with one or more other persons of any gender with children present
+HHCOMP_F,KBM-Category-Household Comp-Male householder with one or more persons of any gender with no children present
+HHCOMP_G,KBM-Category-Household Comp-Female householder with one or more other persons of any gender with children present
+HHCOMP_H,KBM-Category-Household Comp-Female householder with one or more other persons of any gender with no children present
+HHCOMP_I,KBM-Category-Household Comp-One person (male householder) with children present
+HHCOMP_J,KBM-Category-Household Comp-One person (male householder) with no children present
+HHCOMP_K,KBM-Category-Household Comp-One person (female householder) with children present
+HHCOMP_L,KBM-Category-Household Comp-One person (female householder) with no children present
+HIRI,OBSOLETE-DO NOT USE IN MODELS-KBM-Decile-HealthCare Resp Model 0=likely
+HIRI_0,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Healthcare/Insurance Responder Index-0
+HIRI_1,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Healthcare/Insurance Responder Index-1
+HIRI_2,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Healthcare/Insurance Responder Index-2
+HIRI_3,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Healthcare/Insurance Responder Index-3
+HIRI_4,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Healthcare/Insurance Responder Index-4
+HIRI_5,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Healthcare/Insurance Responder Index-5
+HIRI_6,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Healthcare/Insurance Responder Index-6
+HIRI_7,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Healthcare/Insurance Responder Index-7
+HIRI_8,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Healthcare/Insurance Responder Index-8
+HIRI_9,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Healthcare/Insurance Responder Index-9
+HOMSTAT,KBM-NUM-Homeowner Status
+HOMSTAT_P,KBM-Flags-Homeowner Status-Probable Homeowner
+HOMSTAT_R,KBM-Flags-Homeowner Status-Renter
+HOMSTAT_T,KBM-Flags-Homeowner Status-Probable Renter
+HOMSTAT_U,KBM-Flags-Homeowner Status-Unknown
+HOMSTAT_Y,KBM-Flags-Homeowner Status-Homeowneer
+ILOR,KBM-Number-Image Length of Residence
+IncPerAdult,HUM-KBM-Income Per Adult
+LWCM02,KBM-Number-Alternative Model Score-The probability of the individual taking herbal or natural remedies versus medication remedies
+LWCM02rrnk,KBM-Number-Alternative Model Rank-The probability of the individual taking herbal or natural remedies versus medication remedies
+LWCM03,KBM-Number-BMI (Body Mass Index) Model Score-The probability of the individual to have a high BMI
+LWCM03rrnk,KBM-Number-BMI (Body Mass Index) Model Rank-The probability of the individual to have a high BMI
+LWCM04,KBM-Number-Control Model Score-The probability the individual believing they can control their health by being proactive
+LWCM04rrnk,KBM-Number-Control Model Rank-The probability the individual believing they can control their health by being proactive
+LWCM05,KBM-Number-Diet Model Score-The probability of the individual having poor diet habits
+LWCM05rrnk,KBM-Number-Diet Model Rank-The probability of the individual having poor diet habits
+LWCM06,KBM-Number-Discipline Model Score-The probability of the individual lacking discipline to lose weight
+LWCM06rrnk,KBM-Number-Discipline Model Rank-The probability of the individual lacking discipline to lose weight
+LWCM07,KBM-Number-Doctor Model Score-The probability of the individual being less likely to use doctor/physician as a primary source for medical information
+LWCM07rrnk,KBM-Number-Doctor Model Rank-The probability of the individual being less likely to use doctor/physician as a primary source for medical information
+LWCM08,KBM-Number-Over-indulgent (Alcohol) Model Score-The probability of the individual over-indulging in alcohol
+LWCM08rrnk,KBM-Number-Over-indulgent (Alcohol) Model Rank-The probability of the individual over-indulging in alcohol
+LWCM09,KBM-Number-Health Model Score-The probability of the individual believing they are healthy
+LWCM09rrnk,KBM-Number-Health Model Rank-The probability of the individual believing they are healthy
+LWCM10,KBM-Number-No Exercise Model-The probability of the individual not exercising at all
+LWCM10rrnk,KBM-Number-No Exercise Rank-The probability of the individual not exercising at all
+LWCM11,KBM-Number-Physical Model Score-The probability of the individual getting an annual physical
+LWCM11rrnk,KBM-Number-Physical Model Rank-The probability of the individual getting an annual physical
+LWCM12,KBM-Number-Tobacco User Model Score-The probability of the individual uses tobacco products
+LWCM12rrnk,KBM-Number-Tobacco User Model Rank-The probability of the individual uses tobacco products
+MEDA,KBM-Cnty%-Medicare Advantage
+MOBPLUS,KBM-Category-Image Mail Order Buyer
+MOBPLUS_M,KBM-Category-Image Mail Order Buyer-Multiple
+MOBPLUS_P,KBM-Category-Image Mail Order Buyer-Probable
+MOBPLUS_S,KBM-Category-Image Mail Order Buyer-Single
+N2MAH,KBM-Census Median Age of Householder
+N2MOB,KBM-Census % Mobile Homes
+N2NCY,KBM-Category-Nielsen County Size
+N2NCY_A,KBM-Category-Nielsen County Size-A
+N2NCY_B,KBM-Category-Nielsen County Size-B
+N2NCY_C,KBM-Category-Nielsen County Size-C
+N2NCY_D,KBM-Category-Nielsen County Size-D
+N2PBL,KBM-Census % Black
+N2PDV,KBM-Census % Divorced or Separated
+N2PHI,KBM-Census % Hispanic
+N2PMR,KBM-Census % Married
+N2PMV,KBM-Census % Motor Vehicle Ownership
+N2POO,KBM-Census % Homeowner
+N2PSU,KBM-Census % Single Family Dwelling
+N2PWC,KBM-Census % Household with Children
+N2PWH,KBM-Census % White
+N3039_Y,KBM-Flags-Family member 30-39-Yes
+N4049_Y,KBM-Flags-Family member 40-49-Yes
+N5059_Y,KBM-Flags-Family member 50-59-Yes
+N6064_Y,KBM-Flags-Family member 60-64-Yes
+N65P_Y,KBM-Flags-Family member 65+-Yes
+NAH19,KBM-NUM-Number of Adults in Household V1.9
+NOC19,KBM-NUM-Number of Children V1.9
+NPH19,KBM-NUM-Number of Persons in Household V1.9
+NTWPERYR,HUM-KBM--Net Worth Divided by Age in Years - NTWPERYR = (NETW19_RC/CALAGE)
+NWPerAdult,HUM-KBM-Net Worth Per Adult
+OFFLINE_BUYER,KBM-HUM Offline Buyer
+ONLINE_BUYER,KBM-HUM Online Buyer
+PDPE,KBM-Cnty%-Prescription Drug Plan Enrollment
+PFFS,OBSOLETE-DO NO TUSE IN MODELS-KBM-Cnty%-Private Fee For Service
+POC19,KBM-NUM-Presence of Children V1.9
+POC19_P,KBM-Category-Image Children Present 1.9-Probable
+POC19_Y,KBM-Category-Image Children Present 1.9-Yes
+POEP_Y,KBM-Flags-Presence of Elderly Parent-Yes
+RDOLLARS,KBM-Number-Buyer-Retail-Dollars
+RET_Y,KBM-Flags-Retired Code-Yes
+RETAIL_BUYER,KBM-RORDERDT_D
+RORDERS,KBM-Number-Buyer - Retail - Orders
+U18_Y,KBM-Flags-Family member under 18-Yes
+VETERAN_Y,KBM-Flags-Image Veteran-Yes
+AGEINMTHS,HUM-KBM-Age In Months - (CALAGE*12)
+BC_M,KBM-Category-Multiple-Image Bank Card
+BC_Y,KBM-Category-Single-Image Bank Card
+BOAT_Y,KBM-Flags-Boating-Yes
+BPAMEX_Y,KBM-Flags-Buyer-Catalog-Payment Amex-Yes
+BPCREDIT_Y,KBM-Flags-Buyer-Catalog-Payment Credit Card-Yes
+BPDISCVR_Y,KBM-Flags-Buyer-Catalog-Payment Discover-Yes
+BPHOUSE_Y,KBM-Flags-Buyer-Catalog-Payment House Charge-Yes
+BPMASTER_Y,KBM-Flags-Buyer-Catalog-Payment MasterCard-Yes
+BPRETAIL_Y,KBM-Flags-Buyer-Catalog-Payment Retail Card-Yes
+BPVISA_Y,KBM-Flags-Buyer-Catalog-Payment Visa-Yes
+BUYER_Y,KBM-Flags-Buyer Catalog Data Present-Yes
+CCW_Y,KBM-Flags-Concealed Weapons License On File-Yes
+CE_Y,KBM-Flags-Credit Active-Computer Electronics-Yes
+CO_Y,KBM-Flags-Image Computer Owner-Yes
+COLLEGE_Y,KBM-Flags-Image College Graduate-Yes
+CONSHOP_Y,KBM-Flags-Buyer-Catalog-Continuity Shopper-Yes
+CSR_Y,KBM-Flags-Credit Active-Catalog Showroom Retail-Yes
+DART_Y,KBM-Flags-Interest Code-Art/Antique Collecting-Yes
+DAUT_Y,KBM-Flags-Interest Code-Automotive Work-Yes
+DBBL_Y,KBM-Flags-Interest Code-Bible Reading-Yes
+DBIC_Y,KBM-Flags-Interest Code-Bicycling-Yes
+DBKR_Y,KBM-Flags-Interest Code-Book Reading-Yes
+DBOT_Y,KBM-Flags-Interest Code-Boating/Sailing-Yes
+DBVD_Y,KBM-Flags-Interest Code-Buy Videos-Yes
+DCAT_Y,KBM-Flags-Interest Code-Own a Cat-Yes
+DCHR_Y,KBM-Flags-Interest Code-Donate Charity-Yes
+DCMP_Y,KBM-Flags-Interest Code-Camping/Hiking-Yes
+DCOL_Y,KBM-Flags-Interest Code-Collectibles-Yes
+DCRF_Y,KBM-Flags-Interest Code-Crafts-Yes
+DCRR_Y,KBM-Flags-Interest Code-Career Activities-Yes
+DCUL_Y,KBM-Flags-Interest Code-Cultural/Art Events-Yes
+DDOG_Y,KBM-Flags-Interest Code-Own a Dog-Yes
+DDWC_Y,KBM-Flags-Interest Code-Dieting/Weight Control-Yes
+DELE_Y,KBM-Flags-Interest Code-Electronics-Yes
+DFAS_Y,KBM-Flags-Interest Code-Fashion Clothing
+DFIT_Y,KBM-Flags-Interest Code-Physical Fitness-Yes
+DFRN_Y,KBM-Flags-Interest Code-Home Furnishing/Decorating-Yes
+DFSH_Y,KBM-Flags-Interest Code-Fishing-Yes
+DFTV_Y,KBM-Flags-Interest Code-Travel Foreign-Yes
+DGAR_Y,KBM-Flags-Interest Code-Gardening-Yes
+DGCH_Y,KBM-Flags-Interest Code-Grandchildren-Yes
+DGLF_Y,KBM-Flags-Interest Code-Golf-Yes
+DGMB_Y,KBM-Flags-Interest Code-Casino Gambling-Yes
+DGRM_Y,KBM-Flags-Interest Code-Gourmet/Foods-Yes
+DHLH_Y,KBM-Flags-Interest Code-Health/Natural Foods-Yes
+DHNT_Y,KBM-Flags-Interest Code-Hunting/Shooting-Yes
+DIMP_Y,KBM-Flags-Interest Code-Self-Improvement-Yes
+DMBY_Y,KBM-Flags-Interest Code-Mail Order Buyer-Yes
+DMCI_Y,KBM-Flags-Interest Code-Motorcycling-Yes
+DMVT_Y,KBM-Flags-Interest Code-Military Veteran-Yes
+DPET_Y,KBM-Flags-Interest Code-Household Pets-Yes
+DPIC_Y,KBM-Flags-Interest Code-Photography-Yes
+DRVL_Y,KBM-Flags-Interest Code-Recreational Vehicle-Yes
+DSEW_Y,KBM-Flags-Interest Code-Sewing-Yes
+DSSK_Y,KBM-Flags-Interest Code-Snow Skiing-Yes
+DSWP_Y,KBM-Flags-Interest Code-Sweepstakes-Yes
+DTVL_Y,KBM-Flags-Interest Code-Travel in USA-Yes
+DWIN_Y,KBM-Flags-Interest Code-Wines-Yes
+DWLK_Y,KBM-Flags-Interest Code-Walking/Health-Yes
+FINB_Y,KBM-Flags-Credit Active-Financial Services Banking-Yes
+FINC_Y,KBM-Flags-Credit Active-Financial Services Credit-Yes
+FINI_Y,KBM-Flags-Credit Active-Financial Services Insurance-Yes
+FURN_Y,KBM-Flags-Credit Active-Furniture-Yes
+GROC_Y,KBM-Flags-Credit Active-Groceries-Yes
+HHID,KBM-ID-Household ID
+HIR_Y,KBM-Flags-Credit Active-High End Retail-Yes
+HOMI_Y,KBM-Flags-Credit Active-Home Improvement-Yes
+HOMO_Y,KBM-Flags-Credit Active-Home/Office Supplies-Yes
+HTFH_Y,KBM-Flags-Hunting and Fishing-Yes
+IDC_Y,KBM-Flags-Survey-Diet Concerns-Yes
+IOHO_Y,KBM-Survey-Occupation-Homemaker-Yes
+IOLA_Y,KBM-Flags-Online Access-Yes
+IOLP_Y,KBM-Flags-Online Purchaser-Yes
+IOMA_Y,KBM-Survey-Occupation-Management-Yes
+IOMG_Y,KBM-Survey-Occupation-Military/Gove-Yes
+IOOW_Y,KBM-Survey-Occupation-Operate Home-Yes
+IOPT_Y,KBM-Survey-Occupation-Professional-Yes
+IORE_Y,KBM-Survey-Occupation-Retired-Yes
+IOSA_Y,KBM-Survey-Occupation-Sales Or Mark-Yes
+IOSE_Y,KBM-Survey-Occupation-Self Employed-Yes
+IOST_Y,KBM-Survey-Occupation-Student-Yes
+IOTR_Y,KBM-Survey-Occupation-Tradesman Or-Yes
+IPAE_Y,KBM-Flags-Credit Cards-Premium American Express-Yes
+IPDI_Y,KBM-Flags-Credit Cards-Premium Discover-Yes
+IPOT_Y,KBM-Flags-Credit Cards-Premium Other-Yes
+IPSR_Y,KBM-Flags-Credit Cards-Premium Store or Retail-Yes
+IPVM_Y,KBM-Flags-Credit Cards-Premium VISA or MasterCard-Yes
+IRAE_Y,KBM-Flags-Credit Cards-Regular American Express-Yes
+IRDI_Y,KBM-Flags-Credit Cards-Regular Discover-Yes
+IROT_Y,KBM-Flags-Credit Cards-Regular Other-Yes
+IRSR_Y,KBM-Flags-Credit Cards-Regular Store or Retail-Yes
+IRVM_Y,KBM-Flags-Credit Cards-Regular VISA or MasterCard-Yes
+LOWD_Y,KBM-Flags-Credit Active-Low End Dept Stores-Yes
+M_CHMI,KBM-Calc-CHMI*1000
+MEMW_Y,KBM-Flags-Credit Active-Membership Warehouse-Yes
+MISC_Y,KBM-Flags-Credit Active-Miscellaneous-Yes
+MORI_Y,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Mail Order Responder-Yes
+MR,KBM-Category-Image Mail Order Responder
+MR_M,KBM-Category-Image Mail Order Responder-Multiple
+MR_Y,KBM-Category-Image Mail Order Responder-Single
+MSR_Y,KBM-Flags-Credit Active-Main Street Retail-Yes
+N1819_Y,KBM-Flags-Family member 18-19-Yes
+N2029_Y,KBM-Flags-Family member 20-29-Yes
+N2AUTO,KBM-Census Average Number of Automobiles
+OABIGTLL_Y,KBM-Flags-Buyer-Catalog-Apparel-Mens Big and Tall-Yes
+OACHILD_Y,KBM-Flags-Buyer-Catalog-Apparel-Children-Yes
+OAGEN_Y,KBM-Flags-Buyer-Catalog-Apparel-General-Yes
+OAMEN_Y,KBM-Flags-Buyer-Catalog-Apparel-Men-Yes
+OANOGEN_Y,KBM-Flags-Buyer-Catalog-Apparel-Non-gender-Yes
+OAPETITE_Y,KBM-Flags-Buyer-Catalog-Apparel-Womens Petite-Yes
+OAPLUS_Y,KBM-Flags-Buyer-Catalog-Apparel-Womens Plus-Yes
+OARTS_Y,KBM-Flags-Buyer-Catalog-Arts & Antiques-Yes
+OATEEN_Y,KBM-Flags-Buyer-Catalog-Apparel-Teenager-Yes
+OAUTO_Y,KBM-Flags-Buyer-Catalog-Automotive-Yes
+OAWOMEN_Y,KBM-Flags-Buyer-Catalog-Apparel-Womens-Yes
+OBEAUTY_Y,KBM-Flags-Buyer-Catalog-Beauty-Yes
+OBOOKS_Y,KBM-Flags-Buyer-Catalog-Books-Yes
+OCHILDPR_Y,KBM-Flags-Buyer-Catalog-Childrens Product-Yes
+OCOLLECT_Y,KBM-Flags-Buyer-Catalog-Collectibles-Yes
+OCOMPHMO_Y,KBM-Flags-Buyer-Catalog-Computing/Home Office-Yes
+OCRAFTS_Y,KBM-Flags-Buyer-Catalog-Crafts/Hobbies-Yes
+OELECTNC_Y,KBM-Flags-Buyer-Catalog-Electronics-Yes
+OFOOD_Y,KBM-Flags-Buyer-Catalog-Food/Beverages-Yes
+OFURNITR_Y,KBM-Flags-Buyer-Catalog-Furniture-Yes
+OGARDEN_Y,KBM-Flags-Buyer-Catalog-Garden-Yes
+OGEN_Y,KBM-Flags-Buyer-Catalog-General Merchandise-Yes
+OGIFT_Y,KBM-Flags-Buyer-Catalog-Gift-Yes
+OHEALTH_Y,KBM-Flags-Buyer-Catalog-Health-Yes
+OHMCARE_Y,KBM-Flags-Buyer-Catalog-Home Care-Yes
+OHMFURN_Y,KBM-Flags-Buyer-Catalog-Home Furnishings-Yes
+OHOLIDAY_Y,KBM-Flags-Buyer-Catalog-Holiday Items-Yes
+OHSWARE_Y,KBM-Flags-Buyer-Catalog-Housewares-Yes
+OILC_Y,KBM-Flags-Credit Active-Oil Companies-Yes
+OJEWELRY_Y,KBM-Flags-Buyer-Catalog-Jewelry-Yes
+OLINENS_Y,KBM-Flags-Buyer-Catalog-Linens-Yes
+OMUSIC_Y,KBM-Flags-Buyer-Catalog-Music-Yes
+ONLA_Y,KBM-Flags-Image Online User-Yes
+ONOVEL_Y,KBM-Flags-Buyer-Catalog-Novelty-Yes
+OOTHER_Y,KBM-Flags-Buyer-Catalog-Other Merchandise/Services-Yes
+OPERCARE_Y,KBM-Flags-Buyer-Catalog-Personal Care-Yes
+OPETS_Y,KBM-Flags-Buyer-Catalog-Pets-Yes
+OPHOTO_Y,KBM-Flags-Buyer-Catalog-Photo & Video Equipment-Yes
+OSPECFD_Y,KBM-Flags-Buyer-Catalog-Specialty Food-Yes
+OSPECGFT_Y,KBM-Flags-Buyer-Catalog-Specialty Gifts-Yes
+OSPORTS_Y,KBM-Flags-Buyer-Catalog-Sports & Leisure-Yes
+OSTATION_Y,KBM-Flags-Buyer-Catalog-Stationery-Yes
+OTRAVEL_Y,KBM-Flags-Buyer-Catalog-Travel-Yes
+OVIDDVD_Y,KBM-Flags-Buyer-Catalog-Videos/DVDs-Yes
+P_ESTINC_CHMI,KBM-Census Income Scale: P_ESTINC_CHMI
+PART,KBM-Category-Voter Party
+PART_D,KBM-Category-Voter Party-Democrat
+PART_I,KBM-Category-Voter Party-Independent
+PART_R,KBM-Category-Voter Party-Republican
+PILOTS_Y,KBM-Flags-Pilots-Yes
+RABIGTLL_Y,KBM-Flags-Buyer-Retail-Apparel-Mens Big and Tall-Yes
+RACHILD_Y,KBM-Flags-Buyer-Retail-Apparel-Children-Yes
+RAGEN_Y,KBM-Flags-Buyer-Retail-Apparel-General-Yes
+RAMEN_Y,KBM-Flags-Buyer-Retail-Apparel-Men-Yes
+RANOGEN_Y,KBM-Flags-Buyer-Retail-Apparel-Non-gender-Yes
+RAPETITE_Y,KBM-Flags-Buyer-Retail-Apparel-Womens Petite-Yes
+RAPLUS_Y,KBM-Flags-Buyer-Retail-Apparel-Womens Plus-Yes
+RARTS_Y,KBM-Flags-Buyer-Retail-Arts & Antiques-Yes
+RAUTO_Y,KBM-Flags-Buyer-Retail-Automotive-Yes
+RAWOMEN_Y,KBM-Flags-Buyer-Retail-Apparel-Women-Yes
+RBEAUTY_Y,KBM-Flags-Buyer-Retail-Beauty-Yes
+RBOOKS_Y,KBM-Flags-Buyer-Retail-Books-Yes
+RC,KBM-Category-Image Retail Card
+RC_M,KBM-Category-Image Retail Card-Multiple
+RC_Y,KBM-Category-Image Retail Card-Single
+RCHILDPR_Y,KBM-Flags-Buyer-Retail-Childrens Products-Yes
+RCOLLECT_Y,KBM-Flags-Buyer-Retail-Collectibles-Yes
+RCOMPHMO_Y,KBM-Flags-Buyer-Retail-Computing/Home Office-Yes
+RCRAFTS_Y,KBM-Flags-Buyer-Retail-Crafts/Hobbies-Yes
+RELECTNC_Y,KBM-Flags-Buyer-Retail-Electronics-Yes
+RETAIL_Y,KBM-Flags-Buyer Retail Data Present-Yes
+RETMILSP_Y,KBM-Flags-Retired Military - Spouse-Yes
+RETMILT_Y,KBM-Flags-Retired Military-Yes
+RFOOD_Y,KBM-Flags-Buyer - Retail - Food/Beverages-Yes
+RFURNITR_Y,KBM-Flags-Buyer - Retail - Furniture-Yes
+RGARDEN_Y,KBM-Flags-Buyer - Retail - Garden-Yes
+RGIFT_Y,KBM-Flags-Buyer - Retail - Gift-Yes
+RHEALTH_Y,KBM-Flags-Buyer - Retail - Health-Yes
+RHMCARE_Y,KBM-Flags-Buyer - Retail - Home Care-Yes
+RHMFURN_Y,KBM-Flags-Buyer - Retail - Home Furnishings-Yes
+RHOLIDAY_Y,KBM-Flags-Buyer - Retail - Holiday Items-Yes
+RHSWARE_Y,KBM-Flags-Buyer - Retail - Housewares-Yes
+RJEWELRY_Y,KBM-Flags-Buyer - Retail - Jewelry-Yes
+RLINENS_Y,KBM-Flags-Buyer - Retail - Linens-Yes
+RMUSIC_Y,KBM-Flags-Buyer - Retail - Music-Yes
+RNOVEL_Y,KBM-Flags-Buyer - Retail - Novelty-Yes
+RORDERDT_D,KBM-Date-Buyer - Retail - Last Order Date
+ROTHER_Y,KBM-Flags-Buyer - Retail - Other Merchandise/Services-Yes
+RPERCARE_Y,KBM-Flags-Buyer - Retail - Personal Care-Yes
+RPETS_Y,KBM-Flags-Buyer - Retail - Pets-Yes
+RPHOTO_Y,KBM-Flags-Buyer - Retail - Photo & Video Equipment-Yes
+RSPECFD_Y,KBM-Flags-Buyer - Retail - Speciality Food-Yes
+RSPECGFT_Y,KBM-Flags-Buyer - Retail - Speciality Gifts-Yes
+RSPORTS_Y,KBM-Flags-Buyer - Retail - Sports & Leisure-Yes
+RSTATION_Y,KBM-Flags-Buyer - Retail - Stationery-Yes
+RTRAVEL_Y,KBM-Flags-Buyer - Retail - Travel-Yes
+RVIDDVD_Y,KBM-Flags-Buyer - Retail - Videos/DVDs-Yes
+SGDI_Y,KBM-Survey Group - Do It Yourself-Yes
+SGFA_Y,KBM-Survey Group - Fine Arts-Yes
+SGHL_Y,KBM-Survey Group - Home Life-Yes
+SGLL_Y,KBM-Survey Group - Luxury Life-Yes
+SGOE_Y,KBM-Survey Group - Outdoor Enthusiasts-Yes
+SGPA_Y,KBM-Survey Group - Physically Active-Yes
+SGSE_Y,KBM-Survey Group - Sports Enthusiasts-Yes
+SGTC_Y,KBM-Survey Group - Techies-Yes
+SGUP_Y,KBM-Survey Group - Up Town-Yes
+SNOW_Y,KBM-Flags-Snowmobiles-Yes
+SOHOHH_Y,KBM-Flags-SOHO Indicator Household-Yes
+SOHOIN_Y,KBM-Flags-SOHO Indicator Individual-Yes
+SPEA_Y,KBM-Flags-Credit Active - Specialty Apparel-Yes
+SPEC_Y,KBM-Flags-Credit Active - Specialty-Yes
+SPGD_Y,KBM-Flags-Credit Active - Sporting Goods-Yes
+SRET_Y,KBM-Flags-Credit Active - Standard Retail-Yes
+TRAD,KBM-Number Of Trade Lines
+TRVL_Y,KBM-Flags-Credit Active - Travel/Personal Services-Yes
+TVMA_Y,KBM-Flags-Credit Active - TV/Mail Order Purchases-Yes
+VOTE_Y,KBM-Flags-Voter Flag-Yes
+ATV_Y,KBM-Flags-All Terrain Vehicles-Yes
+CBSA,KBM-Census CBSA
+CDOB,KBM-ID-CDOB Century Date Of Birth
+CEBI,KBM-Census Median HH Effective Buying Income
+CRRT,KBM-ID-CRRT Carrier Route
+CSAG_rc,KBM-Number-Dwelling Structure Year Built-Recoded
+DWELLING_AGE,KBM-HUM - Age of Dwelling Structure
+N2BC,KBM-Census-Census Block Code
+N2BTN,KBM-ID-Census Basic Tract Number
+N2DMA,KBM-ID Geo-Designated Market Area
+N2GLV,KBM-CENSUS N2GLV
+N2TBG,KBM-ID-Census Basic Block Group
+N2TSC,KBM-ID-Census Basic Tract Sub Code Number
+OC,KBM-Category-Occupation Code
+OC_10_PTec,KBM-Category-Occupation Code-Professional-Technical
+OC_11_Doc,KBM-Category-Occupation Code-Doctors
+OC_12_Law,KBM-Category-Occupation Code-Lawyers
+OC_13_Teach,KBM-Category-Occupation Code-Teachers
+OC_20_Adm,KBM-Category-Occupation Code-Administration-Managerial
+OC_21_Manag,KBM-Category-Occupation Code-Management
+OC_22_Propr,KBM-Category-Occupation Code-Proprietors
+OC_23_Superv,KBM-Category-Occupation Code-Supervisors
+OC_30_Sales,KBM-Category-Occupation Code-Sales-Services
+OC_40_Cler,KBM-Category-Occupation Code-Clerical-White Collar
+OC_50_Craft,KBM-Category-Occupation Code-Craftsman-Blue Collar
+OC_51_Fore,KBM-Category-Occupation Code-Foreman
+OC_52_Oper,KBM-Category-Occupation Code-Operatives-Blue Collar
+OC_60_Farm,KBM-Category-Occupation Code-Farm
+OC_61_UNSK,KBM-Category-Occupation Code-Unskilled
+OC_62_SerW,KBM-Category-Occupation Code-Service Workers
+OC_70_Mil,KBM-Category-Occupation Code-Military
+OC_80_Stud,KBM-Category-Occupation Code-Student
+OC_90_Ret,KBM-Category-Occupation Code-Retired
+OC_91_HWf,KBM-Category-Occupation Code-Housewife
+OC_93_NCD,KBM-Category-Occupation Code-Source given but not coded
+PRDM_Y,KBM-Category-Production Mailable-Yes
+RACE,KBM-Category-Ethnicity-Image Race Code
+RACE_B_Af,KBM-Category-Ethnicity-Image Race Code-African American
+RACE_H_His,KBM-Category-Ethnicity-Image Race Code-Hispanic
+RACE_W_Cau,KBM-Category-Ethnicity-Image Race Code-Caucasian
+RACE_OTHR,KBM-Category-Ethnicity-Image Race Code-Other
+REL,KBM-Category-Religion Code
+REL_C_Cath,KBM-Category-Religion Code-Catholic
+REL_P,KBM-Category-Religion Code-Protestant
+REL_S_Shin,KBM-Category-Religion Code-Shinto
+REL_OTHR,KBM-Category-Religion Code-Other
+SCF,KBM-ID-SCF (3 digit ZIP) Sectional Center Facility
+TUOC,KBM-Category-Image Occupation Individual
+TUOC_A001_Acc,KBM-Category-Image Occupation Individual-Accountant
+TUOC_A264_SelfE,KBM-Category-Image Occupation Individual-Self Employed
+TUOC_D173_Manag,KBM-Category-Image Occupation Individual-Manager
+TUOC_E149_InsurAg,KBM-Category-Image Occupation Individual-Insurance/Agent
+TUOC_E250_Realtor,KBM-Category-Image Occupation Individual-Real Estate/Realtor
+TUOC_E257_Sales,KBM-Category-Image Occupation Individual-Sales
+TUOC_F157_Labor,KBM-Category-Image Occupation Individual-Laborer
+TUOC_G228_Pharm,KBM-Category-Image Occupation Individual-Pharmacist/Pharmacy
+TUOC_I143_HomeM,KBM-Category-Image Occupation Individual-Homemaker
+TUOC_M209_Nurse,KBM-Category-Image Occupation Individual-Nurse (Registered)
+TUOC_OTHR,KBM-Category-Image Occupation Individual-Other
+TUOCS,KBM-Category-Image Spouse Individual Occupation
+TUOCS_A001_Acc,KBM-Category-Image Spouse Individual Occupation-Accountant
+TUOCS_A264_SelfEm,KBM-Category-Image Spouse Individual Occupation-Self Employed
+TUOCS_D173_Manag,KBM-Category-Image Spouse Individual Occupation-Manager
+TUOCS_E149_InsurAg,KBM-Category-Image Spouse Individual Occupation-Insurance/Agent
+TUOCS_E250_Realtor,KBM-Category-Image Spouse Individual Occupation-Real Estate/Realtor
+TUOCS_E257_Sales,KBM-Category-Image Spouse Individual Occupation-Sales
+TUOCS_F157_Labor,KBM-Category-Image Spouse Individual Occupation-Laborer
+TUOCS_G228_Pharm,KBM-Category-Image Spouse Individual Occupation-Pharmacist/Pharmacy
+TUOCS_I143_HomeM,KBM-Category-Image Spouse Individual Occupation-Homemaker
+TUOCS_M209_Nurse,KBM-Category-Image Spouse Individual Occupation-Nurse (Registered)
+TUOCS_OTHR,KBM-Category-Image Spouse Individual Occupation-Other
+ZP42,KBM-GEO-Delivery Point (Zip +4 Extension)
+N2ALV,KBM-Census Coding Level
+C210APVT,KBM-Census 2010 Percent Above Poverty Level
+C210BPVT,KBM-Census 2010 Percent Below Poverty Level
+C210M200,KBM-Census 2010 Percent Moved Since 2000
+C210B200,KBM-Census 2010 Percent Built 2000 Or Later
+CFCC,OBSOLETE DO NOT USE IN MODELS-KBM-Category-Census Family Life Cycle Code
+CFCC_F1,OBSOLETE DO NOT USE IN MODELS-KBM-Category-Census Family Life Cycle Code-Pre-Child Family
+CFCC_F2,OBSOLETE DO NOT USE IN MODELS-KBM-Category-Census Family Life Cycle Code-Childbearing Family
+CFCC_F3,OBSOLETE DO NOT USE IN MODELS-KBM-Category-Census Family Life Cycle Code-Early Child-Rearing Family
+CFCC_F4,OBSOLETE DO NOT USE IN MODELS-KBM-Category-Census Family Life Cycle Code-Late Child-Rearing Family
+CFCC_F5,OBSOLETE DO NOT USE IN MODELS-KBM-Category-Census Family Life Cycle Code-Child-Launching Family
+CFCC_F6,OBSOLETE DO NOT USE IN MODELS-KBM-Category-Census Family Life Cycle Code-Post-Child Family
+CFCC_G1,OBSOLETE DO NOT USE IN MODELS-KBM-Category-Census Family Life Cycle Code-College Dormitories
+CFCC_G2,OBSOLETE DO NOT USE IN MODELS-KBM-Category-Census Family Life Cycle Code-Military Barracks
+CFCC_G3,OBSOLETE DO NOT USE IN MODELS-KBM-Category-Census Family Life Cycle Code-Mental Hospitals
+CFCC_G4,OBSOLETE DO NOT USE IN MODELS-KBM-Category-Census Family Life Cycle Code-Homes for the Aged
+CFCC_G5,OBSOLETE DO NOT USE IN MODELS-KBM-Category-Census Family Life Cycle Code-Other Inst Grp Qrts
+CFCC_G6,OBSOLETE DO NOT USE IN MODELS-KBM-Category-Census Family Life Cycle Code-Other Non-Inst Grp Qtrs
+CFCC_N1,OBSOLETE DO NOT USE IN MODELS-KBM-Category-Census Family Life Cycle Code-Young Singles
+CFCC_N2,OBSOLETE DO NOT USE IN MODELS-KBM-Category-Census Family Life Cycle Code-Senior Citizens
+CFCC_NA,OBSOLETE DO NOT USE IN MODELS-KBM-Category-Census Family Life Cycle Code-Not Assigned QUIT
+CPDC,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Census Population Density Centile
+N2PMI,OBSOLETE DO NOT USE IN MODELS-KBM-Number-Census Percent Move Ins 90 - 00
+N2PSB,OBSOLETE DO NOT USE IN MODELS-KBM-Number-Census Percent Structures Built In 90-00
+lat,KBM-Z4-Latitude
+lng,KBM-Z4 Longitude
+r10_CBLU,OBSOLETE-DO NOT USE IN MODELS-HUM-Rank Decile of CBLU
+r10_CEBI,OBSOLETE-DO NOT USE IN MODELS-HUM-Rank Decile of CEBI
+r10_CSAG,OBSOLETE-DO NOT USE IN MODELS-HUM-Rank Decile of CSAG
+r10_CWHT,OBSOLETE-DO NOT USE IN MODELS-HUM-Rank Decile of CWHT
+r10_N2MOB,OBSOLETE-DO NOT USE IN MODELS-HUM-Rank Decile of N2MOB
+r10_N2PHI,OBSOLETE-DO NOT USE IN MODELS-HUM-Rank Decile of N2PHI
+r10_N2PMI,OBSOLETE-DO NOT USE IN MODELS-HUM-Rank Decile of N2PMI
+r10_N2PWH,OBSOLETE-DO NOT USE IN MODELS-HUM-Rank Decile of N2PWH
+Rank_11p,OBSOLETE-DO NOT USE IN MODELS-HUM-ATT-11.Rank_11p-High-Tends to Trust H Ins Cos and Sales Reps
+Rank_14n,OBSOLETE-DO NOT USE IN MODELS-HUM-ATT-14.Rank_14n-High-Tends not to be frugal
+Rank_15n,OBSOLETE-DO NOT USE IN MODELS-HUM-ATT-15.Rank_15n-High-Tends to Not be a Print and Mass Media user
+Rank_17n,OBSOLETE-DO NOT USE IN MODELS-HUM-ATT-17.Rank_17n-High-Tends to not be a care giver
+Rank_20n,OBSOLETE-DO NOT USE IN MODELS-HUM-ATT-20.Rank_20n-High-Tends not to feel overwhelmed
+Rank_21,OBSOLETE-DO NOT USE IN MODELS-HUM-ATT-21.Rank_21-High-Tends to be very focused on themselves
+Rank_21n,OBSOLETE-DO NOT USE IN MODELS-HUM-ATT-21.Rank_21n-High-Tends to not be as focused on themselves
+Rank_2p,OBSOLETE-DO NOT USE IN MODELS-HUM-ATT-02.Rank_2p-High-Tend to report eating health foods
+Rank_5n,OBSOLETE-DO NOT USE IN MODELS-HUM-ATT-05.Rank_5n-High-Tend to not have a positive outlook
+Rank_6n,OBSOLETE-DO NOT USE IN MODELS-HUM-ATT-06.Rank_6n-High-Tends to Struggle with Medical language
+Rank_8p,OBSOLETE-DO NOT USE IN MODELS-HUM-ATT-08.Rank_8p-High-Tends to be Dependent on others
+Rank_9n,OBSOLETE-DO NOT USE IN MODELS-HUM-ATT-09.Rank_9n-High-Tends to not use the internet
+Rank_9p,OBSOLETE-DO NOT USE IN MODELS-HUM-ATT-09.Rank_9p-High-Tends to use the internet
+MATCH_LEVEL,HUM-Match Indicator 1 = KBM Ind - 2 = HUM Ind - 3 = HUM HHLD
+IRIHLTH,KBM-Decile-Insurance Responder Index - Health
+IRIHLTH_0,KBM-Number-Insurance Responder Index - Health-0
+IRIHLTH_1,KBM-Number-Insurance Responder Index - Health-1
+IRIHLTH_2,KBM-Number-Insurance Responder Index - Health-2
+IRIHLTH_3,KBM-Number-Insurance Responder Index - Health-3
+IRIHLTH_4,KBM-Number-Insurance Responder Index - Health-4
+IRIHLTH_5,KBM-Number-Insurance Responder Index - Health-5
+IRIHLTH_6,KBM-Number-Insurance Responder Index - Health-6
+IRIHLTH_7,KBM-Number-Insurance Responder Index - Health-7
+IRIHLTH_8,KBM-Number-Insurance Responder Index - Health-8
+IRIHLTH_9,KBM-Number-Insurance Responder Index - Health-9
+IRIHLTH_unk,KBM-Number-Insurance Responder Index - Health-Not Calculated
+IRISNR,KBM-Decile-Insurance Responder Index - Seniors
+IRISNR_0,KBM-Number-Insurance Responder Index - Seniors-0
+IRISNR_1,KBM-Number-Insurance Responder Index - Seniors-1
+IRISNR_2,KBM-Number-Insurance Responder Index - Seniors-2
+IRISNR_3,KBM-Number-Insurance Responder Index - Seniors-3
+IRISNR_4,KBM-Number-Insurance Responder Index - Seniors-4
+IRISNR_5,KBM-Number-Insurance Responder Index - Seniors-5
+IRISNR_6,KBM-Number-Insurance Responder Index - Seniors-6
+IRISNR_7,KBM-Number-Insurance Responder Index - Seniors-7
+IRISNR_8,KBM-Number-Insurance Responder Index - Seniors-8
+IRISNR_9,KBM-Number-Insurance Responder Index - Seniors-9
+IRISNR_unk,KBM-Number-Insurance Responder Index - Seniors-Not Calculated
+LTCINDX,KBM-Decile-Long Term Care Insurance Index
+LTCINDX_0,KBM-Number-Long Term Care Insurance Index-0
+LTCINDX_1,KBM-Number-Long Term Care Insurance Index-1
+LTCINDX_2,KBM-Number-Long Term Care Insurance Index-2
+LTCINDX_3,KBM-Number-Long Term Care Insurance Index-3
+LTCINDX_4,KBM-Number-Long Term Care Insurance Index-4
+LTCINDX_5,KBM-Number-Long Term Care Insurance Index-5
+LTCINDX_6,KBM-Number-Long Term Care Insurance Index-6
+LTCINDX_7,KBM-Number-Long Term Care Insurance Index-7
+LTCINDX_8,KBM-Number-Long Term Care Insurance Index-8
+LTCINDX_9,KBM-Number-Long Term Care Insurance Index-9
+LTCINDX_unk,KBM-Number-Long Term Care Insurance Index-Not Calculated
+MEDSUP,KBM-Decile-Medicare Supplement Insurance Index
+MEDSUP_0,KBM-Number-Medicare Supplement Insurance Responder Index-0
+MEDSUP_1,KBM-Number-Medicare Supplement Insurance Responder Index-1
+MEDSUP_2,KBM-Number-Medicare Supplement Insurance Responder Index-2
+MEDSUP_3,KBM-Number-Medicare Supplement Insurance Responder Index-3
+MEDSUP_4,KBM-Number-Medicare Supplement Insurance Responder Index-4
+MEDSUP_5,KBM-Number-Medicare Supplement Insurance Responder Index-5
+MEDSUP_6,KBM-Number-Medicare Supplement Insurance Responder Index-6
+MEDSUP_7,KBM-Number-Medicare Supplement Insurance Responder Index-7
+MEDSUP_8,KBM-Number-Medicare Supplement Insurance Responder Index-8
+MEDSUP_9,KBM-Number-Medicare Supplement Insurance Responder Index-9
+MEDSUP_unk,KBM-Flags-Medicare Supplement Insurance Index-Not Calculated
+STLAPP,KBM-IND-Short Term Loan Applicants
+ETHEID,KBM-CATEGORY-Ethnicity
+ETHLANG,KBM-CATEGORY-Language
+LVWL20,KBM-CATGEORY-Living Well 2.0
+ENGAGE,KBM-Decile-Health Insurance Engagement Index
+INFLUENC,KBM-Decile-Health Insurance Influence Index
+IRILIFE,KBM-Decile-Insurance Responder Index - Life
+IRIAUTO,KBM-Decile-Insurance Responder Index - Auto
+C210PDSC,KBM-NUM-Census 2010 Population Density Centile - State
+C210PDUC,KBM-NUM-Census 2010 Population Density Centile - US
+STLAPP_Y,KBM-Flags-Short Term Loan Applicants
+ENGAGE_0,KBM-Flags-Health Insurance Engagement Index-0
+ENGAGE_1,KBM-Flags-Health Insurance Engagement Index-1
+ENGAGE_2,KBM-Flags-Health Insurance Engagement Index-2
+ENGAGE_3,KBM-Flags-Health Insurance Engagement Index-3
+ENGAGE_4,KBM-Flags-Health Insurance Engagement Index-4
+ENGAGE_5,KBM-Flags-Health Insurance Engagement Index-5
+ENGAGE_6,KBM-Flags-Health Insurance Engagement Index-6
+ENGAGE_7,KBM-Flags-Health Insurance Engagement Index-7
+ENGAGE_8,KBM-Flags-Health Insurance Engagement Index-8
+ENGAGE_9,KBM-Flags-Health Insurance Engagement Index-9
+INFLUENC_0,KBM-Flags-Health Insurance Influence Index-0
+INFLUENC_1,KBM-Flags-Health Insurance Influence Index-1
+INFLUENC_2,KBM-Flags-Health Insurance Influence Index-2
+INFLUENC_3,KBM-Flags-Health Insurance Influence Index-3
+INFLUENC_4,KBM-Flags-Health Insurance Influence Index-4
+INFLUENC_5,KBM-Flags-Health Insurance Influence Index-5
+INFLUENC_6,KBM-Flags-Health Insurance Influence Index-6
+INFLUENC_7,KBM-Flags-Health Insurance Influence Index-7
+INFLUENC_8,KBM-Flags-Health Insurance Influence Index-8
+INFLUENC_9,KBM-Flags-Health Insurance Influence Index-9
+IRILIFE_0,KBM-Flags-Insurance Responder Index - Life -0
+IRILIFE_1,KBM-Flags-Insurance Responder Index - Life -1
+IRILIFE_2,KBM-Flags-Insurance Responder Index - Life -2
+IRILIFE_3,KBM-Flags-Insurance Responder Index - Life -3
+IRILIFE_4,KBM-Flags-Insurance Responder Index - Life -4
+IRILIFE_5,KBM-Flags-Insurance Responder Index - Life -5
+IRILIFE_6,KBM-Flags-Insurance Responder Index - Life -6
+IRILIFE_7,KBM-Flags-Insurance Responder Index - Life -7
+IRILIFE_8,KBM-Flags-Insurance Responder Index - Life -8
+IRILIFE_9,KBM-Flags-Insurance Responder Index - Life -9
+IRIAUTO_0,KBM-Flags-Insurance Responder Index - Auto -0
+IRIAUTO_1,KBM-Flags-Insurance Responder Index - Auto -1
+IRIAUTO_2,KBM-Flags-Insurance Responder Index - Auto -2
+IRIAUTO_3,KBM-Flags-Insurance Responder Index - Auto -3
+IRIAUTO_4,KBM-Flags-Insurance Responder Index - Auto -4
+IRIAUTO_5,KBM-Flags-Insurance Responder Index - Auto -5
+IRIAUTO_6,KBM-Flags-Insurance Responder Index - Auto -6
+IRIAUTO_7,KBM-Flags-Insurance Responder Index - Auto -7
+IRIAUTO_8,KBM-Flags-Insurance Responder Index - Auto -8
+IRIAUTO_9,KBM-Flags-Insurance Responder Index - Auto -9
+LVWL20_1,KBM-Flags-Living Well 2.0 - 1
+LVWL20_2,KBM-Flags-Living Well 2.0 - 2
+LVWL20_3,KBM-Flags-Living Well 2.0 - 3
+LVWL20_4,KBM-Flags-Living Well 2.0 - 4
+LVWL20_5,KBM-Flags-Living Well 2.0 - 5
+LVWL20_6,KBM-Flags-Living Well 2.0 - 6
+ETHLANG_01,KBM-Flags-New Language-English
+ETHLANG_20,KBM-Flags-New Language-Spanish
+ETHLANG_7A,KBM-Flags-New Language-Hindi
+ETHLANG_53,KBM-Flags-New Language-Chinese
+ETHLANG_62,KBM-Flags-New Language-Vietnamese
+ETHLANG_17,KBM-Flags-New Language-French
+ETHLANG_OTH,KBM-Category-New Language - Other
+ETHEID_01,KBM-Flags-New Ethnicity-English
+ETHEID_20,KBM-Flags-New Ethnicity-Hispanic
+ETHEID_10,KBM-Flags-New Ethnicity-German
+ETHEID_15,KBM-Flags-New Ethnicity-Irish
+ETHEID_02,KBM-Flags-New Ethnicity-Scottish
+ETHEID_19,KBM-Flags-New Ethnicity-Italian
+ETHEID_00,KBM-Flags-New Ethnicity-Uncoded
+ETHEID_E1,KBM-Flags-New Ethnicity-African American
+ETHEID_17,KBM-Flags-New Ethnicity-French
+ETHEID_E5,KBM-Flags-New Ethnicity-African American
+ETHEID_85,KBM-Flags-New Ethnicity-African American
+ETHEID_16,KBM-Flags-New Ethnicity-Welsh
+ETHEID_OTH,KBM-Category-New Ethnicity- Other
+CHANPR1,KBM-Flags-Channel Preference - First Preference
+CHANPR2,KBM-Flags-Channel Preference - Second Preference
+CHANPRC,KBM-Decile-Channel Preference Index - Cell
+CHANPRE,KBM-Decile-Channel Preference Index - Email
+CHANPRM,KBM-Decile-Channel Preference Index - Mail
+CHANPRP,KBM-Decile-Channel Preference Index - Phone
+CHANPRT,KBM-Decile-Channel Preference Index - Text
+CHANPRW,KBM-Decile-Channel Preference Index - Web
+HMVLADD,KBM-Number-Home Value Address Level
+LNVLRTIO,KBM-Number-Loan to Value Ratio
+CHANPR1_C,KBM-Flags-Channel Preference - First Preference - Cell
+CHANPR1_E,KBM-Flags-Channel Preference - First Preference - Email
+CHANPR1_M,KBM-Flags-Channel Preference - First Preference - Mail
+CHANPR1_O,KBM-Flags-Channel Preference - First Preference - Other
+CHANPR1_P,KBM-Flags-Channel Preference - First Preference - Phone
+CHANPR1_T,KBM-Flags-Channel Preference - First Preference - Text
+CHANPR1_W,KBM-Flags-Channel Preference - First Preference - Web
+CHANPR2_C,KBM-Flags-Channel Preference - Second Preference - Cell
+CHANPR2_E,KBM-Flags-Channel Preference - Second Preference - Email
+CHANPR2_M,KBM-Flags-Channel Preference - Second Preference - Mail
+CHANPR2_O,KBM-Flags-Channel Preference - Second Preference - Other
+CHANPR2_P,KBM-Flags-Channel Preference - Second Preference - Phone
+CHANPR2_T,KBM-Flags-Channel Preference - Second Preference - Text
+CHANPR2_W,KBM-Flags-Channel Preference - Second Preference - Web
+CHANPRC_0,KBM-Flags-Channel Preference Index - Cell - 0
+CHANPRC_1,KBM-Flags-Channel Preference Index - Cell - 1
+CHANPRC_2,KBM-Flags-Channel Preference Index - Cell - 2
+CHANPRC_3,KBM-Flags-Channel Preference Index - Cell - 3
+CHANPRC_4,KBM-Flags-Channel Preference Index - Cell - 4
+CHANPRC_5,KBM-Flags-Channel Preference Index - Cell - 5
+CHANPRC_6,KBM-Flags-Channel Preference Index - Cell - 6
+CHANPRC_7,KBM-Flags-Channel Preference Index - Cell - 7
+CHANPRC_8,KBM-Flags-Channel Preference Index - Cell - 8
+CHANPRC_9,KBM-Flags-Channel Preference Index - Cell - 9
+CHANPRE_0,KBM-Flags-Channel Preference Index - Email - 0
+CHANPRE_1,KBM-Flags-Channel Preference Index - Email - 1
+CHANPRE_2,KBM-Flags-Channel Preference Index - Email - 2
+CHANPRE_3,KBM-Flags-Channel Preference Index - Email - 3
+CHANPRE_4,KBM-Flags-Channel Preference Index - Email - 4
+CHANPRE_5,KBM-Flags-Channel Preference Index - Email - 5
+CHANPRE_6,KBM-Flags-Channel Preference Index - Email - 6
+CHANPRE_7,KBM-Flags-Channel Preference Index - Email - 7
+CHANPRE_8,KBM-Flags-Channel Preference Index - Email - 8
+CHANPRE_9,KBM-Flags-Channel Preference Index - Email - 9
+CHANPRM_0,KBM-Flags-Channel Preference Index - Mail - 0
+CHANPRM_1,KBM-Flags-Channel Preference Index - Mail - 1
+CHANPRM_2,KBM-Flags-Channel Preference Index - Mail - 2
+CHANPRM_3,KBM-Flags-Channel Preference Index - Mail - 3
+CHANPRM_4,KBM-Flags-Channel Preference Index - Mail - 4
+CHANPRM_5,KBM-Flags-Channel Preference Index - Mail - 5
+CHANPRM_6,KBM-Flags-Channel Preference Index - Mail - 6
+CHANPRM_7,KBM-Flags-Channel Preference Index - Mail - 7
+CHANPRM_8,KBM-Flags-Channel Preference Index - Mail - 8
+CHANPRM_9,KBM-Flags-Channel Preference Index - Mail - 9
+CHANPRP_0,KBM-Flags-Channel Preference Index - Phone - 0
+CHANPRP_1,KBM-Flags-Channel Preference Index - Phone - 1
+CHANPRP_2,KBM-Flags-Channel Preference Index - Phone - 2
+CHANPRP_3,KBM-Flags-Channel Preference Index - Phone - 3
+CHANPRP_4,KBM-Flags-Channel Preference Index - Phone - 4
+CHANPRP_5,KBM-Flags-Channel Preference Index - Phone - 5
+CHANPRP_6,KBM-Flags-Channel Preference Index - Phone - 6
+CHANPRP_7,KBM-Flags-Channel Preference Index - Phone - 7
+CHANPRP_8,KBM-Flags-Channel Preference Index - Phone - 8
+CHANPRP_9,KBM-Flags-Channel Preference Index - Phone - 9
+CHANPRT_0,KBM-Flags-Channel Preference Index - Text - 0
+CHANPRT_1,KBM-Flags-Channel Preference Index - Text - 1
+CHANPRT_2,KBM-Flags-Channel Preference Index - Text - 2
+CHANPRT_3,KBM-Flags-Channel Preference Index - Text - 3
+CHANPRT_4,KBM-Flags-Channel Preference Index - Text - 4
+CHANPRT_5,KBM-Flags-Channel Preference Index - Text - 5
+CHANPRT_6,KBM-Flags-Channel Preference Index - Text - 6
+CHANPRT_7,KBM-Flags-Channel Preference Index - Text - 7
+CHANPRT_8,KBM-Flags-Channel Preference Index - Text - 8
+CHANPRT_9,KBM-Flags-Channel Preference Index - Text - 9
+CHANPRW_0,KBM-Flags-Channel Preference Index - Web - 0
+CHANPRW_1,KBM-Flags-Channel Preference Index - Web - 1
+CHANPRW_2,KBM-Flags-Channel Preference Index - Web - 2
+CHANPRW_3,KBM-Flags-Channel Preference Index - Web - 3
+CHANPRW_4,KBM-Flags-Channel Preference Index - Web - 4
+CHANPRW_5,KBM-Flags-Channel Preference Index - Web - 5
+CHANPRW_6,KBM-Flags-Channel Preference Index - Web - 6
+CHANPRW_7,KBM-Flags-Channel Preference Index - Web - 7
+CHANPRW_8,KBM-Flags-Channel Preference Index - Web - 8
+CHANPRW_9,KBM-Flags-Channel Preference Index - Web - 9
+ESTINV30,KBM-Category-Estimated Household Investable Assets
+ESTINV30_A,"KBM-Category-Estimated Household Investable Assets Less than $5,000"
+ESTINV30_B,"KBM-Category-Estimated Household Investable Assets $5,000 - $24,999"
+ESTINV30_C,"KBM-Category-Estimated Household Investable Assets $25,000 - $49,999"
+ESTINV30_D,"KBM-Category-Estimated Household Investable Assets $50,000 - $74,999"
+ESTINV30_E,"KBM-Category-Estimated Household Investable Assets $75,000 - $99,999"
+ESTINV30_F,"KBM-Category-Estimated Household Investable Assets $100,000 - $249.999"
+ESTINV30_G,"KBM-Category-Estimated Household Investable Assets $250,000 - $499,999"
+ESTINV30_H,"KBM-Category-Estimated Household Investable Assets $500,000 - $749,999"
+ESTINV30_I,"KBM-Category-Estimated Household Investable Assets $750,000 - $999,999"
+ESTINV30_J,"KBM-Category-Estimated Household Investable Assets $1,000,000+"
+ESTINV30_RC,KBM-Category-Estimated Household Investable Assets Recode
+ESTDIS30,KBM-Category-Estimated Discretionary Income Percent
+Z4HMVALU,KBM-Z4-Home Value
+ZINCDEC,KBM-Number-ZIP Income Decile
+ALTRUIST,KBM-Decile-Altruist Index
+ALTRUIST_0,KBM-Flags-Altruist Index-0
+ALTRUIST_1,KBM-Flags-Altruist Index-1
+ALTRUIST_2,KBM-Flags-Altruist Index-2
+ALTRUIST_3,KBM-Flags-Altruist Index-3
+ALTRUIST_4,KBM-Flags-Altruist Index-4
+ALTRUIST_5,KBM-Flags-Altruist Index-5
+ALTRUIST_6,KBM-Flags-Altruist Index-6
+ALTRUIST_7,KBM-Flags-Altruist Index-7
+ALTRUIST_8,KBM-Flags-Altruist Index-8
+ALTRUIST_9,KBM-Flags-Altruist Index-9
+ANNUITRI,KBM-Decile-Annuity Responder Index
+ANNUITRI_0,KBM-Flags-Annuity Responder Index-0
+ANNUITRI_1,KBM-Flags-Annuity Responder Index-1
+ANNUITRI_2,KBM-Flags-Annuity Responder Index-2
+ANNUITRI_3,KBM-Flags-Annuity Responder Index-3
+ANNUITRI_4,KBM-Flags-Annuity Responder Index-4
+ANNUITRI_5,KBM-Flags-Annuity Responder Index-5
+ANNUITRI_6,KBM-Flags-Annuity Responder Index-6
+ANNUITRI_7,KBM-Flags-Annuity Responder Index-7
+ANNUITRI_8,KBM-Flags-Annuity Responder Index-8
+ANNUITRI_9,KBM-Flags-Annuity Responder Index-9
+DNRINDX,KBM-Category-Presence of Donor
+DNRINDX_P,KBM-Category-Presence of Donor-Probable
+DNRINDX_Y,KBM-Category-Presence of Donor-Donor
+DNRINDX_U,KBM-Category-Presence of Donor-Unknown
+DIGIPLAY,KBM-Category-Digital Neighborhoods 2.0
+DIGIPLAY_01,KBM-Flags-Digital Neighborhoods 2.0-01 Single and Loving the Tech Life
+DIGIPLAY_02,KBM-Flags-Digital Neighborhoods 2.0-02 Online Shopping Lovers
+DIGIPLAY_03,KBM-Flags-Digital Neighborhoods 2.0-03 Older Affluent Investors
+DIGIPLAY_04,KBM-Flags-Digital Neighborhoods 2.0-04 Young Social Techies Wanting More
+DIGIPLAY_05,KBM-Flags-Digital Neighborhoods 2.0-05 Not All That Interested Seniors
+DIGIPLAY_06,KBM-Flags-Digital Neighborhoods 2.0-06 Older Shoppers in the Suburbs
+DIGIPLAY_07,KBM-Flags-Digital Neighborhoods 2.0-07 Social Suburban Families
+DIGIPLAY_08,KBM-Flags-Digital Neighborhoods 2.0-08 Seniors Adjusting to Technology
+DIGIPLAY_09,KBM-Flags-Digital Neighborhoods 2.0-09 Rural Social Families
+DIGIPLAY_10,KBM-Flags-Digital Neighborhoods 2.0-10 Affluent Tech-Savvy Urban Families
+DIGIPLAY_11,KBM-Flags-Digital Neighborhoods 2.0-11 Rural Families with Online Kids
+DIGIPLAY_12,KBM-Flags-Digital Neighborhoods 2.0-12 Bargain Seeking Social Families
+DIGIPLAY_13,KBM-Flags-Digital Neighborhoods 2.0-13 Entertainment Loving Families on a Budget
+DIGIPLAY_14,KBM-Flags-Digital Neighborhoods 2.0-14 Young at Heart Mobile Shoppers
+DIGIPLAY_15,KBM-Flags-Digital Neighborhoods 2.0-15 Mid-Aged Moderate Users
+DIGIPLAY_16,KBM-Flags-Digital Neighborhoods 2.0-16 Connected Urban Explorers
+DIGIPLAY_17,KBM-Flags-Digital Neighborhoods 2.0-17 Affluent Urbanites Rarely Online
+DIGIPLAY_18,KBM-Flags-Digital Neighborhoods 2.0-18 Affluent Urban Shoppers On the Go
+DIGIPLAY_19,KBM-Flags-Digital Neighborhoods 2.0-19 Busy Affluent Families Rarely Online
+DIGIPLAY_99,KBM-Flags-Digital Neighborhoods 2.0-99 Unknown
+HINSUB,KBM-Flags-Healthcare Insurance Subsidy Indicator
+HINSUB_A,KBM-Flags-HINSUB-A-HH May Qualify for Medicare
+HINSUB_B,KBM-Flags-HINSUB-B-HH May Qualify for reduced cost sharing & premium tax credits
+HINSUB_C,KBM-Flags-HINSUB-C-HH May Qualify for premium tax credits only
+HINSUB_U,KBM-Flags-HINSUB-U-HH Qualification Unknown
+MB3G,KBM-Category-MindBase 3.0 Group
+MB3G_00_UC,KBM-Category-MindBase 3.0 Group-Uncoded
+MB3G_1_EXPRESS,KBM-Category-MindBase 3.0 Group-Expressive
+MB3G_2_CONNECT,KBM-Category-MindBase 3.0 Group-Connected
+MB3G_3_DRIVEN,KBM-Category-MindBase 3.0 Group-Driven
+MB3G_4_ACAP,KBM-Category-MindBase 3.0 Group-At Capacity
+MB3G_5_RS,KBM-Category-MindBase 3.0 Group-Rock Steady
+MB3G_6_DTE,KBM-Category-MindBase 3.0 Group-Down to Earth
+MB3G_7_SOPH,KBM-Category-MindBase 3.0 Group-Sophisticated
+MB3G_8_MT,KBM-Category-MindBase 3.0 Group-Measure Twice
+MB3G_9_DEV,KBM-Category-MindBase 3.0 Group-Devoted
+MB3S,KBM-Category-MindBase 3.0 Segment
+MB3S_00_UC,KBM-Category-MindBase 3.0 Segment-Uncoded
+MB3S_1_EXELUS,KBM-Category-MindBase 3.0 Segment-Expressive & Elusive
+MB3S_2_EXEVAL,KBM-Category-MindBase 3.0 Segment-Expressive & Evaluative
+MB3S_3_EXEXUB,KBM-Category-MindBase 3.0 Segment-Expressive & Exuberant
+MB3S_4_CCAUT,KBM-Category-MindBase 3.0 Segment-Connected & Cautious
+MB3S_5_CCOOL,KBM-Category-MindBase 3.0 Segment-Connected & Cool
+MB3S_6_CCONV,KBM-Category-MindBase 3.0 Segment-Connected & Conversant
+MB3S_7_DDEL,KBM-Category-MindBase 3.0 Segment-Driven & Deliberate
+MB3S_8_DDIL,KBM-Category-MindBase 3.0 Segment-Driven and Diligent
+MB3S_9_DDY,KBM-Category-MindBase 3.0 Segment-Driven & Dynamic
+MB3S_10_ACA,KBM-Category-MindBase 3.0 Segment-At Capacity & Autonomous
+MB3S_11_ACAPP,KBM-Category-MindBase 3.0 Segment-At Capacity & Appraising
+MB3S_12_ACATT,KBM-Category-MindBase 3.0 Segment-At Capacity & Attentive
+MB3S_13_RSREL,KBM-Category-MindBase 3.0 Segment-Rock Steady & Reluctant
+MB3S_14_RSRIG,KBM-Category-MindBase 3.0 Segment-Rock Steady & Rigorous
+MB3S_15_RSRES,KBM-Category-MindBase 3.0 Segment-Rock Steady & Responsive
+MB3S_16_DTEDET,KBM-Category-MindBase 3.0 Segment-Down to Earth & Detached
+MB3S_17_DTEDIS,KBM-Category-MindBase 3.0 Segment-Down to Earth & Distinguishing
+MB3S_18_DTEDAR,KBM-Category-MindBase 3.0 Segment-Down to Earth & Daring
+MB3S_19_SSD,KBM-Category-MindBase 3.0 Segment-Sophisticated & Self-Directed
+MB3S_20_SSY,KBM-Category-MindBase 3.0 Segment-Sophisticated & Systematic
+MB3S_21_SSYN,KBM-Category-MindBase 3.0 Segment-Sophisticated & Synchronous
+MB3S_22_MTWM,KBM-Category-MindBase 3.0 Segment-Measure Twice & Mindful
+MB3S_23_MTWMET,KBM-Category-MindBase 3.0 Segment-Measure Twice & Meticulous
+MB3S_24_MTWMOT,KBM-Category-MindBase 3.0 Segment-Measure Twice & Motivated
+MB3S_25_DDIS,KBM-Category-MindBase 3.0 Segment-Devoted & Distant
+MB3S_26_DDISC,KBM-Category-MindBase 3.0 Segment-Devoted & Discriminating
+MB3S_27_DDEFT,KBM-Category-MindBase 3.0 Segment-Devoted & Deft
+GENERS20,KBM-Category-Generations 2.0
+GENERS20_UC,KBM-Category-Generations 2.0-Uncoded
+GENERS20_M1,KBM-Category-Generations 2.0-Millennials-Country Traditionalists
+GENERS20_M2,KBM-Category-Generations 2.0-Millennials-Success in the City
+GENERS20_M3,KBM-Category-Generations 2.0-Millennials-Techies Living with Mom & Dad
+GENERS20_M4,KBM-Category-Generations 2.0-Millennials-Caring for Mom & Dad
+GENERS20_M5,KBM-Category-Generations 2.0-Millennials-Footloose on Little
+GENERS20_M6,KBM-Category-Generations 2.0-Millennials-Online Fashionistas
+GENERS20_M7,KBM-Category-Generations 2.0-Millennials-Struggling to Get Started
+GENERS20_G1,KBM-Category-Generations 2.0-Gen Xers-Singles in a Bind
+GENERS20_G2,KBM-Category-Generations 2.0-Gen Xers-Late to the Party Parents
+GENERS20_G3,KBM-Category-Generations 2.0-Gen Xers-Rustic Outsiders
+GENERS20_G4,KBM-Category-Generations 2.0-Gen Xers-Hard-working Renters
+GENERS20_G5,KBM-Category-Generations 2.0-Gen Xers-Old Fashioned Success
+GENERS20_G6,KBM-Category-Generations 2.0-Gen Xers-Established Family Life
+GENERS20_G7,KBM-Category-Generations 2.0-Gen Xers-Shopaholics in the Country
+GENERS20_G8,KBM-Category-Generations 2.0-Gen Xers-Struggling Families in Suburbia
+GENERS20_T1,KBM-Category-Generations 2.0-Trailing Boomers-May December Families
+GENERS20_T2,KBM-Category-Generations 2.0-Trailing Boomers-Boomerang Kids
+GENERS20_T3,KBM-Category-Generations 2.0-Trailing Boomers-Loving the Outdoor Life
+GENERS20_T4,KBM-Category-Generations 2.0-Trailing Boomers-Rural Techies Making Do
+GENERS20_T5,"KBM-Category-Generations 2.0-Trailing Boomers-Healthy, Wealthy, & Urbanized"
+GENERS20_T6,KBM-Category-Generations 2.0-Trailing Boomers-Living Paycheck to Paycheck
+GENERS20_T7,KBM-Category-Generations 2.0-Trailing Boomers-Strapped Metros
+GENERS20_L1,KBM-Category-Generations 2.0-Leading Boomers-Tech-Savvy Empty Nesters
+GENERS20_L2,KBM-Category-Generations 2.0-Leading Boomers-Sitting Pretty in the City
+GENERS20_L3,KBM-Category-Generations 2.0-Leading Boomers-Mainstream Metros
+GENERS20_L4,KBM-Category-Generations 2.0-Leading Boomers-No Rest for the Weary
+GENERS20_L5,KBM-Category-Generations 2.0-Leading Boomers-Reaping Their Benefits
+GENERS20_L6,KBM-Category-Generations 2.0-Leading Boomers-Multigenerational Togetherness
+GENERS20_S1,KBM-Category-Generations 2.0-Seniors-Age Defying Techies
+GENERS20_S2,KBM-Category-Generations 2.0-Seniors-Off-The-Grid Seniors
+GENERS20_S3,KBM-Category-Generations 2.0-Seniors-Financing The Basics
+GENERS20_S4,KBM-Category-Generations 2.0-Seniors-Budget-Conscious Seniors
+GENERS20_S5,KBM-Category-Generations 2.0-Seniors-Strapped Seniors in Small Towns
+GENERS20_S6,KBM-Category-Generations 2.0-Seniors-Grandfamilies Sharing the Load
+GENERS20_S7,KBM-Category-Generations 2.0-Seniors-Conditions & Connections
+GENERS20_S8,KBM-Category-Generations 2.0-Seniors-Urban Upper Crust
+INSFINEX,KBM-Decile-Insurance Index - Final Expense
+INSFINEX_0,KBM-Flags-Insurance Index - Final Expense-0
+INSFINEX_1,KBM-Flags-Insurance Index - Final Expense-1
+INSFINEX_2,KBM-Flags-Insurance Index - Final Expense-2
+INSFINEX_3,KBM-Flags-Insurance Index - Final Expense-3
+INSFINEX_4,KBM-Flags-Insurance Index - Final Expense-4
+INSFINEX_5,KBM-Flags-Insurance Index - Final Expense-5
+INSFINEX_6,KBM-Flags-Insurance Index - Final Expense-6
+INSFINEX_7,KBM-Flags-Insurance Index - Final Expense-7
+INSFINEX_8,KBM-Flags-Insurance Index - Final Expense-8
+INSFINEX_9,KBM-Flags-Insurance Index - Final Expense-9
+INSJUVE,KBM-Decile-Insurance Index - Juvenile Life
+INSJUVE_0,KBM-Flags-Insurance Index - Juvenile Life-0
+INSJUVE_1,KBM-Flags-Insurance Index - Juvenile Life-1
+INSJUVE_2,KBM-Flags-Insurance Index - Juvenile Life-2
+INSJUVE_3,KBM-Flags-Insurance Index - Juvenile Life-3
+INSJUVE_4,KBM-Flags-Insurance Index - Juvenile Life-4
+INSJUVE_5,KBM-Flags-Insurance Index - Juvenile Life-5
+INSJUVE_6,KBM-Flags-Insurance Index - Juvenile Life-6
+INSJUVE_7,KBM-Flags-Insurance Index - Juvenile Life-7
+INSJUVE_8,KBM-Flags-Insurance Index - Juvenile Life-8
+INSJUVE_9,KBM-Flags-Insurance Index - Juvenile Life-9
+INSPAFUN,KBM-Decile-Insurance Index - Prearranged Funeral
+INSPAFUN_0,KBM-Flags-Insurance Index - Prearranged Funeral-0
+INSPAFUN_1,KBM-Flags-Insurance Index - Prearranged Funeral-1
+INSPAFUN_2,KBM-Flags-Insurance Index - Prearranged Funeral-2
+INSPAFUN_3,KBM-Flags-Insurance Index - Prearranged Funeral-3
+INSPAFUN_4,KBM-Flags-Insurance Index - Prearranged Funeral-4
+INSPAFUN_5,KBM-Flags-Insurance Index - Prearranged Funeral-5
+INSPAFUN_6,KBM-Flags-Insurance Index - Prearranged Funeral-6
+INSPAFUN_7,KBM-Flags-Insurance Index - Prearranged Funeral-7
+INSPAFUN_8,KBM-Flags-Insurance Index - Prearranged Funeral-8
+INSPAFUN_9,KBM-Flags-Insurance Index - Prearranged Funeral-9
+INSTERM,KBM-Decile-Insurance Index - Term Life
+INSTERM_0,KBM-Flags-Insurance Index - Term Life-0
+INSTERM_1,KBM-Flags-Insurance Index - Term Life-1
+INSTERM_2,KBM-Flags-Insurance Index - Term Life-2
+INSTERM_3,KBM-Flags-Insurance Index - Term Life-3
+INSTERM_4,KBM-Flags-Insurance Index - Term Life-4
+INSTERM_5,KBM-Flags-Insurance Index - Term Life-5
+INSTERM_6,KBM-Flags-Insurance Index - Term Life-6
+INSTERM_7,KBM-Flags-Insurance Index - Term Life-7
+INSTERM_8,KBM-Flags-Insurance Index - Term Life-8
+INSTERM_9,KBM-Flags-Insurance Index - Term Life-9
+INSWHOLE,KBM-Decile-Insurance Index - Whole Life
+INSWHOLE_0,KBM-Flags-Insurance Index - Whole Life-0
+INSWHOLE_1,KBM-Flags-Insurance Index - Whole Life-1
+INSWHOLE_2,KBM-Flags-Insurance Index - Whole Life-2
+INSWHOLE_3,KBM-Flags-Insurance Index - Whole Life-3
+INSWHOLE_4,KBM-Flags-Insurance Index - Whole Life-4
+INSWHOLE_5,KBM-Flags-Insurance Index - Whole Life-5
+INSWHOLE_6,KBM-Flags-Insurance Index - Whole Life-6
+INSWHOLE_7,KBM-Flags-Insurance Index - Whole Life-7
+INSWHOLE_8,KBM-Flags-Insurance Index - Whole Life-8
+INSWHOLE_9,KBM-Flags-Insurance Index - Whole Life-9
+SSPIDENT,KBM-Decile-Single Service Plan Index - Dental
+SSPIDENT_0,KBM-Flags-Single Service Plan Index - Dental-0
+SSPIDENT_1,KBM-Flags-Single Service Plan Index - Dental-1
+SSPIDENT_2,KBM-Flags-Single Service Plan Index - Dental-2
+SSPIDENT_3,KBM-Flags-Single Service Plan Index - Dental-3
+SSPIDENT_4,KBM-Flags-Single Service Plan Index - Dental-4
+SSPIDENT_5,KBM-Flags-Single Service Plan Index - Dental-5
+SSPIDENT_6,KBM-Flags-Single Service Plan Index - Dental-6
+SSPIDENT_7,KBM-Flags-Single Service Plan Index - Dental-7
+SSPIDENT_8,KBM-Flags-Single Service Plan Index - Dental-8
+SSPIDENT_9,KBM-Flags-Single Service Plan Index - Dental-9
+SSPIDISA,KBM-Decile-Single Service Plan Index - Disability
+SSPIDISA_0,KBM-Flags-Single Service Plan Index - Disability-0
+SSPIDISA_1,KBM-Flags-Single Service Plan Index - Disability-1
+SSPIDISA_2,KBM-Flags-Single Service Plan Index - Disability-2
+SSPIDISA_3,KBM-Flags-Single Service Plan Index - Disability-3
+SSPIDISA_4,KBM-Flags-Single Service Plan Index - Disability-4
+SSPIDISA_5,KBM-Flags-Single Service Plan Index - Disability-5
+SSPIDISA_6,KBM-Flags-Single Service Plan Index - Disability-6
+SSPIDISA_7,KBM-Flags-Single Service Plan Index - Disability-7
+SSPIDISA_8,KBM-Flags-Single Service Plan Index - Disability-8
+SSPIDISA_9,KBM-Flags-Single Service Plan Index - Disability-9
+SSPIVISN,KBM-Decile-Single Service Plan Index - Vision
+SSPIVISN_0,KBM-Flags-Single Service Plan Index - Vision-0
+SSPIVISN_1,KBM-Flags-Single Service Plan Index - Vision-1
+SSPIVISN_2,KBM-Flags-Single Service Plan Index - Vision-2
+SSPIVISN_3,KBM-Flags-Single Service Plan Index - Vision-3
+SSPIVISN_4,KBM-Flags-Single Service Plan Index - Vision-4
+SSPIVISN_5,KBM-Flags-Single Service Plan Index - Vision-5
+SSPIVISN_6,KBM-Flags-Single Service Plan Index - Vision-6
+SSPIVISN_7,KBM-Flags-Single Service Plan Index - Vision-7
+SSPIVISN_8,KBM-Flags-Single Service Plan Index - Vision-8
+SSPIVISN_9,KBM-Flags-Single Service Plan Index - Vision-9
+STLNINDX,KBM-Decile-Student Loan Index
+STLNINDX_0,KBM-Flags-Student Loan Index-0
+STLNINDX_1,KBM-Flags-Student Loan Index-1
+STLNINDX_2,KBM-Flags-Student Loan Index-2
+STLNINDX_3,KBM-Flags-Student Loan Index-3
+STLNINDX_4,KBM-Flags-Student Loan Index-4
+STLNINDX_5,KBM-Flags-Student Loan Index-5
+STLNINDX_6,KBM-Flags-Student Loan Index-6
+STLNINDX_7,KBM-Flags-Student Loan Index-7
+STLNINDX_8,KBM-Flags-Student Loan Index-8
+STLNINDX_9,KBM-Flags-Student Loan Index-9
+STLINDEX,KBM-Decile-Short Term Loan Index
+STLINDEX_0,KBM-Flags-Short Term Loan Index-0
+STLINDEX_1,KBM-Flags-Short Term Loan Index-1
+STLINDEX_2,KBM-Flags-Short Term Loan Index-2
+STLINDEX_3,KBM-Flags-Short Term Loan Index-3
+STLINDEX_4,KBM-Flags-Short Term Loan Index-4
+STLINDEX_5,KBM-Flags-Short Term Loan Index-5
+STLINDEX_6,KBM-Flags-Short Term Loan Index-6
+STLINDEX_7,KBM-Flags-Short Term Loan Index-7
+STLINDEX_8,KBM-Flags-Short Term Loan Index-8
+STLINDEX_9,KBM-Flags-Short Term Loan Index-9
+INSTERMA,KBM-Category-Insurance Amount - Term Life
+INSTERMA_A,"KBM-Category-Insurance Amount-Term Life-Less than $100,000"
+INSTERMA_B,"KBM-Category-Insurance Amount-Term Life-$100,000 to less than $250,000"
+INSTERMA_C,"KBM-Category-Insurance Amount-Term Life-$250,000 to less than $500,000"
+INSTERMA_D,"KBM-Category-Insurance Amount-Term Life-$500,000 to less than $1,000,000"
+INSTERMA_E,"KBM-Category-Insurance Amount-Term Life-$1,000,000 +"
+INSWHOLA,KBM-Category-Insurance Amount  - Whole Life
+INSWHOLA_A,"KBM-Category-Insurance Amount-Whole Life-Less than $100,000"
+INSWHOLA_B,"KBM-Category-Insurance Amount-Whole Life-$100,000 to less than $250,000"
+INSWHOLA_C,"KBM-Category-Insurance Amount-Whole Life-$250,000 to less than $500,000"
+INSWHOLA_D,"KBM-Category-Insurance Amount-Whole Life-$500,000 to less than $1,000,000"
+INSWHOLA_E,"KBM-Category-Insurance Amount-Whole Life-$1,000,000 +"
+CHAPAHIP,KBM-Category-Auto/Home Insurance Purchase Distribution Channel
+CHAPAHIP_A,KBM-Category-Auto/Home Insurance Purchase Distribution Channel-Agent
+CHAPAHIP_D,KBM-Category-Auto/Home Insurance Purchase Distribution Channel-Direct Response
+CHAPAHIP_O,KBM-Category-Auto/Home Insurance Purchase Distribution Channel-Online
+CHAPAHIQ,KBM-Category-Auto/Home Insurance Quote Distribution Channel
+CHAPAHIQ_A,KBM-Category-Auto/Home Insurance Quote Distribution Channel-Agent
+CHAPAHIQ_D,KBM-Category-Auto/Home Insurance Quote Distribution Channel-Direct Response
+CHAPAHIQ_O,KBM-Category-Auto/Home Insurance Quote Distribution Channel-Online
+CHAPLIP,KBM-Category-Life Insurance Purchase Distribution Channel
+CHAPLIP_A,KBM-Category-Life Insurance Purchase Distribution Channel-Agent
+CHAPLIP_D,KBM-Category-Life Insurance Purchase Distribution Channel-Direct Response
+CHAPLIP_O,KBM-Category-Life Insurance Purchase Distribution Channel-Online
+CHAPLIQ,KBM-Category-Life Insurance Quote Distribution Channel
+CHAPLIQ_A,KBM-Category-Life Insurance Quote Distribution Channel-Agent
+CHAPLIQ_D,KBM-Category-Life Insurance Quote Distribution Channel-Direct Response
+CHAPLIQ_O,KBM-Category-Life Insurance Quote Distribution Channel-Online
+NETW30,KBM-Category-Net Worth 3.0
+NETW30_A,KBM-Category-Net Worth 3.0 $0 or Less
+NETW30_B,"KBM-Category-Net Worth 3.0 $1 - $4,999"
+NETW30_C,"KBM-Category-Net Worth 3.0 $5,000 - $24,999"
+NETW30_D,"KBM-Category-Net Worth 3.0 $25,000 - $49,999"
+NETW30_E,"KBM-Category-Net Worth 3.0 $50,000 - $74,999"
+NETW30_F,"KBM-Category-Net Worth 3.0 $75,000 - $99,999"
+NETW30_G,"KBM-Category-Net Worth 3.0 $100,000 - $149,999"
+NETW30_H,"KBM-Category-Net Worth 3.0 $150,000 - $249,999"
+NETW30_I,"KBM-Category-Net Worth 3.0 $250,000 - $374,999"
+NETW30_J,"KBM-Category-Net Worth 3.0 $375,000 - $499,999"
+NETW30_K,"KBM-Category-Net Worth 3.0 $500,000 - $749,999"
+NETW30_L,"KBM-Category-Net Worth 3.0 $750,000 - $999,999"
+NETW30_M,"KBM-Category-Net Worth 3.0 $1,000,000 +"
+NETW30_RC,KBM-Category-Net Worth 3.0 Recode
+ESTINC30,KBM-Category-Estimated Household Income 3.0
+ESTINC30_A,"KBM-Category-Estimated Household Income 3.0 <$15,000"
+ESTINC30_B,"KBM-Category-Estimated Household Income 3.0 $15,000-$19,999"
+ESTINC30_C,"KBM-Category-Estimated Household Income 3.0 $20,000-$29,999"
+ESTINC30_D,"KBM-Category-Estimated Household Income 3.0 $30,000-$39,999"
+ESTINC30_E,"KBM-Category-Estimated Household Income 3.0 $40,000-$49,999"
+ESTINC30_F,"KBM-Category-Estimated Household Income 3.0 $50,000-$59,999"
+ESTINC30_G,"KBM-Category-Estimated Household Income 3.0 $60,000-$74,999"
+ESTINC30_H,"KBM-Category-Estimated Household Income 3.0 $75,000-$99,999"
+ESTINC30_I,"KBM-Category-Estimated Household Income 3.0 $100,000-$124,999"
+ESTINC30_J,"KBM-Category-Estimated Household Income 3.0 $125,000-$149,999"
+ESTINC30_K,"KBM-Category-Estimated Household Income 3.0 $150,000-$199,999"
+ESTINC30_L,"KBM-Category-Estimated Household Income 3.0 $200,000-$249,999"
+ESTINC30_M,"KBM-Category-Estimated Household Income 3.0 $250,000-$399,999"
+ESTINC30_N,"KBM-Category-Estimated Household Income 3.0 $400,000-$499,999"
+ESTINC30_O,"KBM-Category-Estimated Household Income 3.0 $500,000+"
+ESTINC30_RC,KBM-Category-Estimated Household Income 3.0 Recode
+ESTDII30,KBM-Category-Dual Income Index 3.0
+ESTDII30_0,KBM-Number-Dual Income Index 3.0-0-Most Likely Dual Income
+ESTDII30_1,KBM-Number-Dual Income Index 3.0-1
+ESTDII30_2,KBM-Number-Dual Income Index 3.0-2
+ESTDII30_3,KBM-Number-Dual Income Index 3.0-3
+ESTDII30_4,KBM-Number-Dual Income Index 3.0-4
+ESTDII30_5,KBM-Number-Dual Income Index 3.0-5
+ESTDII30_6,KBM-Number-Dual Income Index 3.0-6
+ESTDII30_7,KBM-Number-Dual Income Index 3.0-7
+ESTDII30_8,KBM-Number-Dual Income Index 3.0-8
+ESTDII30_9,KBM-Number-Dual Income Index 3.0-9-Most Likely Single Income
+HCACCPRF_P,KBM-Category-Healthcare Treatment Preference-Personal doctor or personal care physician
+HCACCPRF_C,KBM-Category-Healthcare Treatment Preference-Community health clinic or health clinic in retail setting
+HCACCPRF_H,KBM-Category-Healthcare Treatment Preference-Hospital or standalone emergency room or urgent care center
+HXMBOH,KBM-Decile-Health Index - Manage Business of Health
+HXMBOH_0,KBM-Flags-Health Index - Manage Business of Health - 0
+HXMBOH_1,KBM-Flags-Health Index - Manage Business of Health - 1
+HXMBOH_2,KBM-Flags-Health Index - Manage Business of Health - 2
+HXMBOH_3,KBM-Flags-Health Index - Manage Business of Health - 3
+HXMBOH_4,KBM-Flags-Health Index - Manage Business of Health - 4
+HXMBOH_5,KBM-Flags-Health Index - Manage Business of Health - 5
+HXMBOH_6,KBM-Flags-Health Index - Manage Business of Health - 6
+HXMBOH_7,KBM-Flags-Health Index - Manage Business of Health - 7
+HXMBOH_8,KBM-Flags-Health Index - Manage Business of Health - 8
+HXMBOH_9,KBM-Flags-Health Index - Manage Business of Health - 9
+HXMH,KBM-Decile-Health Index - Manage Health
+HXMH_0,KBM-Flags-Health Index - Manage Health - 0
+HXMH_1,KBM-Flags-Health Index - Manage Health - 1
+HXMH_2,KBM-Flags-Health Index - Manage Health - 2
+HXMH_3,KBM-Flags-Health Index - Manage Health - 3
+HXMH_4,KBM-Flags-Health Index - Manage Health - 4
+HXMH_5,KBM-Flags-Health Index - Manage Health - 5
+HXMH_6,KBM-Flags-Health Index - Manage Health - 6
+HXMH_7,KBM-Flags-Health Index - Manage Health - 7
+HXMH_8,KBM-Flags-Health Index - Manage Health - 8
+HXMH_9,KBM-Flags-Health Index - Manage Health - 9
+HXMIOC,KBM-Decile-Health Index - Manage Illness or Condition
+HXMIOC_0,KBM-Flags-Health Index - Manage Illness or Condition - 0
+HXMIOC_1,KBM-Flags-Health Index - Manage Illness or Condition - 1
+HXMIOC_2,KBM-Flags-Health Index - Manage Illness or Condition - 2
+HXMIOC_3,KBM-Flags-Health Index - Manage Illness or Condition - 3
+HXMIOC_4,KBM-Flags-Health Index - Manage Illness or Condition - 4
+HXMIOC_5,KBM-Flags-Health Index - Manage Illness or Condition - 5
+HXMIOC_6,KBM-Flags-Health Index - Manage Illness or Condition - 6
+HXMIOC_7,KBM-Flags-Health Index - Manage Illness or Condition - 7
+HXMIOC_8,KBM-Flags-Health Index - Manage Illness or Condition - 8
+HXMIOC_9,KBM-Flags-Health Index - Manage Illness or Condition - 9
+HXWEARBL,KBM-Decile-Health Index - Use Wearable Device to Manage Health
+HXWEARBL_0,KBM-Flags-Health Index - Use Wearable Device to Manage Health - 0
+HXWEARBL_1,KBM-Flags-Health Index - Use Wearable Device to Manage Health - 1
+HXWEARBL_2,KBM-Flags-Health Index - Use Wearable Device to Manage Health - 2
+HXWEARBL_3,KBM-Flags-Health Index - Use Wearable Device to Manage Health - 3
+HXWEARBL_4,KBM-Flags-Health Index - Use Wearable Device to Manage Health - 4
+HXWEARBL_5,KBM-Flags-Health Index - Use Wearable Device to Manage Health - 5
+HXWEARBL_6,KBM-Flags-Health Index - Use Wearable Device to Manage Health - 6
+HXWEARBL_7,KBM-Flags-Health Index - Use Wearable Device to Manage Health - 7
+HXWEARBL_8,KBM-Flags-Health Index - Use Wearable Device to Manage Health - 8
+HXWEARBL_9,KBM-Flags-Health Index - Use Wearable Device to Manage Health - 9
+HIPAYTOL,KBM-Decile-Health Insurance Premium Tolerance Index
+HIPAYTOL_0,KBM-Flags-Health Insurance Premium Tolerance Index - 0
+HIPAYTOL_1,KBM-Flags-Health Insurance Premium Tolerance Index - 1
+HIPAYTOL_2,KBM-Flags-Health Insurance Premium Tolerance Index - 2
+HIPAYTOL_3,KBM-Flags-Health Insurance Premium Tolerance Index - 3
+HIPAYTOL_4,KBM-Flags-Health Insurance Premium Tolerance Index - 4
+HIPAYTOL_5,KBM-Flags-Health Insurance Premium Tolerance Index - 5
+HIPAYTOL_6,KBM-Flags-Health Insurance Premium Tolerance Index - 6
+HIPAYTOL_7,KBM-Flags-Health Insurance Premium Tolerance Index - 7
+HIPAYTOL_8,KBM-Flags-Health Insurance Premium Tolerance Index - 8
+HIPAYTOL_9,KBM-Flags-Health Insurance Premium Tolerance Index - 9
+MEDSUPBI,KBM-Decile-Medicare Supplement Insurance Buyer Index
+MEDSUPBI_0,KBM-Flags-Medicare Supplement Insurance Buyer Index - 0
+MEDSUPBI_1,KBM-Flags-Medicare Supplement Insurance Buyer Index - 1
+MEDSUPBI_2,KBM-Flags-Medicare Supplement Insurance Buyer Index - 2
+MEDSUPBI_3,KBM-Flags-Medicare Supplement Insurance Buyer Index - 3
+MEDSUPBI_4,KBM-Flags-Medicare Supplement Insurance Buyer Index - 4
+MEDSUPBI_5,KBM-Flags-Medicare Supplement Insurance Buyer Index - 5
+MEDSUPBI_6,KBM-Flags-Medicare Supplement Insurance Buyer Index - 6
+MEDSUPBI_7,KBM-Flags-Medicare Supplement Insurance Buyer Index - 7
+MEDSUPBI_8,KBM-Flags-Medicare Supplement Insurance Buyer Index - 8
+MEDSUPBI_9,KBM-Flags-Medicare Supplement Insurance Buyer Index - 9
+ETHGRPCD,KBM-Category-Ethnicity- Ethnic Group
+HBMULTI,KBM-Decile-Multiple Healthy Behavior Change Index
+HBMULTI_0,KBM-Flags-Multiple Healthy Behavior Change Index-0-Most Likely
+HBMULTI_1,KBM-Flags-Multiple Healthy Behavior Change Index-1
+HBMULTI_2,KBM-Flags-Multiple Healthy Behavior Change Index-2
+HBMULTI_3,KBM-Flags-Multiple Healthy Behavior Change Index-3
+HBMULTI_4,KBM-Flags-Multiple Healthy Behavior Change Index-4
+HBMULTI_5,KBM-Flags-Multiple Healthy Behavior Change Index-5
+HBMULTI_6,KBM-Flags-Multiple Healthy Behavior Change Index-6
+HBMULTI_7,KBM-Flags-Multiple Healthy Behavior Change Index-7
+HBMULTI_8,KBM-Flags-Multiple Healthy Behavior Change Index-8
+HBMULTI_9,KBM-Flags-Multiple Healthy Behavior Change Index-9-Least Likely
+HBSUST,KBM-Decile-Sustained Healthy Behavior Change Index
+HBSUST_0,KBM-Flags-Sustained Healthy Behavior Change Index-0-Most Likely
+HBSUST_1,KBM-Flags-Sustained Healthy Behavior Change Index-1
+HBSUST_2,KBM-Flags-Sustained Healthy Behavior Change Index-2
+HBSUST_3,KBM-Flags-Sustained Healthy Behavior Change Index-3
+HBSUST_4,KBM-Flags-Sustained Healthy Behavior Change Index-4
+HBSUST_5,KBM-Flags-Sustained Healthy Behavior Change Index-5
+HBSUST_6,KBM-Flags-Sustained Healthy Behavior Change Index-6
+HBSUST_7,KBM-Flags-Sustained Healthy Behavior Change Index-7
+HBSUST_8,KBM-Flags-Sustained Healthy Behavior Change Index-8
+HBSUST_9,KBM-Flags-Sustained Healthy Behavior Change Index-9-Least Likely
+RXADHM,KBM-Decile-RX - Adherence - Maintenance
+RXADHM_0,KBM-Flags-RX-Adherence-Maintenance-0-Most Likely
+RXADHM_1,KBM-Flags-RX-Adherence-Maintenance-1
+RXADHM_2,KBM-Flags-RX-Adherence-Maintenance-2
+RXADHM_3,KBM-Flags-RX-Adherence-Maintenance-3
+RXADHM_4,KBM-Flags-RX-Adherence-Maintenance-4
+RXADHM_5,KBM-Flags-RX-Adherence-Maintenance-5
+RXADHM_6,KBM-Flags-RX-Adherence-Maintenance-6
+RXADHM_7,KBM-Flags-RX-Adherence-Maintenance-7
+RXADHM_8,KBM-Flags-RX-Adherence-Maintenance-8
+RXADHM_9,KBM-Flags-RX-Adherence-Maintenance-9-Least Likely
+RXADHS,KBM-Decile-RX - Adherence - Supplement
+RXADHS_0,KBM-Flags-RX-Adherence-Supplement-0-Most Likely
+RXADHS_1,KBM-Flags-RX-Adherence-Supplement-1
+RXADHS_2,KBM-Flags-RX-Adherence-Supplement-2
+RXADHS_3,KBM-Flags-RX-Adherence-Supplement-3
+RXADHS_4,KBM-Flags-RX-Adherence-Supplement-4
+RXADHS_5,KBM-Flags-RX-Adherence-Supplement-5
+RXADHS_6,KBM-Flags-RX-Adherence-Supplement-6
+RXADHS_7,KBM-Flags-RX-Adherence-Supplement-7
+RXADHS_8,KBM-Flags-RX-Adherence-Supplement-8
+RXADHS_9,KBM-Flags-RX-Adherence-Supplement-9-Least Likely
+RXBRAND,KBM-Decile-RX - Brand Preference
+RXBRAND_0,KBM-Flags-RX-Brand Preference-0-Most Likely
+RXBRAND_1,KBM-Flags-RX-Brand Preference-1
+RXBRAND_2,KBM-Flags-RX-Brand Preference-2
+RXBRAND_3,KBM-Flags-RX-Brand Preference-3
+RXBRAND_4,KBM-Flags-RX-Brand Preference-4
+RXBRAND_5,KBM-Flags-RX-Brand Preference-5
+RXBRAND_6,KBM-Flags-RX-Brand Preference-6
+RXBRAND_7,KBM-Flags-RX-Brand Preference-7
+RXBRAND_8,KBM-Flags-RX-Brand Preference-8
+RXBRAND_9,KBM-Flags-RX-Brand Preference-9-Least Likely
+RXMAINT,KBM-Decile-RX - Maintenance Meds
+RXMAINT_0,KBM-Flags-RX-Maintenance Meds-0-Most Likely
+RXMAINT_1,KBM-Flags-RX-Maintenance Meds-1
+RXMAINT_2,KBM-Flags-RX-Maintenance Meds-2
+RXMAINT_3,KBM-Flags-RX-Maintenance Meds-3
+RXMAINT_4,KBM-Flags-RX-Maintenance Meds-4
+RXMAINT_5,KBM-Flags-RX-Maintenance Meds-5
+RXMAINT_6,KBM-Flags-RX-Maintenance Meds-6
+RXMAINT_7,KBM-Flags-RX-Maintenance Meds-7
+RXMAINT_8,KBM-Flags-RX-Maintenance Meds-8
+RXMAINT_9,KBM-Flags-RX-Maintenance Meds-9-Least Likely
+RXNUM,KBM-Decile-RX - Number of Drugs
+RXSOWRX,KBM-Decile-RX - Share of Wallet - Prescriptions
+RXSOWRX_0,KBM-Flags-RX-Share of Wallet-Prescriptions-0-Most Likely
+RXSOWRX_1,KBM-Flags-RX-Share of Wallet-Prescriptions-1
+RXSOWRX_2,KBM-Flags-RX-Share of Wallet-Prescriptions-2
+RXSOWRX_3,KBM-Flags-RX-Share of Wallet-Prescriptions-3
+RXSOWRX_4,KBM-Flags-RX-Share of Wallet-Prescriptions-4
+RXSOWRX_5,KBM-Flags-RX-Share of Wallet-Prescriptions-5
+RXSOWRX_6,KBM-Flags-RX-Share of Wallet-Prescriptions-6
+RXSOWRX_7,KBM-Flags-RX-Share of Wallet-Prescriptions-7
+RXSOWRX_8,KBM-Flags-RX-Share of Wallet-Prescriptions-8
+RXSOWRX_9,KBM-Flags-RX-Share of Wallet-Prescriptions-9-Least Likely
+RXSUPP,KBM-Decile-RX - Supplement Usage
+RXSUPP_0,KBM-Flags-RX-Supplement Usage-0-Most Likely
+RXSUPP_1,KBM-Flags-RX-Supplement Usage-1
+RXSUPP_2,KBM-Flags-RX-Supplement Usage-2
+RXSUPP_3,KBM-Flags-RX-Supplement Usage-3
+RXSUPP_4,KBM-Flags-RX-Supplement Usage-4
+RXSUPP_5,KBM-Flags-RX-Supplement Usage-5
+RXSUPP_6,KBM-Flags-RX-Supplement Usage-6
+RXSUPP_7,KBM-Flags-RX-Supplement Usage-7
+RXSUPP_8,KBM-Flags-RX-Supplement Usage-8
+RXSUPP_9,KBM-Flags-RX-Supplement Usage-9-Least Likely
+MEDIAIDD,KBM-Decile-Media Influence - Digital Display
+MEDIAIDD_0,KBM-Flags-Media Influence-Digital Display-0-Most Likely
+MEDIAIDD_1,KBM-Flags-Media Influence-Digital Display-1
+MEDIAIDD_2,KBM-Flags-Media Influence-Digital Display-2
+MEDIAIDD_3,KBM-Flags-Media Influence-Digital Display-3
+MEDIAIDD_4,KBM-Flags-Media Influence-Digital Display-4
+MEDIAIDD_5,KBM-Flags-Media Influence-Digital Display-5
+MEDIAIDD_6,KBM-Flags-Media Influence-Digital Display-6
+MEDIAIDD_7,KBM-Flags-Media Influence-Digital Display-7
+MEDIAIDD_8,KBM-Flags-Media Influence-Digital Display-8
+MEDIAIDD_9,KBM-Flags-Media Influence-Digital Display-9-Least Likely
+MEDIAIOD,KBM-Decile-Media Influence - Owned Digital
+MEDIAIOD_0,KBM-Flags-Media Influence-Owned Digital-0-Most Likely
+MEDIAIOD_1,KBM-Flags-Media Influence-Owned Digital-1
+MEDIAIOD_2,KBM-Flags-Media Influence-Owned Digital-2
+MEDIAIOD_3,KBM-Flags-Media Influence-Owned Digital-3
+MEDIAIOD_4,KBM-Flags-Media Influence-Owned Digital-4
+MEDIAIOD_5,KBM-Flags-Media Influence-Owned Digital-5
+MEDIAIOD_6,KBM-Flags-Media Influence-Owned Digital-6
+MEDIAIOD_7,KBM-Flags-Media Influence-Owned Digital-7
+MEDIAIOD_8,KBM-Flags-Media Influence-Owned Digital-8
+MEDIAIOD_9,KBM-Flags-Media Influence-Owned Digital-9-Least Likely
+MEDIAISM,KBM-Decile-Media Influence - Social Media
+MEDIAISM_0,KBM-Flags-Media Influence-Social Media-0-Most Likely
+MEDIAISM_1,KBM-Flags-Media Influence-Social Media-1
+MEDIAISM_2,KBM-Flags-Media Influence-Social Media-2
+MEDIAISM_3,KBM-Flags-Media Influence-Social Media-3
+MEDIAISM_4,KBM-Flags-Media Influence-Social Media-4
+MEDIAISM_5,KBM-Flags-Media Influence-Social Media-5
+MEDIAISM_6,KBM-Flags-Media Influence-Social Media-6
+MEDIAISM_7,KBM-Flags-Media Influence-Social Media-7
+MEDIAISM_8,KBM-Flags-Media Influence-Social Media-8
+MEDIAISM_9,KBM-Flags-Media Influence-Social Media-9-Least Likely
+HWFOSL,KBM-Decile-Health & Wellness Shopping - Front of Store Loyalty
+HWFOSL_0,KBM-Flags-Health & Wellness Shopping-Front of Store Loyalty-0-Most Likely
+HWFOSL_1,KBM-Flags-Health & Wellness Shopping-Front of Store Loyalty-1
+HWFOSL_2,KBM-Flags-Health & Wellness Shopping-Front of Store Loyalty-2
+HWFOSL_3,KBM-Flags-Health & Wellness Shopping-Front of Store Loyalty-3
+HWFOSL_4,KBM-Flags-Health & Wellness Shopping-Front of Store Loyalty-4
+HWFOSL_5,KBM-Flags-Health & Wellness Shopping-Front of Store Loyalty-5
+HWFOSL_6,KBM-Flags-Health & Wellness Shopping-Front of Store Loyalty-6
+HWFOSL_7,KBM-Flags-Health & Wellness Shopping-Front of Store Loyalty-7
+HWFOSL_8,KBM-Flags-Health & Wellness Shopping-Front of Store Loyalty-8
+HWFOSL_9,KBM-Flags-Health & Wellness Shopping-Front of Store Loyalty-9-Least Likely
+HWFOSS,KBM-Decile-Health & Wellness Shopping - Front of Store Spenders
+HWFOSS_0,KBM-Flags-Health & Wellness Shopping-Front of Store Spenders-0-Most Likely
+HWFOSS_1,KBM-Flags-Health & Wellness Shopping-Front of Store Spenders-1
+HWFOSS_2,KBM-Flags-Health & Wellness Shopping-Front of Store Spenders-2
+HWFOSS_3,KBM-Flags-Health & Wellness Shopping-Front of Store Spenders-3
+HWFOSS_4,KBM-Flags-Health & Wellness Shopping-Front of Store Spenders-4
+HWFOSS_5,KBM-Flags-Health & Wellness Shopping-Front of Store Spenders-5
+HWFOSS_6,KBM-Flags-Health & Wellness Shopping-Front of Store Spenders-6
+HWFOSS_7,KBM-Flags-Health & Wellness Shopping-Front of Store Spenders-7
+HWFOSS_8,KBM-Flags-Health & Wellness Shopping-Front of Store Spenders-8
+HWFOSS_9,KBM-Flags-Health & Wellness Shopping-Front of Store Spenders-9-Least Likely
+HWRXLOYL,KBM-Decile-Health & Wellness Shopping - RX Loyalty
+HWRXLOYL_0,KBM-Flags-Health & Wellness Shopping-RX Loyalty-0-Most Likely
+HWRXLOYL_1,KBM-Flags-Health & Wellness Shopping-RX Loyalty-1
+HWRXLOYL_2,KBM-Flags-Health & Wellness Shopping-RX Loyalty-2
+HWRXLOYL_3,KBM-Flags-Health & Wellness Shopping-RX Loyalty-3
+HWRXLOYL_4,KBM-Flags-Health & Wellness Shopping-RX Loyalty-4
+HWRXLOYL_5,KBM-Flags-Health & Wellness Shopping-RX Loyalty-5
+HWRXLOYL_6,KBM-Flags-Health & Wellness Shopping-RX Loyalty-6
+HWRXLOYL_7,KBM-Flags-Health & Wellness Shopping-RX Loyalty-7
+HWRXLOYL_8,KBM-Flags-Health & Wellness Shopping-RX Loyalty-8
+HWRXLOYL_9,KBM-Flags-Health & Wellness Shopping-RX Loyalty-9-Least Likely
+MEDIAIP,KBM-Category-Media Influence Propensity
+MEDIAIP_D,KBM-Flags-Media Influence Propensity-D-Digital
+MEDIAIP_O,KBM-Flags-Media Influence Propensity-O-Owned
+MEDIAIP_S,KBM-Flags-Media Influence Propensity-S-Social
+RXNCDRUG,KBM-Category-RX - Reason for Non-Compilance
+RXNCDRUG_A,KBM-Flags-RX-Reason for Non-Compilance-A-Prefer Alternative
+RXNCDRUG_C,KBM-Flags-RX-Reason for Non-Compilance-C-Cost of Prescription
+RXNCDRUG_D,KBM-Flags-RX-Reason for Non-Compilance-D- Dislike Prescription
+RXNCDRUG_N,KBM-Flags-RX-Reason for Non-Compilance-N- Just Dont
+RXPURCHA,KBM-Category-RX - Purchase Channel
+RXPURCHA_D,KBM-Flags-RX-Purchase Channel-D-Drug Store
+RXPURCHA_G,KBM-Flags-RX-Purchase Channel-G-Grocery Store
+RXPURCHA_M,KBM-Flags-RX-Purchase Channel-M-Mail Order
+RXPURCHA_R,KBM-Flags-RX-Purchase Channel-R-Retail Store
+INVCASH,KBM-Decile-Investment Products - Cash
+INVCASH_0,KBM-Flags-Investment Products-Cash-0-Most Likely
+INVCASH_1,KBM-Flags-Investment Products-Cash-1
+INVCASH_2,KBM-Flags-Investment Products-Cash-2
+INVCASH_3,KBM-Flags-Investment Products-Cash-3
+INVCASH_4,KBM-Flags-Investment Products-Cash-4
+INVCASH_5,KBM-Flags-Investment Products-Cash-5
+INVCASH_6,KBM-Flags-Investment Products-Cash-6
+INVCASH_7,KBM-Flags-Investment Products-Cash-7
+INVCASH_8,KBM-Flags-Investment Products-Cash-8
+INVCASH_9,KBM-Flags-Investment Products-Cash-9-Least Likely
+INVEQ,KBM-Decile-Investment Products - Equities
+INVEQ_0,KBM-Flags-Investment Products-Equities-0-Most Likely
+INVEQ_1,KBM-Flags-Investment Products-Equities-1
+INVEQ_2,KBM-Flags-Investment Products-Equities-2
+INVEQ_3,KBM-Flags-Investment Products-Equities-3
+INVEQ_4,KBM-Flags-Investment Products-Equities-4
+INVEQ_5,KBM-Flags-Investment Products-Equities-5
+INVEQ_6,KBM-Flags-Investment Products-Equities-6
+INVEQ_7,KBM-Flags-Investment Products-Equities-7
+INVEQ_8,KBM-Flags-Investment Products-Equities-8
+INVEQ_9,KBM-Flags-Investment Products-Equities-9-Least Likely
+INVEXPL,KBM-Category-Investor Experience Level
+INVEXPL_B,KBM-Flags-Investor Experience Level-B-Beginner
+INVEXPL_E,KBM-Flags-Investor Experience Level-E-Experienced
+INVEXPL_M,KBM-Flags-Investor Experience Level-M-Moderate
+INVINSUR,KBM-Decile-Investment Products - Insurance
+INVINSUR_0,KBM-Flags-Investment Products-Insurance-0-Most Likely
+INVINSUR_1,KBM-Flags-Investment Products-Insurance-1
+INVINSUR_2,KBM-Flags-Investment Products-Insurance-2
+INVINSUR_3,KBM-Flags-Investment Products-Insurance-3
+INVINSUR_4,KBM-Flags-Investment Products-Insurance-4
+INVINSUR_5,KBM-Flags-Investment Products-Insurance-5
+INVINSUR_6,KBM-Flags-Investment Products-Insurance-6
+INVINSUR_7,KBM-Flags-Investment Products-Insurance-7
+INVINSUR_8,KBM-Flags-Investment Products-Insurance-8
+INVINSUR_9,KBM-Flags-Investment Products-Insurance-9-Least Likely
+INVPROF,KBM-Decile-Investor Channel - Professional
+INVPROF_0,KBM-Flags-Investor Channel-Professional-0-Most Likely
+INVPROF_1,KBM-Flags-Investor Channel-Professional-1
+INVPROF_2,KBM-Flags-Investor Channel-Professional-2
+INVPROF_3,KBM-Flags-Investor Channel-Professional-3
+INVPROF_4,KBM-Flags-Investor Channel-Professional-4
+INVPROF_5,KBM-Flags-Investor Channel-Professional-5
+INVPROF_6,KBM-Flags-Investor Channel-Professional-6
+INVPROF_7,KBM-Flags-Investor Channel-Professional-7
+INVPROF_8,KBM-Flags-Investor Channel-Professional-8
+INVPROF_9,KBM-Flags-Investor Channel-Professional-9-Least Likely
+INVRECOM,KBM-Decile-Investment Products - Real Estate/Commodities
+INVRECOM_0,KBM-Flags-Investment Products-Real Estate/Commodities-0-Most Likely
+INVRECOM_1,KBM-Flags-Investment Products-Real Estate/Commodities-1
+INVRECOM_2,KBM-Flags-Investment Products-Real Estate/Commodities-2
+INVRECOM_3,KBM-Flags-Investment Products-Real Estate/Commodities-3
+INVRECOM_4,KBM-Flags-Investment Products-Real Estate/Commodities-4
+INVRECOM_5,KBM-Flags-Investment Products-Real Estate/Commodities-5
+INVRECOM_6,KBM-Flags-Investment Products-Real Estate/Commodities-6
+INVRECOM_7,KBM-Flags-Investment Products-Real Estate/Commodities-7
+INVRECOM_8,KBM-Flags-Investment Products-Real Estate/Commodities-8
+INVRECOM_9,KBM-Flags-Investment Products-Real Estate/Commodities-9-Least Likely
+INVRETIR,KBM-Decile-Investment Products - Retirement
+INVRETIR_0,KBM-Flags-Investment Products-Retirement-0-Most Likely
+INVRETIR_1,KBM-Flags-Investment Products-Retirement-1
+INVRETIR_2,KBM-Flags-Investment Products-Retirement-2
+INVRETIR_3,KBM-Flags-Investment Products-Retirement-3
+INVRETIR_4,KBM-Flags-Investment Products-Retirement-4
+INVRETIR_5,KBM-Flags-Investment Products-Retirement-5
+INVRETIR_6,KBM-Flags-Investment Products-Retirement-6
+INVRETIR_7,KBM-Flags-Investment Products-Retirement-7
+INVRETIR_8,KBM-Flags-Investment Products-Retirement-8
+INVRETIR_9,KBM-Flags-Investment Products-Retirement-9-Least Likely
+INVRISKT,KBM-Category-Investment Risk Tolerance
+INVRISKT_H,KBM-Flags-Investment Risk Tolerance-H-High
+INVRISKT_L,KBM-Flags-Investment Risk Tolerance-L-Low
+INVRISKT_M,KBM-Flags-Investment Risk Tolerance-M-Moderate
+INVSELFD,KBM-Decile-Investor Channel - Self Directed
+INVSELFD_0,KBM-Flags-Investor Channel-Self Directed-0-Most Likely
+INVSELFD_1,KBM-Flags-Investor Channel-Self Directed-1
+INVSELFD_2,KBM-Flags-Investor Channel-Self Directed-2
+INVSELFD_3,KBM-Flags-Investor Channel-Self Directed-3
+INVSELFD_4,KBM-Flags-Investor Channel-Self Directed-4
+INVSELFD_5,KBM-Flags-Investor Channel-Self Directed-5
+INVSELFD_6,KBM-Flags-Investor Channel-Self Directed-6
+INVSELFD_7,KBM-Flags-Investor Channel-Self Directed-7
+INVSELFD_8,KBM-Flags-Investor Channel-Self Directed-8
+INVSELFD_9,KBM-Flags-Investor Channel-Self Directed-9-Least Likely
+LTMEDICR,KBM-Decile-Late to Medicare Index
+LTMEDICR_0,KBM-Flags-Late to Medicare Index-0-Most Likely
+LTMEDICR_1,KBM-Flags-Late to Medicare Index-1
+LTMEDICR_2,KBM-Flags-Late to Medicare Index-2
+LTMEDICR_3,KBM-Flags-Late to Medicare Index-3
+LTMEDICR_4,KBM-Flags-Late to Medicare Index-4
+LTMEDICR_5,KBM-Flags-Late to Medicare Index-5
+LTMEDICR_6,KBM-Flags-Late to Medicare Index-6
+LTMEDICR_7,KBM-Flags-Late to Medicare Index-7
+LTMEDICR_8,KBM-Flags-Late to Medicare Index-8
+LTMEDICR_9,KBM-Flags-Late to Medicare Index-9-Least Likely
+SAVERSLT,KBM-Decile-Savers - Long Term
+SAVERSLT_0,KBM-Flags-Savers-Long Term-0-Most Likely
+SAVERSLT_1,KBM-Flags-Savers-Long Term-1
+SAVERSLT_2,KBM-Flags-Savers-Long Term-2
+SAVERSLT_3,KBM-Flags-Savers-Long Term-3
+SAVERSLT_4,KBM-Flags-Savers-Long Term-4
+SAVERSLT_5,KBM-Flags-Savers-Long Term-5
+SAVERSLT_6,KBM-Flags-Savers-Long Term-6
+SAVERSLT_7,KBM-Flags-Savers-Long Term-7
+SAVERSLT_8,KBM-Flags-Savers-Long Term-8
+SAVERSLT_9,KBM-Flags-Savers-Long Term-9-Least Likely
+SAVERSST,KBM-Decile-Savers - Short Term
+SAVERSST_0,KBM-Flags-Savers-Short Term-0-Most Likely
+SAVERSST_1,KBM-Flags-Savers-Short Term-1
+SAVERSST_2,KBM-Flags-Savers-Short Term-2
+SAVERSST_3,KBM-Flags-Savers-Short Term-3
+SAVERSST_4,KBM-Flags-Savers-Short Term-4
+SAVERSST_5,KBM-Flags-Savers-Short Term-5
+SAVERSST_6,KBM-Flags-Savers-Short Term-6
+SAVERSST_7,KBM-Flags-Savers-Short Term-7
+SAVERSST_8,KBM-Flags-Savers-Short Term-8
+SAVERSST_9,KBM-Flags-Savers-Short Term-9-Least Likely
+HIEMPINS,KBM-Decile-Employer Sponsored Health Insurance Index
+HIEMPINS_0,KBM-Flags-Employer Sponsored Health Insurance Index-0-Most Likely
+HIEMPINS_1,KBM-Flags-Employer Sponsored Health Insurance Index-1
+HIEMPINS_2,KBM-Flags-Employer Sponsored Health Insurance Index-2
+HIEMPINS_3,KBM-Flags-Employer Sponsored Health Insurance Index-3
+HIEMPINS_4,KBM-Flags-Employer Sponsored Health Insurance Index-4
+HIEMPINS_5,KBM-Flags-Employer Sponsored Health Insurance Index-5
+HIEMPINS_6,KBM-Flags-Employer Sponsored Health Insurance Index-6
+HIEMPINS_7,KBM-Flags-Employer Sponsored Health Insurance Index-7
+HIEMPINS_8,KBM-Flags-Employer Sponsored Health Insurance Index-8
+HIEMPINS_9,KBM-Flags-Employer Sponsored Health Insurance Index-9-Least Likely
+HLTHUNIN,KBM-Number-Healthcare Uninsured Estimate Percent
+EIPHARMS,KBM-Decile-Engagement Index - Pharmacists
+EIPHARMS_0,KBM-Flags-Engagement Index-Pharmacists-0-Most Likely
+EIPHARMS_1,KBM-Flags-Engagement Index-Pharmacists-1
+EIPHARMS_2,KBM-Flags-Engagement Index-Pharmacists-2
+EIPHARMS_3,KBM-Flags-Engagement Index-Pharmacists-3
+EIPHARMS_4,KBM-Flags-Engagement Index-Pharmacists-4
+EIPHARMS_5,KBM-Flags-Engagement Index-Pharmacists-5
+EIPHARMS_6,KBM-Flags-Engagement Index-Pharmacists-6
+EIPHARMS_7,KBM-Flags-Engagement Index-Pharmacists-7
+EIPHARMS_8,KBM-Flags-Engagement Index-Pharmacists-8
+EIPHARMS_9,KBM-Flags-Engagement Index-Pharmacists-9-Least Likely
+ESTDEB30,KBM-Num-Estimated Household Debt Level
+ESTDEB30_A,KBM-Flags-Estimated Household Debt Level = A - $0
+ESTDEB30_B,"KBM-Flags-Estimated Household Debt Level = B - $1 - $1,499"
+ESTDEB30_C,"KBM-Flags-Estimated Household Debt Level = C - $1,500 - $3,499"
+ESTDEB30_D,"KBM-Flags-Estimated Household Debt Level = D - $3,500 - $7,499"
+ESTDEB30_E,"KBM-Flags-Estimated Household Debt Level = E - $7,500 - $14,999"
+ESTDEB30_F,"KBM-Flags-Estimated Household Debt Level = F - $15,000 - $24,999"
+ESTDEB30_G,"KBM-Flags-Estimated Household Debt Level = G - $25,000 - $39,999"
+ESTDEB30_H,"KBM-Flags-Estimated Household Debt Level = H - $40,000 - $74,999"
+ESTDEB30_I,"KBM-Flags-Estimated Household Debt Level = I - $75,000+"
+ESTDEB30_rc,KBM-Category - Estimated Household Debt Level - Recoded
+AIRCRAFT_Y,KBM-Flag-Indicates the Individual owns an aircraft registered in the United States
+BANK_Y,KBM-Flag-Indicates an Individual within the household has filed for bankruptcy
+BNKI_Y,KBM-Flag-Indicates an Individual has filed for bankruptcy
+CD,KBM-Category-Congressional District
+DaysSinceLastBankcardIss,HUM-NUM-Number of days since last bankcard issued date
+DaysSinceLastBankruptcy,HUM-NUM-Number of days since last bankruptcy filing date
+DESTGRP,KBM-Category-Organizes the 45 Digital Destinations to provide a higher level view of an Individuals online destinations and behaviors
+DESTGRP_01,KBM-Flag-Destgrp = 01 - Group 1 - Low Cost Social Networking
+DESTGRP_02,KBM-Flag-Destgrp = 02 - Group 2 - Career-Oriented Online Shoppers
+DESTGRP_03,KBM-Flag-Destgrp = 03 - Group 3 - Social Extremes
+DESTGRP_04,KBM-Flag-Destgrp = 04 - Group 4 - Teens at the Stick
+DESTGRP_05,KBM-Flag-Destgrp = 05 - Group 5 - Well-Read Executives
+DESTGRP_06,KBM-Flag-Destgrp = 06 - Group 6 - Online in the Hearth Room
+DESTGRP_07,KBM-Flag-Destgrp = 07 - Group 7 - Middle-Aged with Hobbies
+DESTGRP_08,KBM-Flag-Destgrp = 08 - Group 8 - Social Network Games & Shopping
+DESTGRP_09,KBM-Flag-Destgrp = 09 - Group 9 - Multi-Dimensional Youngsters
+DESTGRP_10,KBM-Flag-Destgrp = 10 - Group 10 - We Dont Shop Online
+DESTGRP_11,KBM-Flag-Destgrp = 11 - Group 11 - Shopping Seniors
+DESTGRP_12,KBM-Flag-Destgrp = 12 - Group 12 - Retiring Rich Online
+DESTGRP_13,KBM-Flag-Destgrp = 13 - Group 13 - White Collar Commerce
+DESTGRP_14,KBM-Flag-Destgrp = 14 - Group 14 - Enjoying Retirement
+DESTGRP_15,KBM-Flag-Destgrp = 15 - Group 15 - At Home in Jammies
+DEVICE,KBM-Decile-Model Predicts how evolved a household is digitally and their attitudes towards adopting other services and devices
+DEVICE_01,KBM-Flag-Device = 01 - Struggling Suburban Old-Fashioned
+DEVICE_02,KBM-Flag-Device = 02 - Aspiring Urban Early Adopters
+DEVICE_03,KBM-Flag-Device = 03 - Comfortable Rural Traditional
+DEVICE_04,KBM-Flag-Device = 04 - Struggling Rural Tried & True
+DEVICE_05,KBM-Flag-Device = 05 - Comfortable Rural Late Adopters
+DEVICE_06,KBM-Flag-Device = 06 - Comfortable Urban Adventurers
+DEVICE_07,KBM-Flag-Device = 07 - Comfortable Suburban Tried & True
+DEVICE_08,KBM-Flag-Device = 08 - Aspiring Rural Early Adopters
+DEVICE_09,KBM-Flag-Device = 09 - Struggling Rural Minimalists
+DEVICE_10,KBM-Flag-Device = 10 - Aspiring Suburban Early Adopters
+DEVICE_11,KBM-Flag-Device = 11 - Comfortable Rural Tried & True
+DEVICE_12,KBM-Flag-Device = 12 - Comfortable Suburban Adventurers
+DEVICE_13,KBM-Flag-Device = 13 - Wealthy Urban Early Adopters
+DEVICE_14,KBM-Flag-Device = 14 - Wealthy Urban Tried & True
+DEVICE_15,KBM-Flag-Device = 15 - Comfortable Urban Early Adopters
+DEVICE_16,KBM-Flag-Device = 16 - Comfortable Urban Second Wave
+DEVICE_17,KBM-Flag-Device = 17 - Struggling Rural Traditional
+DEVICE_18,KBM-Flag-Device = 18 - Affluent Urban Tried & True
+DIANIMAL_P,KBM-Flag-Presence of Donor - Animal - Probable
+DIANIMAL_Y,KBM-Flag-Presence of Donor - Animal - Yes
+DIARTS_P,KBM-Flag-Presence of Donor - Arts - Probable
+DIARTS_Y,KBM-Flag-Presence of Donor - Arts - Yes
+DICHLD_P,KBM-Flag-Presence of Donor - Children - Probable
+DICHLD_Y,KBM-Flag-Presence of Donor - Children - Yes
+DICNSRV_P,KBM-Flag-Presence of Donor - Conservative - Probable
+DICNSRV_Y,KBM-Flag-Presence of Donor - Conservative - Yes
+DIENV_P,KBM-Flag-Presence of Donor - Environment - Probable
+DIENV_Y,KBM-Flag-Presence of Donor - Environment - Yes
+DIHLTH_P,KBM-Flag-Presence of Donor - Health - Probable
+DIHLTH_Y,KBM-Flag-Presence of Donor - Health - Yes
+DIHUMN_P,KBM-Flag-Presence of Donor - Humanitarian - Probable
+DIHUMN_Y,KBM-Flag-Presence of Donor - Humanitarian - Yes
+DILIB_P,KBM-Flag-Presence of Donor - Liberal - Probable
+DILIB_Y,KBM-Flag-Presence of Donor - Liberal - Yes
+DIREL_P,KBM-Flag-Presence of Donor - Religious - Probable
+DIREL_Y,KBM-Flag-Presence of Donor - Religious - Yes
+DIVET_P,KBM-Flag-Presence of Donor - Veterans - Probable
+DIVET_Y,KBM-Flag-Presence of Donor - Veterans - Yes
+DUALELIG,KBM-Decile-Model Predicts an Individual aged 64 + to be eligible for both Medicare and Medicaid Individuals with ages under 64 will be assigned a value of 9
+DUALELIG_0,KBM-Flag-Dual Eligible Index = 0 - Most Likely
+DUALELIG_1,KBM-Flag-Dual Eligible Index = 1
+DUALELIG_2,KBM-Flag-Dual Eligible Index = 2
+DUALELIG_3,KBM-Flag-Dual Eligible Index = 3
+DUALELIG_4,KBM-Flag-Dual Eligible Index = 4
+DUALELIG_5,KBM-Flag-Dual Eligible Index = 5
+DUALELIG_6,KBM-Flag-Dual Eligible Index = 6
+DUALELIG_7,KBM-Flag-Dual Eligible Index = 7
+DUALELIG_8,KBM-Flag-Dual Eligible Index = 8
+DUALELIG_9,KBM-Flag-Dual Eligible Index = 9 - Least Likely
+EDUC_Y,KBM-Flag-Seasonal Education Address
+HIDIRPAY,KBM-Decile-Model Predicts Individuals aged 18 - 64 likely to purchase private health insurance directly from the insurance provider (not their employer)
+HIDIRPAY_0,KBM-Flag-Health Insurance Direct Pay Index = 0 - Most Likely
+HIDIRPAY_1,KBM-Flag-Health Insurance Direct Pay Index = 1
+HIDIRPAY_2,KBM-Flag-Health Insurance Direct Pay Index = 2
+HIDIRPAY_3,KBM-Flag-Health Insurance Direct Pay Index = 3
+HIDIRPAY_4,KBM-Flag-Health Insurance Direct Pay Index = 4
+HIDIRPAY_5,KBM-Flag-Health Insurance Direct Pay Index = 5
+HIDIRPAY_6,KBM-Flag-Health Insurance Direct Pay Index = 6
+HIDIRPAY_7,KBM-Flag-Health Insurance Direct Pay Index = 7
+HIDIRPAY_8,KBM-Flag-Health Insurance Direct Pay Index = 8
+HIDIRPAY_9,KBM-Flag-Health Insurance Direct Pay Index = 9 - Least Likely
+IC_Y,KBM-Flag-Survey-Collectibles
+ICAT_Y,KBM-Flag-Survey-Own A Cat
+ICCO_Y,KBM-Flag-Survey-Collectibles - Coins
+ICDO_Y,KBM-Flag-Survey-Collectibles - Dolls
+ICFA_Y,KBM-Flag-Survey-Collectibles - Fine Arts
+ICFI_Y,KBM-Flag-Survey-Collectibles - Figurines
+ICOT_Y,KBM-Flag-Survey-Collectibles - Other Types of Items
+ICPL_Y,KBM-Flag-Survey-Collectibles - Plates
+ICSP_Y,KBM-Flag-Survey-Collectibles - Sports Memorabilia
+ICST_Y,KBM-Flag-Survey-Collectibles - Stamps
+IDAC_Y,KBM-Flag-Survey-Donor - Arts/Cultural
+IDAN_Y,KBM-Flag-Survey-Donor - Animal
+IDCH_Y,KBM-Flag-Survey-Donor - Children
+IDEN_Y,KBM-Flag-Survey-Donor - Environment or Wildlife
+IDHE_Y,KBM-Flag-Survey-Donor - Health
+IDLOW_Y,KBM-Flag-Survey-Diet Concerns - Low-Fat/Healthy Foods
+IDNAT_Y,KBM-Flag-Survey-Diet Concerns - Eat Natural/Herbal/Organic
+IDNR_Y,KBM-Flag-Survey-Donor
+IDOG_Y,KBM-Flag-Survey-Own A Dog
+IDOT_Y,KBM-Flag-Survey-Donor - Other Non Specific Causes
+IDPC_Y,KBM-Flag-Survey-Donor - Political/Conservative Causes
+IDPL_Y,KBM-Flag-Survey-Donor - Political/Liberal Causes
+IDRE_Y,KBM-Flag-Survey-Donor - Religious Causes
+IDVE_Y,KBM-Flag-Survey-Donor - Veterans Causes
+IDVIT_Y,KBM-Flag-Survey-Diet Concerns - Vitamin Supplements
+IDWGHT_Y,KBM-Flag-Survey-Diet Concerns - Lose Weight
+IGC_Y,KBM-Flag-Survey-Grandchildren
+IHBA_Y,KBM-Flag-Survey-Hobby - Baking
+IHBEAD_Y,KBM-Flag-Survey-Hobby - Beading/Jewelry Making
+IHBI_Y,KBM-Flag-Survey-Hobby - Bird Watching/Feeding
+IHCA_Y,KBM-Flag-Survey-Hobby - Casino Gambling
+IHCAC_Y,KBM-Flag-Survey-Hobby - Career advancement courses
+IHCF_Y,KBM-Flag-Survey-Hobby - Crafts
+IHCG_Y,KBM-Flag-Survey-Hobby - Gourmet Cooking
+IHCI_Y,KBM-Flag-Survey-Hobby - Cigar Smoking
+IHCLF_Y,KBM-Flag-Survey-Hobby - Cooking-low fat
+IHCO_Y,KBM-Flag-Survey-Hobby - Cooking
+IHCR_Y,KBM-Flag-Survey-Hobby - Cars or Car Repair
+IHDIY_Y,KBM-Flag-Survey-Hobby - Do-it-yourself
+IHEX_Y,KBM-Flag-Survey-Hobby - Exercise 3 or more times per week
+IHGA_Y,KBM-Flag-Survey-Hobby - Gardening
+IHGF_Y,KBM-Flag-Survey-Hobby - Gardening - Flowers
+IHGO_Y,KBM-Flag-Survey-Hobby - Gardening - Organic
+IHGREEN_Y,KBM-Flag-Survey-Hobby - Green
+IHGV_Y,KBM-Flag-Survey-Hobby - Gardening - Vegetables
+IHH_Y,KBM-Flag-Survey-Household Level Match
+IHHI_Y,KBM-Flag-Survey-Hobby - Home Improvement or Repair
+IHHS_Y,KBM-Flag-Survey-Hobby - Home Study Courses
+IHIGHSCL_Y,KBM-Flag-Survey-High School Graduate
+IHKN_Y,KBM-Flag-Survey-Hobby - Knitting or Needlework
+IHLO_Y,KBM-Flag-Survey-Hobby - Lotteries or Sweepstakes
+IHNETWRK_Y,KBM-Flag-Survey-Hobby - Social Networking
+IHORSE_Y,KBM-Flag-Survey-Own A Horse
+IHPH_Y,KBM-Flag-Survey-Hobby - Photography
+IHQU_Y,KBM-Flag-Survey-Hobby - Quilting
+IHSCRAP_Y,KBM-Flag-Survey-Hobby - Scrap Booking
+IHSE_Y,KBM-Flag-Survey-Hobby - Self-Improvement Courses
+IHSPTWEL_Y,KBM-Flag-Survey-Hobby - Spirituality & Wellness
+IHSW_Y,KBM-Flag-Survey-Hobby - Sewing
+IHTH_Y,KBM-Flag-Survey-Hobby - Theater or Performing Arts
+IHWI_Y,KBM-Flag-Survey-Hobby - Wine Appreciation
+IHWO_Y,KBM-Flag-Survey-Hobby - Wood Working
+IIND_Y,KBM-Flag-Survey-Individual Level Match
+IMALT_Y,KBM-Flag-Survey-Music - Alternative
+IMBBND_Y,KBM-Flag-Survey-Music - Big band or swing
+IMBM_Y,KBM-Flag-Survey-Mail Order - Books/Magazines
+IMBO_Y,KBM-Flag-Survey-Mail Order - Books
+IMCH_Y,KBM-Flag-Survey-Mail Order - Childrens Products
+IMCL_Y,KBM-Flag-Survey-Mail Order - Clothing
+IMCO_Y,KBM-Flag-Survey-Mail Order - Cosmetics
+IMCS_Y,KBM-Flag-Survey-Music - Classical
+IMCU_Y,KBM-Flag-Survey-Music - Country
+IMDV_Y,KBM-Flag-Survey-Mail Order - DVD
+IMFO_Y,KBM-Flag-Survey-Mail Order - Food Products
+IMGI_Y,KBM-Flag-Survey-Mail Order - Gifts
+IMGO_Y,KBM-Flag-Survey-Music - Christian or Gospel
+IMHO_Y,KBM-Flag-Survey-Mail Order - Home Furnishings
+IMJA_Y,KBM-Flag-Survey-Music - Jazz
+IMJE_Y,KBM-Flag-Survey-Mail Order - Jewelry
+IMMA_Y,KBM-Flag-Survey-Mail Order - Magazines
+IMOB_M,KBM-Flag-Survey - Mail Order Buyer = M - Multiple
+IMOB_S,KBM-Flag-Survey - Mail Order Buyer = S - Single
+IMOR_Y,KBM-Flag-Survey-Music - Other
+IMOT_Y,KBM-Flag-Survey-Mail Order - Other
+IMPS_Y,KBM-Flag-Survey-Mail Order - Plus Size Clothing
+IMRH_Y,KBM-Flag-Survey-Music - Rhythm and Blues
+IMRO_Y,KBM-Flag-Survey-Music - Rock n Roll
+IMSO_Y,KBM-Flag-Survey-Music - Soft Rock
+IN401K_Y,KBM-Flag-Survey-Investments - 401K
+INCD_Y,KBM-Flag-Survey-Investments - CD
+INIRA_Y,KBM-Flag-Survey-Investments - IRA
+INLI_Y,KBM-Flag-Survey-Investments - Life Insurance
+INMEDI_Y,KBM-Flag-Survey-Investments - Medicare Coverage
+INMU_Y,KBM-Flag-Survey-Investments - Mutual Funds
+INNOMEDI_Y,KBM-Flag-Survey-Investments - No Medicare Coverage
+INOT_Y,KBM-Flag-Survey-Investments - Other
+INRE_Y,KBM-Flag-Survey-Investments - Real Estate
+INSB_Y,KBM-Flag-Survey-Investments - Stocks or Bonds
+INSHOP_Y,KBM-Flag-Buyer - Catalog - Online Shopper
+INTSTMED_Y,KBM-Flag-Survey-Investments - Interested in Medicare Coverage
+INVE_Y,KBM-Flag-Survey-Investments
+INVESTOR_Y,KBM-Flag-Real Estate Investor
+IOAPPLE_Y,KBM-Flag-Survey-Electronics - Apple Device
+IOATV_Y,KBM-Flag-Survey-Own an All Terrain Vehicle
+IOC_Y,KBM-Flag-Survey-Own A Computer
+IOCABLE_Y,KBM-Flag-Survey-Electronics - Cable TV
+IOCD_Y,KBM-Flag-Survey-Own a CD/DVD Player
+IOCE_Y,KBM-Flag-Survey-Own a Cellular Phone
+IODIGITL_Y,KBM-Flag-Survey-Own A Digital/Video Camera
+IODOCTOR_Y,KBM-Flag-Survey-Occupation - Doctor
+IODVDPLR_Y,KBM-Flag-Survey-Electronics - HD DVD Player
+IODVR_Y,KBM-Flag-Survey-Electronics - DVR
+IOELEOT_Y,KBM-Flag-Survey-Electronics Other
+IOFULL_Y,KBM-Flag-Survey-Occupation - Full Time
+IOGPS_Y,KBM-Flag-Survey-Electronics - GPS
+IOHDTV_Y,KBM-Flag-Survey-Electronics - HDTV
+IOHISPED_Y,KBM-Flag-Survey-Electronics - High Speed Internet
+IOHMTHR_Y,KBM-Flag-Survey-Electronics - Home Theater System
+IOMO_Y,KBM-Flag-Survey-Own a Motorcycle
+IONURSE_Y,KBM-Flag-Survey-Occupation - Nurse
+IOPART_Y,KBM-Flag-Survey-Occupation - Part Time
+IORV_Y,KBM-Flag-Survey-Own An RV
+IOSATELL_Y,KBM-Flag-Survey-Electronics - Satellite TV
+IOSATRAD_Y,KBM-Flag-Survey-Electronics - Satellite Radio
+IOSMART_Y,KBM-Flag-Survey-Own a Smart Phone
+IOSW_Y,KBM-Flag-Survey-Own a Swimming Pool
+IOTEACHR_Y,KBM-Flag-Survey-Occupation - Teacher
+IOVIDGAM_Y,KBM-Flag-Survey-Electronics - Video Game Systems
+IPBEAUTY_Y,KBM-Flag-Survey-Purchase - Beauty Products
+IPCLUB_Y,KBM-Flag-Survey-Purchase - Club Stores
+IPCOUPON_Y,KBM-Flag-Survey-Purchase - Uses Coupons
+IPDECOR_Y,KBM-Flag-Survey-Purchase - Home Decorating
+IPFFOOD_Y,KBM-Flag-Survey-Purchase - Fast Foods
+IPSPCBTY_Y,KBM-Flag-Survey-Purchase - Specialty Beauty Products
+IRAS_Y,KBM-Flag-Survey-Reading - Astrology
+IRBEST_Y,KBM-Flag-Survey-Reading - Best Sellers
+IRBF_Y,KBM-Flag-Survey-Reading - Best Selling Fiction
+IRBI_Y,KBM-Flag-Survey-Reading - Bible or Devotional
+IRBKCLUB_Y,KBM-Flag-Survey-Reading - Book Club
+IRBT_Y,KBM-Flag-Survey-Reading - Books on Tape
+IRCH_Y,KBM-Flag-Survey-Reading - Childrens
+IRCK_Y,KBM-Flag-Survey-Reading - Cooking or Culinary
+IRCL_Y,KBM-Flag-Survey-Reading - Country Lifestyle
+IRCO_Y,KBM-Flag-Survey-Reading - Computer
+IRCOMICS_Y,KBM-Flag-Survey-Reading - Comics
+IRDEBIT_Y,KBM-Flag-Survey-Credit Cards - ATM/Debit
+IREA_Y,KBM-Flag-Survey-Likes To Read
+IRFA_Y,KBM-Flag-Survey-Reading - Fashion
+IRFINAN_Y,KBM-Flag-Survey-Reading - Financial
+IRHI_Y,KBM-Flag-Survey-Reading - History
+IRHMGRDN_Y,KBM-Flag-Survey-Reading - Home & Garden
+IRIN_Y,KBM-Flag-Survey-Reading - Interior Decorating
+IRMAGAZN_Y,KBM-Flag-Survey-Reading - Magazines
+IRME_Y,KBM-Flag-Survey-Reading - Medical or Health
+IRMI_Y,KBM-Flag-Survey-Reading - Military
+IRMY_Y,KBM-Flag-Survey-Reading - Mystery
+IRNA_Y,KBM-Flag-Survey-Reading - Natural Health Remedies
+IRPE_Y,KBM-Flag-Survey-Reading - People or Entertainment
+IRRO_Y,KBM-Flag-Survey-Reading - Romance
+IRSELF_Y,KBM-Flag-Survey-Reading - Self-Improvement
+IRSF_Y,KBM-Flag-Survey-Reading - Science Fiction
+IRSP_Y,KBM-Flag-Survey-Reading - Sports
+IRST_Y,KBM-Flag-Survey-Reading - Science or Technology
+IRTHRLL_Y,KBM-Flag-Survey-Reading - Thriller or Suspense
+IRTRLENT_Y,KBM-Flag-Survey-Reading - Travel & Entertainment
+IRWO_Y,KBM-Flag-Survey-Reading - World News or Politics
+ISBB_Y,KBM-Flag-Survey-Sporting - Baseball
+ISBK_Y,KBM-Flag-Survey-Sporting - Basketball
+ISBO_Y,KBM-Flag-Survey-Sporting - Boating or Sailing
+ISBY_Y,KBM-Flag-Survey-Sporting - Biking
+ISCA_Y,KBM-Flag-Survey-Sporting - Camping or Hiking
+ISDATEON_D,KBM-HUM-Date-Indicates the recency of the online consumer survey
+ISDT_D,KBM-HUM-Date-Indicates the recency of the consumer survey
+ISEXTREM_Y,KBM-Flag-Survey-Sporting - Extreme Sports
+ISFI_Y,KBM-Flag-Survey-Sporting - Fitness
+ISFO_Y,KBM-Flag-Survey-Sporting - Football
+ISFS_Y,KBM-Flag-Survey-Sporting - Fishing
+ISGO_Y,KBM-Flag-Survey-Sporting - Golf
+ISHO_Y,KBM-Flag-Survey-Sporting - Hockey
+ISHU_Y,KBM-Flag-Survey-Sporting - Hunting
+ISHUM_Y,KBM-Flag-Survey-Donor - Humanitarian or World Relief
+ISMTRCRS_Y,KBM-Flag-Survey-Sporting - Motocross
+ISNA_Y,KBM-Flag-Survey-Sporting - NASCAR
+ISOT_Y,KBM-Flag-Survey-Sporting - Other
+ISPO_Y,KBM-Flag-Survey-Sporting Interests
+ISROLLER_Y,KBM-Flag-Survey-Sporting - Rollerblading
+ISRU_Y,KBM-Flag-Survey-Sporting - Running
+ISSC_Y,KBM-Flag-Survey-Sporting - Scuba
+ISSKATE_Y,KBM-Flag-Survey-Sporting - Skateboarding
+ISSN_Y,KBM-Flag-Survey-Sporting - Snow Skiing
+ISSNWBRD_Y,KBM-Flag-Survey-Sporting - Snowboarding
+ISTE_Y,KBM-Flag-Survey-Sporting - Tennis
+ISWA_Y,KBM-Flag-Survey-Sporting - Walking
+ISWL_Y,KBM-Flag-Survey-Sporting - Weight Lifting
+ITBI_Y,KBM-Flag-Survey-Travel - Business International
+ITBU_Y,KBM-Flag-Survey-Travel - Business USA
+ITCV_Y,KBM-Flag-Survey-Travel - Casino Vacations
+ITFF_Y,KBM-Flag-Survey-Travel - Frequent Flyers
+ITFV_Y,KBM-Flag-Survey-Travel - Family Vacations
+ITPI_Y,KBM-Flag-Survey-Travel - Personal International
+ITPU_Y,KBM-Flag-Survey-Travel - Personal USA
+ITRV_Y,KBM-Flag-Survey-Travel - RV
+ITTIME_Y,KBM-Flag-Survey-Travel - Timeshare
+IVCR_Y,KBM-Flag-Survey-Travel - Vacation Cruises
+IVET_Y,KBM-Flag-Survey-Veteran in Household
+IVPARKS_Y,KBM-Flag-Survey-Travel - Attractions/Theme Parks
+ONLINE1,KBM-Category-Model Predicts an Individuals digital activity by their online destinations and behaviors
+ONLINE1_01,KBM-Flag-Online = 01 - Well-Read Career Online Shoppers
+ONLINE1_02,KBM-Flag-Online = 02 - Retired Executive
+ONLINE1_03,KBM-Flag-Online = 03 - Picture Perfect
+ONLINE1_04,KBM-Flag-Online = 04 - Equal Opportunity Social Networkers
+ONLINE1_05,KBM-Flag-Online = 05 - Suburban Parents with Xbox
+ONLINE1_06,KBM-Flag-Online = 06 - Gabbing & Gambling
+ONLINE1_07,KBM-Flag-Online = 07 - Furnishing the Homestead
+ONLINE1_08,KBM-Flag-Online = 08 - Social Networking Wars
+ONLINE1_09,KBM-Flag-Online = 09 - Fashionable IT Online Shoppers
+ONLINE1_10,KBM-Flag-Online = 10 - Social Shopping Online
+ONLINE1_11,KBM-Flag-Online = 11 - Can I Use the Computer?
+ONLINE1_12,KBM-Flag-Online = 12 - Cars & Money
+ONLINE1_13,KBM-Flag-Online = 13 - Starbucks Sipping Exec
+ONLINE1_14,KBM-Flag-Online = 14 - Weekend Parents
+ONLINE1_15,KBM-Flag-Online = 15 - Seniors Shopping Online
+ONLINE1_16,KBM-Flag-Online = 16 - Retiring Executive
+ONLINE1_17,KBM-Flag-Online = 17 - Corporate Homebodies
+ONLINE1_18,KBM-Flag-Online = 18 - The Student Body
+ONLINE1_19,KBM-Flag-Online = 19 - Urban Sophisticate
+ONLINE1_20,KBM-Flag-Online = 20 - Studying from Home
+ONLINE1_21,KBM-Flag-Online = 21 - Homebound Shoppers
+ONLINE1_22,KBM-Flag-Online = 22 - Gambling Grandparents
+ONLINE1_23,KBM-Flag-Online = 23 - Facebook Fanatics
+ONLINE1_24,KBM-Flag-Online = 24 - Flocking to Twitter
+ONLINE1_25,KBM-Flag-Online = 25 - Corporate Networker
+ONLINE1_26,KBM-Flag-Online = 26 - Working from Home
+ONLINE1_27,KBM-Flag-Online = 27 - Bartering Shoppers
+ONLINE1_28,KBM-Flag-Online = 28 - Hungry Social Shoppers
+ONLINE1_29,KBM-Flag-Online = 29 - Deal Seekers
+ONLINE1_30,KBM-Flag-Online = 30 - Value Shopping Parents
+ONLINE1_31,KBM-Flag-Online = 31 - Financial Education
+ONLINE1_32,KBM-Flag-Online = 32 - Social Teen Extremes
+ONLINE1_33,KBM-Flag-Online = 33 - Retired but Still Learning
+ONLINE1_34,KBM-Flag-Online = 34 - Executive HH Shopping Online
+ONLINE1_35,KBM-Flag-Online = 35 - Online Window Shoppers
+ONLINE1_36,KBM-Flag-Online = 36 - Young & Career Focused
+ONLINE1_37,KBM-Flag-Online = 37 - Lonely Home PC
+ONLINE1_38,KBM-Flag-Online = 38 - Tech Exec
+ONLINE1_39,KBM-Flag-Online = 39 - Mid-Life Crisis
+ONLINE1_40,KBM-Flag-Online = 40 - Studying with Pizza & Pet
+ONLINE1_41,KBM-Flag-Online = 41 - Teen at Heart
+ONLINE1_42,KBM-Flag-Online = 42 - Young Parents Connecting
+ONLINE1_43,KBM-Flag-Online = 43 - Studying with Pizza & Kids
+ONLINE1_44,KBM-Flag-Online = 44 - A Worker and His Dog
+ONLINE1_45,KBM-Flag-Online = 45 - Extreme Streaming
+PRESCA_Y,KBM-Flag-Credit Active
+PRESHI_Y,KBM-Flag-Survey-Hobby
+PRESMI_Y,KBM-Flag-Survey-Music
+PRESRI_Y,KBM-Flag-Survey-Religious
+PRESSURV_Y,KBM-Flag-Presence of Survey Data
+PRESTI_Y,KBM-Flag-Survey-Travel
+PUBH_Y,KBM-Flag-Public Housing Address
+QHH_Y,KBM-Flag-Survey -An Individual within the household completed a survey
+QIND_Y,KBM-Flag-Survey-An Individual completed a survey
+RATEEN_Y,KBM-Flag-Buyer - Retail - Apparel - Teenagers
+RGEN_Y,KBM-Flag-Buyer - Retail - General Merchandise
+SHAPPL,"KBM-Decile-Model Predicts the likelihood of a household to have a thermostat, appliances, TV or sound system controlled through an internet connection"
+SHAPPL_0,KBM-Flag-Smart Households - Appliances = 0 - Most Likely
+SHAPPL_1,KBM-Flag-Smart Households - Appliances = 1
+SHAPPL_2,KBM-Flag-Smart Households - Appliances = 2
+SHAPPL_3,KBM-Flag-Smart Households - Appliances = 3
+SHAPPL_4,KBM-Flag-Smart Households - Appliances = 4
+SHAPPL_5,KBM-Flag-Smart Households - Appliances = 5
+SHAPPL_6,KBM-Flag-Smart Households - Appliances = 6
+SHAPPL_7,KBM-Flag-Smart Households - Appliances = 7
+SHAPPL_8,KBM-Flag-Smart Households - Appliances = 8
+SHAPPL_9,KBM-Flag-Smart Households - Appliances = 9 - Least Likely
+SHSEC,"KBM-Decile-Model Predicts the likelihood of a household to have an alarm, lighting, door locks or security cameras controlled through an internet connection"
+SHSEC_0,KBM-Flag-Smart Households - Security = 0 - Most Likely
+SHSEC_1,KBM-Flag-Smart Households - Security = 1
+SHSEC_2,KBM-Flag-Smart Households - Security = 2
+SHSEC_3,KBM-Flag-Smart Households - Security = 3
+SHSEC_4,KBM-Flag-Smart Households - Security = 4
+SHSEC_5,KBM-Flag-Smart Households - Security = 5
+SHSEC_6,KBM-Flag-Smart Households - Security = 6
+SHSEC_7,KBM-Flag-Smart Households - Security = 7
+SHSEC_8,KBM-Flag-Smart Households - Security = 8
+SHSEC_9,KBM-Flag-Smart Households - Security = 9 - Least Likely
+SPENDPAT,KBM-Category-The purchasing behavior of an Individual in the household based upon items bought through online or offline catalogs
+SPENDPAT_00,KBM-Flag-Buyer - Catalog - Spending Patterns = 00 - No Buyer Data
+SPENDPAT_01,KBM-Flag-Buyer - Catalog - Spending Patterns = 01 - Occasional Frugality
+SPENDPAT_02,KBM-Flag-Buyer - Catalog - Spending Patterns = 02 - Occasional Moderation
+SPENDPAT_03,KBM-Flag-Buyer - Catalog - Spending Patterns = 03 - Occasional Spending
+SPENDPAT_04,KBM-Flag-Buyer - Catalog - Spending Patterns = 04 - Occasional Indulgence
+SPENDPAT_05,KBM-Flag-Buyer - Catalog - Spending Patterns = 05 - Sporadic Frugality
+SPENDPAT_06,KBM-Flag-Buyer - Catalog - Spending Patterns = 06 - Sporadic Moderation
+SPENDPAT_07,KBM-Flag-Buyer - Catalog - Spending Patterns = 07 - Sporadic Spending
+SPENDPAT_08,KBM-Flag-Buyer - Catalog - Spending Patterns = 08 - Sporadic Indulgence
+SPENDPAT_09,KBM-Flag-Buyer - Catalog - Spending Patterns = 09 - Frequent Frugality
+SPENDPAT_10,KBM-Flag-Buyer - Catalog - Spending Patterns = 10 - Frequent Moderation
+SPENDPAT_11,KBM-Flag-Buyer - Catalog - Spending Patterns = 11 - Frequent Spending
+SPENDPAT_12,KBM-Flag-Buyer - Catalog - Spending Patterns = 12 - Frequent Indulgence
+SPENDPAT_13,KBM-Flag-Buyer - Catalog - Spending Patterns = 13 - Habitual Frugality
+SPENDPAT_14,KBM-Flag-Buyer - Catalog - Spending Patterns = 14 - Habitual Moderation
+SPENDPAT_15,KBM-Flag-Buyer - Catalog - Spending Patterns = 15 - Habitual Spending
+SPENDPAT_16,KBM-Flag-Buyer - Catalog - Spending Patterns = 16 - Habitual Indulgence
+TSAFFN,"KBM-Decile-Predicts the likelihood of an Individual to use a credit card to book travel that is affiliated with an airline, hotel or rental car company"
+TSAFFN_0,KBM-Flag-Travel Segment - Travel Affinity = 0 - Most Likely
+TSAFFN_1,KBM-Flag-Travel Segment - Travel Affinity = 1
+TSAFFN_2,KBM-Flag-Travel Segment - Travel Affinity = 2
+TSAFFN_3,KBM-Flag-Travel Segment - Travel Affinity = 3
+TSAFFN_4,KBM-Flag-Travel Segment - Travel Affinity = 4
+TSAFFN_5,KBM-Flag-Travel Segment - Travel Affinity = 5
+TSAFFN_6,KBM-Flag-Travel Segment - Travel Affinity = 6
+TSAFFN_7,KBM-Flag-Travel Segment - Travel Affinity = 7
+TSAFFN_8,KBM-Flag-Travel Segment - Travel Affinity = 8
+TSAFFN_9,KBM-Flag-Travel Segment - Travel Affinity = 9 - Least Likely
+TSCONS,"KBM-Decile-Predicts the likelihood of an Individual to schedule travel and accommodations on an online site which consolidates the travel, hotel and car rental"
+TSCONS_0,KBM-Flag-Travel Segment - Consolidator = 0 - Most Likely
+TSCONS_1,KBM-Flag-Travel Segment - Consolidator = 1
+TSCONS_2,KBM-Flag-Travel Segment - Consolidator = 2
+TSCONS_3,KBM-Flag-Travel Segment - Consolidator = 3
+TSCONS_4,KBM-Flag-Travel Segment - Consolidator = 4
+TSCONS_5,KBM-Flag-Travel Segment - Consolidator = 5
+TSCONS_6,KBM-Flag-Travel Segment - Consolidator = 6
+TSCONS_7,KBM-Flag-Travel Segment - Consolidator = 7
+TSCONS_8,KBM-Flag-Travel Segment - Consolidator = 8
+TSCONS_9,KBM-Flag-Travel Segment - Consolidator = 9 - Least Likely
+TSCOST,KBM-Decile-Predicts the likelihood of an Individual to search for low cost flights and cost comparisons along with low cost accommodations with extras like free breakfast and Wi-Fi
+TSCOST_0,KBM-Flag-Travel Segment - Cost Conscience = 0 - Most Likely
+TSCOST_1,KBM-Flag-Travel Segment - Cost Conscience = 1
+TSCOST_2,KBM-Flag-Travel Segment - Cost Conscience = 2
+TSCOST_3,KBM-Flag-Travel Segment - Cost Conscience = 3
+TSCOST_4,KBM-Flag-Travel Segment - Cost Conscience = 4
+TSCOST_5,KBM-Flag-Travel Segment - Cost Conscience = 5
+TSCOST_6,KBM-Flag-Travel Segment - Cost Conscience = 6
+TSCOST_7,KBM-Flag-Travel Segment - Cost Conscience = 7
+TSCOST_8,KBM-Flag-Travel Segment - Cost Conscience = 8
+TSCOST_9,KBM-Flag-Travel Segment - Cost Conscience = 9 - Least Likely
+TSDBOOK,KBM-Decile-Predicts the likelihood of an Individual to schedule travel and accommodations through single transactions either via the internet or over the phone
+TSDBOOK_0,KBM-Flag-Travel Segment - Direct Booker = 0 - Most Likely
+TSDBOOK_1,KBM-Flag-Travel Segment - Direct Booker = 1
+TSDBOOK_2,KBM-Flag-Travel Segment - Direct Booker = 2
+TSDBOOK_3,KBM-Flag-Travel Segment - Direct Booker = 3
+TSDBOOK_4,KBM-Flag-Travel Segment - Direct Booker = 4
+TSDBOOK_5,KBM-Flag-Travel Segment - Direct Booker = 5
+TSDBOOK_6,KBM-Flag-Travel Segment - Direct Booker = 6
+TSDBOOK_7,KBM-Flag-Travel Segment - Direct Booker = 7
+TSDBOOK_8,KBM-Flag-Travel Segment - Direct Booker = 8
+TSDBOOK_9,KBM-Flag-Travel Segment - Direct Booker = 9 - Least Likely
+TSLOYAL,"KBM-Decile-Predicts the likelihood of an Individual to select travel options which include loyalty programs for airlines, hotels or car rentals"
+TSLOYAL_0,KBM-Flag-Travel Segment - Loyalists = 0 - Most Likely
+TSLOYAL_1,KBM-Flag-Travel Segment - Loyalists = 1
+TSLOYAL_2,KBM-Flag-Travel Segment - Loyalists = 2
+TSLOYAL_3,KBM-Flag-Travel Segment - Loyalists = 3
+TSLOYAL_4,KBM-Flag-Travel Segment - Loyalists = 4
+TSLOYAL_5,KBM-Flag-Travel Segment - Loyalists = 5
+TSLOYAL_6,KBM-Flag-Travel Segment - Loyalists = 6
+TSLOYAL_7,KBM-Flag-Travel Segment - Loyalists = 7
+TSLOYAL_8,KBM-Flag-Travel Segment - Loyalists = 8
+TSLOYAL_9,KBM-Flag-Travel Segment - Loyalists = 9 - Least Likely
+TSLUX,KBM-Decile-Predicts the likelihood of an Individual to schedule travel based on their schedule and preferred seating They also are likely select higher priced accommodations which may be big brand or boutique hotels
+TSLUX_0,KBM-Flag-Travel Segment - Luxury Lovers = 0 - Most Likely
+TSLUX_1,KBM-Flag-Travel Segment - Luxury Lovers = 1
+TSLUX_2,KBM-Flag-Travel Segment - Luxury Lovers = 2
+TSLUX_3,KBM-Flag-Travel Segment - Luxury Lovers = 3
+TSLUX_4,KBM-Flag-Travel Segment - Luxury Lovers = 4
+TSLUX_5,KBM-Flag-Travel Segment - Luxury Lovers = 5
+TSLUX_6,KBM-Flag-Travel Segment - Luxury Lovers = 6
+TSLUX_7,KBM-Flag-Travel Segment - Luxury Lovers = 7
+TSLUX_8,KBM-Flag-Travel Segment - Luxury Lovers = 8
+TSLUX_9,KBM-Flag-Travel Segment - Luxury Lovers = 9 - Least Likely
+UNININDX,KBM-Decile-Model Predicts an Individual between the ages of 18 and 64 does not have health insurance coverage
+UNININDX_0,KBM-Flag-Uninsured Index = 0 - Most Likely
+UNININDX_1,KBM-Flag-Uninsured Index = 1
+UNININDX_2,KBM-Flag-Uninsured Index = 2
+UNININDX_3,KBM-Flag-Uninsured Index = 3
+UNININDX_4,KBM-Flag-Uninsured Index = 4
+UNININDX_5,KBM-Flag-Uninsured Index = 5
+UNININDX_6,KBM-Flag-Uninsured Index = 6
+UNININDX_7,KBM-Flag-Uninsured Index = 7
+UNININDX_8,KBM-Flag-Uninsured Index = 8
+UNININDX_9,KBM-Flag-Uninsured Index = 9 - Least Likely
+plt_STLAPP,OBSOLETE-DO NOT USE IN MODELS-KBM-IND-Short Term Loan Applicants
+plt_ETHEID,OBSOLETE-DO NOT USE IN MODELS-KBM-CATEGORY-Ethnicity
+plt_ETHLANG,OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Language
+plt_LVWL20,OBSOLETE-DO NOT USE IN MODELS-KBM-CATGEORY-Living Well 2.0
+plt_ENGAGE,OBSOLETE-DO NOT USE IN MODELS-KBM-Decile-Health Insurance Engagement Index
+plt_INFLUENC,OBSOLETE-DO NOT USE IN MODELS-KBM-Decile-Health Insurance Influence Index
+plt_IRILIFE,OBSOLETE-DO NOT USE IN MODELS-KBM-Decile-Insurance Responder Index - Life
+plt_IRIAUTO,OBSOLETE-DO NOT USE IN MODELS-KBM-Decile-Insurance Responder Index - Auto
+plt_C210PDSC,OBSOLETE-DO NOT USE IN MODELS-KBM-NUM-Census 2010 Population Density Centile - State
+plt_C210PDUC,OBSOLETE-DO NOT USE IN MODELS-KBM-NUM-Census 2010 Population Density Centile - US
+plt_STLAPP_Y,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Short Term Loan Applicants
+plt_ENGAGE_0,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Engagement Index-0
+plt_ENGAGE_1,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Engagement Index-1
+plt_ENGAGE_2,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Engagement Index-2
+plt_ENGAGE_3,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Engagement Index-3
+plt_ENGAGE_4,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Engagement Index-4
+plt_ENGAGE_5,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Engagement Index-5
+plt_ENGAGE_6,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Engagement Index-6
+plt_ENGAGE_7,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Engagement Index-7
+plt_ENGAGE_8,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Engagement Index-8
+plt_ENGAGE_9,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Engagement Index-9
+plt_INFLUENC_0,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Influence Index-0
+plt_INFLUENC_1,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Influence Index-1
+plt_INFLUENC_2,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Influence Index-2
+plt_INFLUENC_3,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Influence Index-3
+plt_INFLUENC_4,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Influence Index-4
+plt_INFLUENC_5,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Influence Index-5
+plt_INFLUENC_6,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Influence Index-6
+plt_INFLUENC_7,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Influence Index-7
+plt_INFLUENC_8,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Influence Index-8
+plt_INFLUENC_9,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Health Insurance Influence Index-9
+plt_IRILIFE_0,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Life -0
+plt_IRILIFE_1,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Life -1
+plt_IRILIFE_2,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Life -2
+plt_IRILIFE_3,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Life -3
+plt_IRILIFE_4,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Life -4
+plt_IRILIFE_5,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Life -5
+plt_IRILIFE_6,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Life -6
+plt_IRILIFE_7,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Life -7
+plt_IRILIFE_8,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Life -8
+plt_IRILIFE_9,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Life -9
+plt_IRIAUTO_0,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Auto - 0
+plt_IRIAUTO_1,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Auto - 1
+plt_IRIAUTO_2,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Auto - 2
+plt_IRIAUTO_3,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Auto - 3
+plt_IRIAUTO_4,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Auto - 4
+plt_IRIAUTO_5,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Auto - 5
+plt_IRIAUTO_6,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Auto - 6
+plt_IRIAUTO_7,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Auto - 7
+plt_IRIAUTO_8,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Auto - 8
+plt_IRIAUTO_9,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Insurance Responder Index - Auto - 9
+plt_LVWL20_1,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Living Well 2.0 - 1 Leading The Way
+plt_LVWL20_2,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Living Well 2.0 - 2 In It For Fun
+plt_LVWL20_3,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Living Well 2.0 - 3 Value Independence
+plt_LVWL20_4,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Living Well 2.0 - 4 I Need A Plan
+plt_LVWL20_5,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Living Well 2.0 - 5 Not Right Now
+plt_LVWL20_6,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Living Well 2.0 - 6 Get Through The Day
+plt_ETHLANG_01,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Language-English
+plt_ETHLANG_20,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Language-Spanish
+plt_ETHLANG_7A,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Language-Hindi
+plt_ETHLANG_53,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Language-Chinese
+plt_ETHLANG_62,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Language-Vietnamese
+plt_ETHLANG_17,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Language-French
+plt_ETHLANG_OTH,OBSOLETE-DO NOT USE IN MODELS-KBM-Category-New Language - Other
+plt_ETHEID_01,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Ethnicity-English
+plt_ETHEID_20,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Ethnicity-Hispanic
+plt_ETHEID_10,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Ethnicity-German
+plt_ETHEID_15,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Ethnicity-Irish
+plt_ETHEID_02,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Ethnicity-Scottish
+plt_ETHEID_19,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Ethnicity-Italian
+plt_ETHEID_00,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Ethnicity-Uncoded
+plt_ETHEID_E1,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Ethnicity-African American
+plt_ETHEID_17,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Ethnicity-French
+plt_ETHEID_E5,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Ethnicity-African American
+plt_ETHEID_85,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Ethnicity-African American
+plt_ETHEID_16,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-New Ethnicity-Welsh
+plt_ETHEID_OTH,OBSOLETE-DO NOT USE IN MODELS-KBM-Category-New Ethnicity- Other
+plt_CHANPR1,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference - First Preference
+plt_CHANPR2,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference - Second Preference
+plt_CHANPRC,OBSOLETE-DO NOT USE IN MODELS-KBM-Decile-Channel Preference Index - Cell
+plt_CHANPRE,OBSOLETE-DO NOT USE IN MODELS-KBM-Decile-Channel Preference Index - Email
+plt_CHANPRM,OBSOLETE-DO NOT USE IN MODELS-KBM-Decile-Channel Preference Index - Mail
+plt_CHANPRP,OBSOLETE-DO NOT USE IN MODELS-KBM-Decile-Channel Preference Index - Phone
+plt_CHANPRT,OBSOLETE-DO NOT USE IN MODELS-KBM-Decile-Channel Preference Index - Text
+plt_CHANPRW,OBSOLETE-DO NOT USE IN MODELS-KBM-Decile-Channel Preference Index - Web
+plt_HMVLADD,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Home Value Address Level
+plt_LNVLRTIO,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Loan to Value Ratio
+plt_CHANPR1_C,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference - First Preference - Cell
+plt_CHANPR1_E,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference - First Preference - Email
+plt_CHANPR1_M,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference - First Preference - Mail
+plt_CHANPR1_O,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference - First Preference - Other
+plt_CHANPR1_P,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference - First Preference - Phone
+plt_CHANPR1_T,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference - First Preference - Text
+plt_CHANPR1_W,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference - First Preference - Web
+plt_CHANPR2_C,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference - Second Preference - Cell
+plt_CHANPR2_E,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference - Second Preference - Email
+plt_CHANPR2_M,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference - Second Preference - Mail
+plt_CHANPR2_O,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference - Second Preference - Other
+plt_CHANPR2_P,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference - Second Preference - Phone
+plt_CHANPR2_T,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference - Second Preference - Text
+plt_CHANPR2_W,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference - Second Preference - Web
+plt_CHANPRC_0,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Cell - 0
+plt_CHANPRC_1,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Cell - 1
+plt_CHANPRC_2,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Cell - 2
+plt_CHANPRC_3,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Cell - 3
+plt_CHANPRC_4,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Cell - 4
+plt_CHANPRC_5,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Cell - 5
+plt_CHANPRC_6,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Cell - 6
+plt_CHANPRC_7,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Cell - 7
+plt_CHANPRC_8,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Cell - 8
+plt_CHANPRC_9,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Cell - 9
+plt_CHANPRE_0,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Email - 0
+plt_CHANPRE_1,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Email - 1
+plt_CHANPRE_2,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Email - 2
+plt_CHANPRE_3,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Email - 3
+plt_CHANPRE_4,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Email - 4
+plt_CHANPRE_5,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Email - 5
+plt_CHANPRE_6,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Email - 6
+plt_CHANPRE_7,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Email - 7
+plt_CHANPRE_8,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Email - 8
+plt_CHANPRE_9,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Email - 9
+plt_CHANPRM_0,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Mail - 0
+plt_CHANPRM_1,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Mail - 1
+plt_CHANPRM_2,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Mail - 2
+plt_CHANPRM_3,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Mail - 3
+plt_CHANPRM_4,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Mail - 4
+plt_CHANPRM_5,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Mail - 5
+plt_CHANPRM_6,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Mail - 6
+plt_CHANPRM_7,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Mail - 7
+plt_CHANPRM_8,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Mail - 8
+plt_CHANPRM_9,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Mail - 9
+plt_CHANPRP_0,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Phone - 0
+plt_CHANPRP_1,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Phone - 1
+plt_CHANPRP_2,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Phone - 2
+plt_CHANPRP_3,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Phone - 3
+plt_CHANPRP_4,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Phone - 4
+plt_CHANPRP_5,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Phone - 5
+plt_CHANPRP_6,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Phone - 6
+plt_CHANPRP_7,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Phone - 7
+plt_CHANPRP_8,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Phone - 8
+plt_CHANPRP_9,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Phone - 9
+plt_CHANPRT_0,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Text - 0
+plt_CHANPRT_1,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Text - 1
+plt_CHANPRT_2,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Text - 2
+plt_CHANPRT_3,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Text - 3
+plt_CHANPRT_4,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Text - 4
+plt_CHANPRT_5,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Text - 5
+plt_CHANPRT_6,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Text - 6
+plt_CHANPRT_7,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Text - 7
+plt_CHANPRT_8,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Text - 8
+plt_CHANPRT_9,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Text - 9
+plt_CHANPRW_0,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Web - 0
+plt_CHANPRW_1,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Web - 1
+plt_CHANPRW_2,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Web - 2
+plt_CHANPRW_3,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Web - 3
+plt_CHANPRW_4,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Web - 4
+plt_CHANPRW_5,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Web - 5
+plt_CHANPRW_6,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Web - 6
+plt_CHANPRW_7,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Web - 7
+plt_CHANPRW_8,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Web - 8
+plt_CHANPRW_9,OBSOLETE-DO NOT USE IN MODELS-KBM-Flags-Channel Preference Index - Web - 9
+plt_ESTINV30,OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Investable Assets
+plt_ESTINV30_A,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Investable Assets Less than $5,000"
+plt_ESTINV30_B,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Investable Assets $5,000 - $24,999"
+plt_ESTINV30_C,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Investable Assets $25,000 - $49,999"
+plt_ESTINV30_D,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Investable Assets $50,000 - $74,999"
+plt_ESTINV30_E,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Investable Assets $75,000 - $99,999"
+plt_ESTINV30_F,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Investable Assets $100,000 - $249.999"
+plt_ESTINV30_G,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Investable Assets $250,000 - $499,999"
+plt_ESTINV30_H,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Investable Assets $500,000 - $749,999"
+plt_ESTINV30_I,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Investable Assets $750,000 - $999,999"
+plt_ESTINV30_J,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Investable Assets $1,000,000+"
+plt_ESTINV30_RC,OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Investable Assets Recode
+plt_ESTDIS30,OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Discretionary Income Percent
+ZINCDECRNK,KBM-Number-ZIP Income Decile
+PLT_ESTDII30,OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Dual Income Index 3.0
+PLT_ESTDII30_0,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Dual Income Index 3.0-0-Most Likely Dual Income
+PLT_ESTDII30_1,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Dual Income Index 3.0-1
+PLT_ESTDII30_2,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Dual Income Index 3.0-2
+PLT_ESTDII30_3,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Dual Income Index 3.0-3
+PLT_ESTDII30_4,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Dual Income Index 3.0-4
+PLT_ESTDII30_5,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Dual Income Index 3.0-5
+PLT_ESTDII30_6,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Dual Income Index 3.0-6
+PLT_ESTDII30_7,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Dual Income Index 3.0-7
+PLT_ESTDII30_8,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Dual Income Index 3.0-8
+PLT_ESTDII30_9,OBSOLETE-DO NOT USE IN MODELS-KBM-Number-Dual Income Index 3.0-9-Most Likely Single Income
+PLT_ESTINC30,OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0
+PLT_ESTINC30_A,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0 <$15,000"
+PLT_ESTINC30_B,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0 $15,000-$19,999"
+PLT_ESTINC30_C,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0 $20,000-$29,999"
+PLT_ESTINC30_D,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0 $30,000-$39,999"
+PLT_ESTINC30_E,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0 $40,000-$49,999"
+PLT_ESTINC30_F,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0 $50,000-$59,999"
+PLT_ESTINC30_G,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0 $60,000-$74,999"
+PLT_ESTINC30_H,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0 $75,000-$99,999"
+PLT_ESTINC30_I,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0 $100,000-$124,999"
+PLT_ESTINC30_J,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0 $125,000-$149,999"
+PLT_ESTINC30_K,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0 $150,000-$199,999"
+PLT_ESTINC30_L,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0 $200,000-$249,999"
+PLT_ESTINC30_M,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0 $250,000-$399,999"
+PLT_ESTINC30_N,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0 $400,000-$499,999"
+PLT_ESTINC30_O,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0 $500,000+"
+PLT_ESTINC30_RC,OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Estimated Household Income 3.0 Recode
+PLT_NETW30,OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Net Worth 3.0
+PLT_NETW30_A,OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Net Worth 3.0 $0 or Less
+PLT_NETW30_B,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Net Worth 3.0 $1 - $4,999"
+PLT_NETW30_C,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Net Worth 3.0 $5,000 - $24,999"
+PLT_NETW30_D,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Net Worth 3.0 $25,000 - $49,999"
+PLT_NETW30_E,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Net Worth 3.0 $50,000 - $74,999"
+PLT_NETW30_F,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Net Worth 3.0 $75,000 - $99,999"
+PLT_NETW30_G,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Net Worth 3.0 $100,000 - $149,999"
+PLT_NETW30_H,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Net Worth 3.0 $150,000 - $249,999"
+PLT_NETW30_I,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Net Worth 3.0 $250,000 - $374,999"
+PLT_NETW30_J,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Net Worth 3.0 $375,000 - $499,999"
+PLT_NETW30_K,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Net Worth 3.0 $500,000 - $749,999"
+PLT_NETW30_L,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Net Worth 3.0 $750,000 - $999,999"
+PLT_NETW30_M,"OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Net Worth 3.0 $1,000,000 +"
+PLT_NETW30_RC,OBSOLETE-DO NOT USE IN MODELS-KBM-Category-Net Worth 3.0 Recode
+,
+,
+,
+,
