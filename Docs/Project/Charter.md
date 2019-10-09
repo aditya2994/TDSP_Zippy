@@ -32,21 +32,22 @@ It will be uploaded to the marketing database and assessed to increase the effec
 * How will we measure the metric? We will A/B test on two different subsets of data trained using different alogirithms We could also compare sales value (metric) after a specified time.
 
 ## Plan
-* Phases (milestones), timeline, short description of what we'll do in each phase.
+* Phase 1 - Understnad the business problem, get access to data, understand the data and preprocess the data
+* Phase 2 - Build a model and deploy it
 
 ## Architecture
 * Data
-  * What data do we expect? CSV files in the blob. We have four data sources.
+  * What data do we expect? CSV files in the Humana blob. We have four data sources combined to form one dataset.
 * Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.) to move either
   * all the data, 
   * after some pre-aggregation on-prem,
   * Sampled data enough for modeling 
 
 * What tools and data storage/analytics resources will be used in the solution?
-  * Databricks
+  * Azure Databricks
   * AzureML for modeling and web service operationalization
 * How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
-  * How will the customer use the model results to make decisions
+  * How will the customer use the model results to make decisions? The marketing team will use the model results to increase the effectiveness of thier marketing campaigns.
   * Data movement pipeline in production
   * Make a 1 slide diagram showing the end to end data flow and decision architecture
     * If there is a substantial change in the customer's business workflow, make a before/after diagram showing the data flow.
