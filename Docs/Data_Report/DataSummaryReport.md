@@ -10,11 +10,16 @@ There is one dataset with data from 4 sources which are -
 * Credit data: consumer credit data aggregated to the zip4 level
 * MACVAT: Medicare Part D and Medicare Supplement plan competitiveness based on actuarial calculations from vendor Milliman
   
- The data is already preprocessed and is stored in Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic. It has 200k rows and 287 columns.
+ The dataset is already preprocessed. It has 200k rows and 287 columns.
 
 ## Data quality summary
 
-The data is in a structured format and ready to be trained.
+### Read and Summarize the data
+* Read data and infer column types
+* Print the dimensions of the data
+* Print the column names and types
+* Extract Descriptive Stats for each column (numerical, categorical)
+
 
 ## Target variable
 
@@ -22,9 +27,20 @@ The target variable is resp_dvar. It is the likelihood to respond to a marketing
 
 ## Individual variables
 
+* Explore the target variable
+* Explore individual numeric variables and test for normality
+* Explore individual categorical variables 
 
 ## Variable ranking
 
 ## Relationship between explanatory variables and target variable
-
-
+### Explore Interactions Between Variables
+* Rank variables based on linear relationships with reference variable
+* Explore interactions between categorical variables
+* Explore interactions between numerical variables
+* Explore correlation matrix between numerical variables
+* Explore interactions between numerical and categorical variables
+* Explore interactions between two numerical variables and a categorical variable
+* 
+* Project data to 2-D principal component space
+* Project data to 3-D principal component space
