@@ -16,9 +16,37 @@ _**For ease of modifying this report, placeholder links are included in this pag
 
 | Dataset Name | Original Location   | Destination Location  | Data Movement Tools / Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | -----: |
-| ZipPy | Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic| Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic| https://github.com/aditya2994/TDSP_Zippy/blob/master/Code/Modeling/Synthetic%20ZipPy.dbc | https://github.com/aditya2994/TDSP_Zippy/blob/master/Docs/Data_Report/DataSummaryReport.md|
+| ZipPy | Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic| Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic|[A](https://github.com/aditya2994/TDSP_Zippy/blob/master/Code/Modeling/Synthetic%20ZipPy.dbc). | [B]( https://github.com/aditya2994/TDSP_Zippy/blob/master/Docs/Data_Report/DataSummaryReport.md|).  
 
 * The dataset is comprised of data from four different sources - AMLK (2017, 2018), Campaign Data (Who were targeted, who responded etc.), Credit data, and MACVAT. The data is already preprocessed and is stored in Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic.
+
+A brief decription of the data sources -
+* AMLK : Amerilink - Third party demographic data. It is unethical to use race to model the data.
+* Campaign data : promotion
+	3 variables
+	Marketing campaign sent to prospects - direct mail
+	Mailed to addresses and individuals (65-85)
+	Logged when they dial that number - capture - response variable
+	2 levels of response
+	Prospect picked up phone
+	Conversion
+* Credit data : aggregated to zip4 - zip4 level
+	Data is at the individual/consumer level
+* MACVAT :
+	Company called millimin
+	Actuarial calculation for every medicare advantage plan
+	Richness - actuarial value
+	Determine if worse or better than a competitor
+	Min vacvat - one of the better
+	This is competitive
+	Good predictor
+	Dollar value in actuarial terms
+	Rank dollar value against other plans in that county
+	Minimum of humana's rank
+ if in the top 3 for accounting
+	If outside of top 10 - don’t get top sales
+	1 to 20
+	Best rank
 
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
