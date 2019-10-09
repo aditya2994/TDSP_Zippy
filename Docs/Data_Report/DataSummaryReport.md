@@ -5,7 +5,7 @@ IDEAR allows you to output the data summary, statistics, and charts that you wan
 
 ## General summary of the data
 There is one dataset with data from 4 sources which are - 
-* AMLK : Amerilink - Third party demographic data. It is unethical to use race to model the data.
+* AMLK : Amerilink - Third party demographic data.
 * Campaign data : promotion
 	3 variables
 	Marketing campaign sent to prospects - direct mail
