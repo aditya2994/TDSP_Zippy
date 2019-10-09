@@ -13,32 +13,10 @@ The likelihood of purchasing an insurance plan
 
 ## Data
 There are 4 data sources:
-* AMLK : Amerilink - Third party demographic data. It is unethical to use race to model the data.
-* Campaign data : promotion
-	3 variables
-	Marketing campaign sent to prospects - direct mail
-	Mailed to addresses and individuals (65-85)
-	Logged when they dial that number - capture - response variable
-	2 levels of response
-	Prospect picked up phone
-	Conversion
-* Credit data : aggregated to zip4 - zip4 level
-	Data is at the individual/consumer level
-* MACVAT :
-	Company called millimin
-	Actuarial calculation for every medicare advantage plan
-	Richness - actuarial value
-	Determine if worse or better than a competitor
-	Min vacvat - one of the better
-	This is competitive
-	Good predictor
-	Dollar value in actuarial terms
-	Rank dollar value against other plans in that county
-	Minimum of humana's rank
- if in the top 3 for accounting
-	If outside of top 10 - don’t get top sales
-	1 to 20
-	Best rank
+* AMLK : Amerilink - Third party demographic data
+* Campaign data : Data from  marketing campaign
+* Credit data : aggregated to zip4 level
+* MACVAT : Actuarial calculation for every medicare advantage plan
 
 There is one dataset that contains all the data from these sources and is stored in Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic.
 There are 200000 rows and 287 columns in the dataset.
