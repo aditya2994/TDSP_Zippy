@@ -18,16 +18,14 @@ _**For ease of modifying this report, placeholder links are included in this pag
 | ---:| ---: | ---: | ---: | -----: |
 | ZipPy | Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic| Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic| Code/Modeling/Synthetic ZipPy.dbc | Docs/Data_Report/DataSummaryReport.md|
 
-
-
-* Dataset1 summary. <Provide brief summary of the data, such as how to access the data. More detailed information should be in the Dataset1 Report.> Location, comes from 4 sources, preprocessed data,
+* The dataset is comprised of data from four different sources - AMLK (2017, 2018), Campaign Data (Who were targeted, who responded etc.), Credit data, and MACVAT. The data is already preprocessed and is stored in Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic.
 
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | 
 | ZipPy | Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic| Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic| Code/Modeling/Synthetic ZipPy.dbc | Docs/Data_Report/DataSummaryReport.md|
 
-* Processed Data1 summary. <Provide brief summary of the processed data, such as why you want to process data in this way. More detailed information about the processed data should be in the Processed Data1 Report.>
+* The dataset is comprised of data from four different sources - AMLK (2017, 2018), Campaign Data (Who were targeted, who responded etc.), Credit data, and MACVAT. The data is already preprocessed and is stored in Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic.
 
 ## Feature Sets
 
@@ -35,4 +33,4 @@ _**For ease of modifying this report, placeholder links are included in this pag
 | ---:| ---: | ---: | ---: | 
 | ZipPy | Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic| Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic| Code/Modeling/Synthetic ZipPy.dbc | Docs/Data_Report/DataSummaryReport.md|
 
-* Feature Set1 summary. <Provide detailed description of the feature set, such as the meaning of each feature. More detailed information about the feature set should be in the Feature Set1 Report.>
+* The dataset is comprised of data from four different sources - AMLK (2017, 2018), Campaign Data (Who were targeted, who responded etc.), Credit data, and MACVAT. The data is already preprocessed and is stored in Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic.
