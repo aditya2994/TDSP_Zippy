@@ -16,7 +16,7 @@ _**For ease of modifying this report, placeholder links are included in this pag
 
 | Dataset Name | Original Location   | Destination Location  | Data Movement Tools / Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | -----: |
-| ZipPy | * Resource Group: at-dhasandbox-central-rg *Storage Account Name: humana – Blobs * Blob Name: Synthetic | * Resource Group: at-dhasandbox-central-rg * Storage Account Name: humana – Blobs * Blob Name: Synthetic|[Synthetic ZipPY.dbc](https://github.com/aditya2994/TDSP_Zippy/blob/master/Code/Modeling/Synthetic%20ZipPy.dbc) | [Data Report]( https://github.com/aditya2994/TDSP_Zippy/blob/master/Docs/Data_Report/DataSummaryReport.md)  
+| ZipPy | <ul><li> Resource Group: at-dhasandbox-central-rg </ul></li> <ul><li> Storage Account Name: humana – Blobs </ul></li> <ul><li> Blob Name: Synthetic </ul></li>|<ul><li> Resource Group: at-dhasandbox-central-rg </ul></li> <ul><li> Storage Account Name: humana – Blobs </ul></li> <ul><li> Blob Name: Synthetic </ul></li>|[Synthetic ZipPY.dbc](https://github.com/aditya2994/TDSP_Zippy/blob/master/Code/Modeling/Synthetic%20ZipPy.dbc) | [Data Report]( https://github.com/aditya2994/TDSP_Zippy/blob/master/Docs/Data_Report/DataSummaryReport.md)  
 
 * The dataset is comprised of data from four different sources - AMLK (2017, 2018), Campaign Data (Who were targeted, who responded etc.), Credit data, and MACVAT. The data is already preprocessed and is stored in -
   * Resource Group: at-dhasandbox-central-rg 
