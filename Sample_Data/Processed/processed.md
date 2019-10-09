@@ -1,12 +1,9 @@
 ## List of Processed Datasets
 
 
-| Processed Dataset Name | Link to the Full Processed Dataset   | Full Processed Dataset Size (MB)  | Link to Report |
-| ---:| ---: | ---: | ---: |
-| Processed Dataset 1 | [link](link/to/processed/dataset1) | 2,000 | [Processed Dataset 1 Report](link/to/report1)|
-| Processed Dataset 2 | [link](link/to/processed/dataset2) | 300 | [Processed Dataset 2 Report](link/to/report2)|
+## Processed Data
+| Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
+| ---:| ---: | ---: | ---: | 
+| ZipPy | Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic| Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic| https://github.com/aditya2994/TDSP_Zippy/blob/master/Code/Modeling/Synthetic%20ZipPy.dbc | https://github.com/aditya2994/TDSP_Zippy/blob/master/Docs/Data_Report/DataSummaryReport.md|
 
-
-If the link to the full dataset does not apply, provide some information on how to access the full dataset. 
-
-If the data stays in an Azure file storage, please provide the link to the text file with the information of the file storage that has been checked in to the git repository. 
+* The dataset is comprised of data from four different sources - AMLK (2017, 2018), Campaign Data (Who were targeted, who responded etc.), Credit data, and MACVAT. The data is already preprocessed and is stored in Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic.
