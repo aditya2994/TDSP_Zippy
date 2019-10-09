@@ -28,9 +28,6 @@ There is a lot of pre processing to remove dirty data.
 ##	Modeling, Validation
 Tried XGBoost, Logistic Regression. XGBoost outperfromed other algorithms.
 
-##	Solution Architecture
-<Architecture of the solution, describe clearly whether this was actually implemented or a proposed architecture. Include diagram and relevant details for reproducing similar architecture. Include details of why this architecture was chosen versus other architectures that were considered, if relevant\>
-
 ##	Benefits
 	
 ###	Company Benefit (internal only. Double check if you want to share this with your customer)
