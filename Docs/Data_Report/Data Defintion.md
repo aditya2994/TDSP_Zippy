@@ -31,20 +31,8 @@ A brief decription of the data sources -
 	Conversion
 * Credit data : aggregated to zip4 - zip4 level. Data is at the individual/consumer level
 * MACVAT :
-	A company called millimin does actuarial calculations for every medicare advantage plan
-	Richness - actuarial value
-	Determine if worse or better than a competitor
-	Min vacvat - one of the better
-	This is competitive
-	Good predictor
-	Dollar value in actuarial terms
-	Rank dollar value against other plans in that county
-	Minimum of humana's rank
- if in the top 3 for accounting
-	If outside of top 10 - don’t get top sales
-	1 to 20
-	Best rank
-
+	A company called millimin does actuarial calculations for every medicare advantage plan and ranks Humana's plan versus other competitors. It is a good predictor of how likely someone is to purchase insurance.
+	
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | 
