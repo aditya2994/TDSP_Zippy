@@ -7,9 +7,9 @@ When applicable, the Automated Modeling and Reporting utility developed by TDSP 
 > If using the Automated Modeling and Reporting tool, most of the sections below will be generated automatically from this tool. 
 
 ## Analytic Approach
-* What is target definition
-* What are inputs (description)
-* What kind of model was built?
+* What is target definition? The probability that someone will respond to the marketing campaign
+* What are inputs (description) There are varibles from 4 data sources for modeling
+* What kind of model was built? A binary classsification model using XGBoost
 
 ## Model Description
 
