@@ -2,9 +2,9 @@
 This is the final report describing the final model to be delivered - typically comprised of one or more of the models built during the life of the project.
 
 ## Analytic Approach
-* What is target definition
-Likelihood of purchase of insurance plan
-* What are inputs? All inputs are included in the data dictionary
+* What is target definition?
+The likelihood of purchasing an insurance plan
+* What are inputs? All the features have been included in the data dictionary.
 * What kind of model was built? Prospect Model using XGBoost
 
 ## Solution Description
@@ -12,6 +12,7 @@ Likelihood of purchase of insurance plan
 * What is output?
 
 ## Data
+There are 4 data sources:
 * AMLK : Amerilink - Third party demographic data. It is unethical to use race to model the data.
 * Campaign data : promotion
 	3 variables
@@ -39,10 +40,12 @@ Likelihood of purchase of insurance plan
 	1 to 20
 	Best rank
 
-
+There is one dataset that contains all the data from these sources and is stored in Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic.
+There are 200000 rows and 287 columns in the dataset.
 
 ## Features
-All the features with their descriptions are included in the data dictionary.
+The 193 features used for modeling are:
+
 
 ## Algorithm
 * Description or images of data flow graph
@@ -55,3 +58,12 @@ All the features with their descriptions are included in the data dictionary.
 ## Results
 * ROC/Lift charts, AUC, R^2, MAPE as appropriate
 * Performance graphs for parameters sweeps if applicable
+
+| | metrics  | train_score | test_score|
+| ------------- | ------------- | ------------- |------------- |
+| 0  | Accuracy|0.622375|0.596877|
+| 1  | Precision|0.613559|0.602282|
+| 2  | Recall|0.640463|0.605737|
+| 3  | ROC|0.622555|0.596741|
+| 4  | F1|0.626722|0.604004|
+
