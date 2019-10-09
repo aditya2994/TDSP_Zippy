@@ -41,6 +41,5 @@ The target variable is resp_dvar. It is the likelihood to respond to a marketing
 * Explore correlation matrix between numerical variables
 * Explore interactions between numerical and categorical variables
 * Explore interactions between two numerical variables and a categorical variable
-* 
 * Project data to 2-D principal component space
 * Project data to 3-D principal component space
