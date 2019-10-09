@@ -8,7 +8,7 @@ Team Members: Humana Data Science Team
 
 ##	Overview
 
-We are trying to predict the likelihood of someone purchasing a MAPD (Medicare Advantage Plan that offers prescription drug coverage) or Med Supplement Insurance Plan during the Special Election Period from Dec 8 - Sep 30 by bulding a prospect machine learning model. The team will then upload this to the marketing database and use the solution to increase effectiveness of their marketing campaigns.
+We are trying to predict the likelihood of someone responding to a marketing campaign to purchase a MAPD (Medicare Advantage Plan that offers prescription drug coverage) or Med Supplement Insurance Plan during the Special Election Period from Dec 8 - Sep 30 by bulding a prospect machine learning model. The team will then upload this to the marketing database and use the solution to increase effectiveness of their marketing campaigns.
 
 ##	Business Domain
 Marketing
