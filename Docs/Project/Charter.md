@@ -53,4 +53,6 @@ It will be uploaded to the marketing database and assessed to increase the effec
 
 ## Communication
 * How will we keep in touch? Weekly meetings?
+We will have a daily standup to discuss the goals for the day and what we accomplished the previous day. Also, there will be a biweekly stakeholer meeting.
 * Who are the contact persons on both sides?
+The Project Lead on the DS Team and the business contact on the marketing team.
