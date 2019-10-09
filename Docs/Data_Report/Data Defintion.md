@@ -21,17 +21,10 @@ _**For ease of modifying this report, placeholder links are included in this pag
 * The dataset is comprised of data from four different sources - AMLK (2017, 2018), Campaign Data (Who were targeted, who responded etc.), Credit data, and MACVAT. The data is already preprocessed and is stored in Humana >> at-dhasandbox-central-rg >> humana – Blobs >> synthetic.
 
 A brief decription of the data sources -
-* AMLK : Amerilink - This is the third party demographic data. Note : It is unethical to use race as a feature to model the data.
-* Campaign data : This is data obtained from the promotions. There are 3 variables.
-	* Marketing campaign sent to prospects - direct mail
-	* Mailed to addresses and individuals (65-85)
-	* Logged when they dial that number - capture - response variable
-	2 levels of response
-	Prospect picked up phone
-	Conversion
+* AMLK : Amerilink - This is the third party demographic data
+* Campaign data : This is data obtained from the marketing promotions
 * Credit data : aggregated to zip4 - zip4 level. Data is at the individual/consumer level
-* MACVAT :
-	A company called millimin does actuarial calculations for every medicare advantage plan and ranks Humana's plan versus other competitors. It is a good predictor of how likely someone is to purchase insurance.
+* MACVAT : actuarial calculations for every medicare advantage plan
 	
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
