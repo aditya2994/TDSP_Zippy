@@ -4,12 +4,21 @@ This is the final report describing the final model to be delivered - typically 
 ## Analytic Approach
 * What is target definition?
 The likelihood of purchasing an insurance plan
-* What are inputs? All the features have been included in the data dictionary.
-* What kind of model was built? Prospect Model using XGBoost
-
+* What are inputs? 
+The inputs are from 4 data sources :
+  * AMLK: Third party demographic data from vendor Amerilink
+  * Campaign Data: Response and Conversion rates for direct mail marketing campaigns
+  * Credit data: consumer credit data aggregated to the zip4 level
+  * MACVAT: Medicare Part D and Medicare Supplement plan competitiveness based on actuarial calculations from vendor Milliman
+* What kind of model was built? Binary classification model using XGBoost 
 ## Solution Description
 * Simple solution architecture (Data sources, solution components, data flow)
-* What is output?
+  * Data Ingestion - Azure IoT Hub, Azure EventHub, Azure Data Factory, Azure Functions, Azure Stream Ananlytics
+  * Data Storage - Data Lake Store, Azure Databricks, Azure Cosmos DB, Azure Data Warehouse
+  * Data Science - Azure ML Service, Databricks, Azure SQL Database with ML Services, Azure Kubernetes Services 
+  * Data Visualization and Serving - Azure Web Apps, Power BI, Azure analysis services
+  * Security, Monitoring and Orchestration - Azure Active Directory, Azure DevOps, Application Insights, Azure Key Vault 
+* What is output? Score denoting how likely someone is to respond to an ad campaign.
 
 ## Data
 There are 4 data sources:
