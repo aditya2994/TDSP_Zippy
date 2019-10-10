@@ -32,10 +32,10 @@ The target variable is resp_dvar. It is the likelihood to respond to a marketing
 * Explore individual categorical variables 
 
 ## Variable ranking
+* Rank variables based on linear relationships with reference variable
 
 ## Relationship between explanatory variables and target variable
 ### Explore Interactions Between Variables
-* Rank variables based on linear relationships with reference variable
 * Explore interactions between categorical variables
 * Explore interactions between numerical variables
 * Explore correlation matrix between numerical variables
