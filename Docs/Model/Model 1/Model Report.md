@@ -9,13 +9,12 @@ If applicable, the Automated Modeling and Reporting utility developed by Microso
 
 ## Model Description
 
-* Models and Parameters
-<Include all the models built and paramters>
+* Models and Parameters <Include all the models built and paramters>
 	* Description or images of data flow graph
   		* if AzureML, link to:
     		* Training experiment
     		* Scoring workflow
-	* What learner(s) were used?
+        * What learner(s) were used?
 	* Learner hyper-parameters
 
 
