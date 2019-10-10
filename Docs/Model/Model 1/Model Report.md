@@ -10,7 +10,7 @@ If applicable, the Automated Modeling and Reporting utility developed by Microso
 ## Model Description
 
 * Models and Parameters
-
+<Include all the models built and paramters>
 	* Description or images of data flow graph
   		* if AzureML, link to:
     		* Training experiment
@@ -20,14 +20,14 @@ If applicable, the Automated Modeling and Reporting utility developed by Microso
 
 
 ## Results (Model Performance)
-* ROC/Lift charts, AUC, R^2, MAPE as appropriate
-* Performance graphs for parameters sweeps if applicable
+* <ROC/Lift charts, AUC, R^2, MAPE as appropriate>
+* <Performance graphs for parameters sweeps if applicable>
 
 ## Model Understanding
 
-* Variable Importance (significance)
+* <Variable Importance (significance)>
 
-* Insight Derived from the Model
+* <Insight Derived from the Model>
 
 
 
