@@ -31,7 +31,7 @@ There is one dataset that contains all the data from these sources and is stored
 There are 200000 rows and 287 columns in the dataset.
 
 ## Features
-The 193 features used for modeling are:
+<The feature set used for modeling should be listed here>
 
 
 ## Algorithm
